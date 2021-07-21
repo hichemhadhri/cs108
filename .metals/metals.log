@@ -1182,3 +1182,12 @@ something's wrong: no file:///Users/hichemhadhri/cs107/src/main/scala/cs107/Main
 [0m2021.07.21 18:33:54 ERROR Referring to non-existent method static org.scalajs.testing.bridge.Bridge.start()void[0m
 [0m2021.07.21 18:33:54 ERROR   called from core module module initializers[0m
 [0m2021.07.21 18:33:54 ERROR JavaScript linking failed with 'There were linking errors'[0m
+Jul 21, 2021 6:46:43 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+[0m2021.07.21 18:47:07 INFO  compiling root (1 scala source)[0m
+[0m2021.07.21 18:47:08 INFO  time: compiled root in 1.15s[0m
+[0m2021.07.21 18:47:08 ERROR Referring to non-existent class org.scalajs.testing.bridge.Bridge[0m
+[0m2021.07.21 18:47:08 ERROR   called from core module module initializers[0m
+[0m2021.07.21 18:47:08 ERROR Referring to non-existent method static org.scalajs.testing.bridge.Bridge.start()void[0m
+[0m2021.07.21 18:47:08 ERROR   called from core module module initializers[0m
+[0m2021.07.21 18:47:08 ERROR JavaScript linking failed with 'There were linking errors'[0m
