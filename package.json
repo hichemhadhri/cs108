@@ -1,0 +1,10 @@
+{
+  "private": true,
+  "version": "0.0.0",
+  "dependencies": {
+    "@zip.js/zip.js": "^2.3.7",
+    "jsdom": "^16.6.0"
+  },
+  "devDependencies": {},
+  "scripts": {}
+}
