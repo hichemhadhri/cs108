@@ -2,9 +2,13 @@
   "private": true,
   "version": "0.0.0",
   "dependencies": {
+    "@types/jsdom": "^16.2.13",
     "@zip.js/zip.js": "^2.3.7",
     "jsdom": "^16.6.0"
   },
-  "devDependencies": {},
+  "devDependencies": {
+    "snowpack": "^3.8.3",
+    "typescript": "^4.3.5"
+  },
   "scripts": {}
 }

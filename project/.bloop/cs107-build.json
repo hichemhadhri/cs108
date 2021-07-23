@@ -22,6 +22,7 @@
             "/Users/hichemhadhri/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/ch/epfl/scala/sbt-bloop_2.12_1.0/1.4.8-19-4d9f966b/sbt-bloop-1.4.8-19-4d9f966b.jar",
             "/Users/hichemhadhri/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-js/sbt-scalajs_2.12_1.0/1.6.0/sbt-scalajs-1.6.0.jar",
             "/Users/hichemhadhri/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-js/scalajs-env-jsdom-nodejs_2.12/1.0.0/scalajs-env-jsdom-nodejs_2.12-1.0.0.jar",
+            "/Users/hichemhadhri/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scalablytyped/converter/sbt-converter_2.12_1.0/1.0.0-beta35/sbt-converter-1.0.0-beta35.jar",
             "/Users/hichemhadhri/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-sbt/main_2.12/1.5.5/main_2.12-1.5.5.jar",
             "/Users/hichemhadhri/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-sbt/io_2.12/1.5.1/io_2.12-1.5.1.jar",
             "/Users/hichemhadhri/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/net/java/dev/jna/jna/5.5.0/jna-5.5.0.jar",
@@ -33,6 +34,10 @@
             "/Users/hichemhadhri/Library/Caches/Coursier/v1/https/repo.scala-sbt.org/scalasbt/sbt-plugin-releases/org.portable-scala/sbt-platform-deps/scala_2.12/sbt_1.0/1.0.0/jars/sbt-platform-deps.jar",
             "/Users/hichemhadhri/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-js/scalajs-js-envs_2.12/1.1.1/scalajs-js-envs_2.12-1.1.1.jar",
             "/Users/hichemhadhri/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-js/scalajs-env-nodejs_2.12/1.1.1/scalajs-env-nodejs_2.12-1.1.1.jar",
+            "/Users/hichemhadhri/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scalablytyped/converter/importer-portable_2.12/1.0.0-beta35/importer-portable_2.12-1.0.0-beta35.jar",
+            "/Users/hichemhadhri/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/ch/epfl/scala/sbt-scalajs-bundler_2.12_1.0/0.20.0/sbt-scalajs-bundler-0.20.0.jar",
+            "/Users/hichemhadhri/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/software/amazon/awssdk/s3/2.15.28/s3-2.15.28.jar",
+            "/Users/hichemhadhri/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/modules/scala-java8-compat_2.12/1.0.0/scala-java8-compat_2.12-1.0.0.jar",
             "/Users/hichemhadhri/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-sbt/logic_2.12/1.5.5/logic_2.12-1.5.5.jar",
             "/Users/hichemhadhri/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-sbt/actions_2.12/1.5.5/actions_2.12-1.5.5.jar",
             "/Users/hichemhadhri/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-sbt/main-settings_2.12/1.5.5/main-settings_2.12-1.5.5.jar",
@@ -58,6 +63,24 @@
             "/Users/hichemhadhri/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-js/scalajs-logging_2.12/1.1.1/scalajs-logging_2.12-1.1.1.jar",
             "/Users/hichemhadhri/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-sbt/test-interface/1.0/test-interface-1.0.jar",
             "/Users/hichemhadhri/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/google/jimfs/jimfs/1.1/jimfs-1.1.jar",
+            "/Users/hichemhadhri/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scalablytyped/converter/ts_2.12/1.0.0-beta35/ts_2.12-1.0.0-beta35.jar",
+            "/Users/hichemhadhri/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scalablytyped/converter/scalajs_2.12/1.0.0-beta35/scalajs_2.12-1.0.0-beta35.jar",
+            "/Users/hichemhadhri/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scalablytyped/converter/phases_2.12/1.0.0-beta35/phases_2.12-1.0.0-beta35.jar",
+            "/Users/hichemhadhri/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/typesafe/play/play-json_2.12/2.6.7/play-json_2.12-2.6.7.jar",
+            "/Users/hichemhadhri/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/software/amazon/awssdk/aws-xml-protocol/2.15.28/aws-xml-protocol-2.15.28.jar",
+            "/Users/hichemhadhri/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/software/amazon/awssdk/protocol-core/2.15.28/protocol-core-2.15.28.jar",
+            "/Users/hichemhadhri/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/software/amazon/awssdk/arns/2.15.28/arns-2.15.28.jar",
+            "/Users/hichemhadhri/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/software/amazon/awssdk/profiles/2.15.28/profiles-2.15.28.jar",
+            "/Users/hichemhadhri/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/software/amazon/awssdk/sdk-core/2.15.28/sdk-core-2.15.28.jar",
+            "/Users/hichemhadhri/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/software/amazon/awssdk/auth/2.15.28/auth-2.15.28.jar",
+            "/Users/hichemhadhri/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/software/amazon/awssdk/http-client-spi/2.15.28/http-client-spi-2.15.28.jar",
+            "/Users/hichemhadhri/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/software/amazon/awssdk/regions/2.15.28/regions-2.15.28.jar",
+            "/Users/hichemhadhri/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/software/amazon/awssdk/annotations/2.15.28/annotations-2.15.28.jar",
+            "/Users/hichemhadhri/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/software/amazon/awssdk/utils/2.15.28/utils-2.15.28.jar",
+            "/Users/hichemhadhri/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/software/amazon/awssdk/aws-core/2.15.28/aws-core-2.15.28.jar",
+            "/Users/hichemhadhri/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/software/amazon/awssdk/metrics-spi/2.15.28/metrics-spi-2.15.28.jar",
+            "/Users/hichemhadhri/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/software/amazon/awssdk/apache-client/2.15.28/apache-client-2.15.28.jar",
+            "/Users/hichemhadhri/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/software/amazon/awssdk/netty-nio-client/2.15.28/netty-nio-client-2.15.28.jar",
             "/Users/hichemhadhri/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-sbt/util-relation_2.12/1.5.5/util-relation_2.12-1.5.5.jar",
             "/Users/hichemhadhri/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-sbt/completion_2.12/1.5.5/completion_2.12-1.5.5.jar",
             "/Users/hichemhadhri/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-sbt/task-system_2.12/1.5.5/task-system_2.12-1.5.5.jar",
@@ -86,13 +109,38 @@
             "/Users/hichemhadhri/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/checkerframework/checker-qual/3.4.1/checker-qual-3.4.1.jar",
             "/Users/hichemhadhri/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/google/errorprone/error_prone_annotations/2.4.0/error_prone_annotations-2.4.0.jar",
             "/Users/hichemhadhri/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/modules/scala-collection-compat_2.12/2.4.2/scala-collection-compat_2.12-2.4.2.jar",
-            "/Users/hichemhadhri/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/slf4j/slf4j-api/1.7.26/slf4j-api-1.7.26.jar",
+            "/Users/hichemhadhri/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/slf4j/slf4j-api/1.7.28/slf4j-api-1.7.28.jar",
             "/Users/hichemhadhri/.sbt/boot/scala-2.12.14/lib/scala-compiler.jar",
             "/Users/hichemhadhri/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/jcraft/jsch/0.1.54/jsch-0.1.54.jar",
             "/Users/hichemhadhri/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/eed3si9n/gigahorse-okhttp_2.12/0.5.0/gigahorse-okhttp_2.12-0.5.0.jar",
             "/Users/hichemhadhri/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/squareup/okhttp3/okhttp-urlconnection/3.7.0/okhttp-urlconnection-3.7.0.jar",
             "/Users/hichemhadhri/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-sbt/ivy/ivy/2.3.0-sbt-fbc4f586aeeb1591710b14eb4f41b94880dcd745/ivy-2.3.0-sbt-fbc4f586aeeb1591710b14eb4f41b94880dcd745.jar",
             "/Users/hichemhadhri/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/google/guava/guava/18.0/guava-18.0.jar",
+            "/Users/hichemhadhri/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scalablytyped/converter/core_2.12/1.0.0-beta35/core_2.12-1.0.0-beta35.jar",
+            "/Users/hichemhadhri/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scalablytyped/converter/logging_2.12/1.0.0-beta35/logging_2.12-1.0.0-beta35.jar",
+            "/Users/hichemhadhri/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/modules/scala-parser-combinators_2.12/1.1.2/scala-parser-combinators_2.12-1.1.2.jar",
+            "/Users/hichemhadhri/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/typesafe/play/play-functional_2.12/2.6.7/play-functional_2.12-2.6.7.jar",
+            "/Users/hichemhadhri/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/typelevel/macro-compat_2.12/1.1.1/macro-compat_2.12-1.1.1.jar",
+            "/Users/hichemhadhri/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/joda-time/joda-time/2.9.9/joda-time-2.9.9.jar",
+            "/Users/hichemhadhri/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-core/2.10.4/jackson-core-2.10.4.jar",
+            "/Users/hichemhadhri/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-annotations/2.10.4/jackson-annotations-2.10.4.jar",
+            "/Users/hichemhadhri/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-databind/2.10.4/jackson-databind-2.10.4.jar",
+            "/Users/hichemhadhri/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/fasterxml/jackson/datatype/jackson-datatype-jdk8/2.8.9/jackson-datatype-jdk8-2.8.9.jar",
+            "/Users/hichemhadhri/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/fasterxml/jackson/datatype/jackson-datatype-jsr310/2.8.9/jackson-datatype-jsr310-2.8.9.jar",
+            "/Users/hichemhadhri/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/software/amazon/awssdk/aws-query-protocol/2.15.28/aws-query-protocol-2.15.28.jar",
+            "/Users/hichemhadhri/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/reactivestreams/reactive-streams/1.0.3/reactive-streams-1.0.3.jar",
+            "/Users/hichemhadhri/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/software/amazon/eventstream/eventstream/1.0.1/eventstream-1.0.1.jar",
+            "/Users/hichemhadhri/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/apache/httpcomponents/httpclient/4.5.13/httpclient-4.5.13.jar",
+            "/Users/hichemhadhri/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/apache/httpcomponents/httpcore/4.4.13/httpcore-4.4.13.jar",
+            "/Users/hichemhadhri/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/io/netty/netty-codec-http/4.1.53.Final/netty-codec-http-4.1.53.Final.jar",
+            "/Users/hichemhadhri/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/io/netty/netty-codec-http2/4.1.53.Final/netty-codec-http2-4.1.53.Final.jar",
+            "/Users/hichemhadhri/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/io/netty/netty-codec/4.1.53.Final/netty-codec-4.1.53.Final.jar",
+            "/Users/hichemhadhri/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/io/netty/netty-transport/4.1.53.Final/netty-transport-4.1.53.Final.jar",
+            "/Users/hichemhadhri/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/io/netty/netty-common/4.1.53.Final/netty-common-4.1.53.Final.jar",
+            "/Users/hichemhadhri/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/io/netty/netty-buffer/4.1.53.Final/netty-buffer-4.1.53.Final.jar",
+            "/Users/hichemhadhri/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/io/netty/netty-handler/4.1.53.Final/netty-handler-4.1.53.Final.jar",
+            "/Users/hichemhadhri/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/io/netty/netty-transport-native-epoll/4.1.53.Final/netty-transport-native-epoll-4.1.53.Final-linux-x86_64.jar",
+            "/Users/hichemhadhri/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/typesafe/netty/netty-reactive-streams-http/2.0.4/netty-reactive-streams-http-2.0.4.jar",
             "/Users/hichemhadhri/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/jline/jline-reader/3.19.0/jline-reader-3.19.0.jar",
             "/Users/hichemhadhri/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/jline/jline-builtins/3.19.0/jline-builtins-3.19.0.jar",
             "/Users/hichemhadhri/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-sbt/test-agent/1.5.5/test-agent-1.5.5.jar",
@@ -104,18 +152,34 @@
             "/Users/hichemhadhri/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-sbt/zinc-persist_2.12/1.5.7/zinc-persist_2.12-1.5.7.jar",
             "/Users/hichemhadhri/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/eed3si9n/sjson-new-murmurhash_2.12/0.9.1/sjson-new-murmurhash_2.12-0.9.1.jar",
             "/Users/hichemhadhri/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-sbt/ipcsocket/ipcsocket/1.3.1/ipcsocket-1.3.1.jar",
-            "/Users/hichemhadhri/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/modules/scala-parser-combinators_2.12/1.1.2/scala-parser-combinators_2.12-1.1.2.jar",
             "/Users/hichemhadhri/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/net/openhft/zero-allocation-hashing/0.10.1/zero-allocation-hashing-0.10.1.jar",
             "/Users/hichemhadhri/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/fusesource/jansi/jansi/2.1.0/jansi-2.1.0.jar",
             "/Users/hichemhadhri/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/eed3si9n/gigahorse-core_2.12/0.5.0/gigahorse-core_2.12-0.5.0.jar",
             "/Users/hichemhadhri/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/squareup/okhttp3/okhttp/3.14.2/okhttp-3.14.2.jar",
+            "/Users/hichemhadhri/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/lihaoyi/ammonite-ops_2.12/2.4.0/ammonite-ops_2.12-2.4.0.jar",
+            "/Users/hichemhadhri/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/lihaoyi/os-lib_2.12/0.7.7/os-lib_2.12-0.7.7.jar",
+            "/Users/hichemhadhri/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/lihaoyi/sourcecode_2.12/0.2.7/sourcecode_2.12-0.2.7.jar",
+            "/Users/hichemhadhri/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scalablytyped/circe013/circe-generic_2.12/0.13.0-shaded-2/circe-generic_2.12-0.13.0-shaded-2.jar",
+            "/Users/hichemhadhri/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scalablytyped/circe013/circe-jackson29_2.12/0.13.0-shaded-2/circe-jackson29_2.12-0.13.0-shaded-2.jar",
+            "/Users/hichemhadhri/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/lihaoyi/fansi_2.12/0.2.14/fansi_2.12-0.2.14.jar",
+            "/Users/hichemhadhri/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/commons-logging/commons-logging/1.2/commons-logging-1.2.jar",
+            "/Users/hichemhadhri/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/commons-codec/commons-codec/1.11/commons-codec-1.11.jar",
+            "/Users/hichemhadhri/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/io/netty/netty-resolver/4.1.53.Final/netty-resolver-4.1.53.Final.jar",
+            "/Users/hichemhadhri/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/io/netty/netty-transport-native-unix-common/4.1.53.Final/netty-transport-native-unix-common-4.1.53.Final.jar",
+            "/Users/hichemhadhri/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/typesafe/netty/netty-reactive-streams/2.0.4/netty-reactive-streams-2.0.4.jar",
             "/Users/hichemhadhri/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/jline/jline-style/3.19.0/jline-style-3.19.0.jar",
             "/Users/hichemhadhri/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-sbt/zinc-persist-core-assembly/1.5.7/zinc-persist-core-assembly-1.5.7.jar",
             "/Users/hichemhadhri/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-sbt/sbinary_2.12/0.5.1/sbinary_2.12-0.5.1.jar",
             "/Users/hichemhadhri/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/typesafe/ssl-config-core_2.12/0.4.0/ssl-config-core_2.12-0.4.0.jar",
-            "/Users/hichemhadhri/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/reactivestreams/reactive-streams/1.0.2/reactive-streams-1.0.2.jar",
             "/Users/hichemhadhri/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/squareup/okio/okio/1.17.2/okio-1.17.2.jar",
-            "/Users/hichemhadhri/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/typesafe/config/1.3.3/config-1.3.3.jar"
+            "/Users/hichemhadhri/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/lihaoyi/geny_2.12/0.6.10/geny_2.12-0.6.10.jar",
+            "/Users/hichemhadhri/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scalablytyped/circe013/circe-core_2.12/0.13.0-shaded-2/circe-core_2.12-0.13.0-shaded-2.jar",
+            "/Users/hichemhadhri/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/chuusai/shapeless_2.12/2.3.3/shapeless_2.12-2.3.3.jar",
+            "/Users/hichemhadhri/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/typesafe/config/1.3.3/config-1.3.3.jar",
+            "/Users/hichemhadhri/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scalablytyped/circe013/circe-numbers_2.12/0.13.0-shaded-2/circe-numbers_2.12-0.13.0-shaded-2.jar",
+            "/Users/hichemhadhri/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/typelevel/cats-core_2.12/2.1.0/cats-core_2.12-2.1.0.jar",
+            "/Users/hichemhadhri/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/typelevel/cats-macros_2.12/2.1.0/cats-macros_2.12-2.1.0.jar",
+            "/Users/hichemhadhri/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/typelevel/cats-kernel_2.12/2.1.0/cats-kernel_2.12-2.1.0.jar"
         ],
         "out": "/Users/hichemhadhri/cs107/project/.bloop/cs107-build",
         "classesDir": "/Users/hichemhadhri/cs107/project/.bloop/cs107-build/scala-2.12/sbt-1.0/classes",
@@ -160,8 +224,8 @@
                 "import _root_.sbt._",
                 "import _root_.sbt.Keys._",
                 "import _root_.sbt.nio.Keys._",
-                "import _root_.sbt.ScriptedPlugin.autoImport._, _root_.sbt.plugins.JUnitXmlReportPlugin.autoImport._, _root_.sbt.plugins.MiniDependencyTreePlugin.autoImport._, _root_.bloop.integrations.sbt.BloopPlugin.autoImport._, _root_.org.scalajs.sbtplugin.ScalaJSPlugin.autoImport._, _root_.org.portablescala.sbtplatformdeps.PlatformDepsPlugin.autoImport._",
-                "import _root_.sbt.plugins.IvyPlugin, _root_.sbt.plugins.JvmPlugin, _root_.sbt.plugins.CorePlugin, _root_.sbt.ScriptedPlugin, _root_.sbt.plugins.SbtPlugin, _root_.sbt.plugins.SemanticdbPlugin, _root_.sbt.plugins.JUnitXmlReportPlugin, _root_.sbt.plugins.Giter8TemplatePlugin, _root_.sbt.plugins.MiniDependencyTreePlugin, _root_.bloop.integrations.sbt.BloopPlugin, _root_.org.scalajs.sbtplugin.ScalaJSJUnitPlugin, _root_.org.scalajs.sbtplugin.ScalaJSPlugin, _root_.org.portablescala.sbtplatformdeps.PlatformDepsPlugin"
+                "import _root_.sbt.ScriptedPlugin.autoImport._, _root_.sbt.plugins.JUnitXmlReportPlugin.autoImport._, _root_.sbt.plugins.MiniDependencyTreePlugin.autoImport._, _root_.bloop.integrations.sbt.BloopPlugin.autoImport._, _root_.org.scalajs.sbtplugin.ScalaJSPlugin.autoImport._, _root_.org.scalablytyped.converter.plugin.ScalablyTypedConverterExternalNpmPlugin.autoImport._, _root_.org.scalablytyped.converter.plugin.ScalablyTypedConverterGenSourcePlugin.autoImport._, _root_.org.scalablytyped.converter.plugin.ScalablyTypedConverterPlugin.autoImport._, _root_.org.scalablytyped.converter.plugin.ScalablyTypedPluginBase.autoImport._, _root_.org.portablescala.sbtplatformdeps.PlatformDepsPlugin.autoImport._, _root_.scalajsbundler.sbtplugin.ScalaJSBundlerPlugin.autoImport._",
+                "import _root_.sbt.plugins.IvyPlugin, _root_.sbt.plugins.JvmPlugin, _root_.sbt.plugins.CorePlugin, _root_.sbt.ScriptedPlugin, _root_.sbt.plugins.SbtPlugin, _root_.sbt.plugins.SemanticdbPlugin, _root_.sbt.plugins.JUnitXmlReportPlugin, _root_.sbt.plugins.Giter8TemplatePlugin, _root_.sbt.plugins.MiniDependencyTreePlugin, _root_.bloop.integrations.sbt.BloopPlugin, _root_.org.scalajs.sbtplugin.ScalaJSJUnitPlugin, _root_.org.scalajs.sbtplugin.ScalaJSPlugin, _root_.org.scalablytyped.converter.plugin.ScalablyTypedConverterExternalNpmPlugin, _root_.org.scalablytyped.converter.plugin.ScalablyTypedConverterGenSourcePlugin, _root_.org.scalablytyped.converter.plugin.ScalablyTypedConverterPlugin, _root_.org.scalablytyped.converter.plugin.ScalablyTypedPluginBase, _root_.org.portablescala.sbtplatformdeps.PlatformDepsPlugin, _root_.scalajsbundler.sbtplugin.ScalaJSBundlerPlugin"
             ]
         },
         "test": {
@@ -255,6 +319,18 @@
                         {
                             "name": "scalajs-env-jsdom-nodejs_2.12",
                             "path": "/Users/hichemhadhri/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-js/scalajs-env-jsdom-nodejs_2.12/1.0.0/scalajs-env-jsdom-nodejs_2.12-1.0.0.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.scalablytyped.converter",
+                    "name": "sbt-converter",
+                    "version": "1.0.0-beta35",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "sbt-converter",
+                            "path": "/Users/hichemhadhri/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scalablytyped/converter/sbt-converter_2.12_1.0/1.0.0-beta35/sbt-converter-1.0.0-beta35.jar"
                         }
                     ]
                 },
@@ -374,6 +450,54 @@
                     ]
                 },
                 {
+                    "organization": "org.scalablytyped.converter",
+                    "name": "importer-portable_2.12",
+                    "version": "1.0.0-beta35",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "importer-portable_2.12",
+                            "path": "/Users/hichemhadhri/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scalablytyped/converter/importer-portable_2.12/1.0.0-beta35/importer-portable_2.12-1.0.0-beta35.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "ch.epfl.scala",
+                    "name": "sbt-scalajs-bundler",
+                    "version": "0.20.0",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "sbt-scalajs-bundler",
+                            "path": "/Users/hichemhadhri/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/ch/epfl/scala/sbt-scalajs-bundler_2.12_1.0/0.20.0/sbt-scalajs-bundler-0.20.0.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "software.amazon.awssdk",
+                    "name": "s3",
+                    "version": "2.15.28",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "s3",
+                            "path": "/Users/hichemhadhri/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/software/amazon/awssdk/s3/2.15.28/s3-2.15.28.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.scala-lang.modules",
+                    "name": "scala-java8-compat_2.12",
+                    "version": "1.0.0",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "scala-java8-compat_2.12",
+                            "path": "/Users/hichemhadhri/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/modules/scala-java8-compat_2.12/1.0.0/scala-java8-compat_2.12-1.0.0.jar"
+                        }
+                    ]
+                },
+                {
                     "organization": "org.scala-js",
                     "name": "scalajs-ir_2.12",
                     "version": "1.6.0",
@@ -427,6 +551,222 @@
                     ]
                 },
                 {
+                    "organization": "org.scalablytyped.converter",
+                    "name": "ts_2.12",
+                    "version": "1.0.0-beta35",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "ts_2.12",
+                            "path": "/Users/hichemhadhri/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scalablytyped/converter/ts_2.12/1.0.0-beta35/ts_2.12-1.0.0-beta35.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.scalablytyped.converter",
+                    "name": "scalajs_2.12",
+                    "version": "1.0.0-beta35",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "scalajs_2.12",
+                            "path": "/Users/hichemhadhri/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scalablytyped/converter/scalajs_2.12/1.0.0-beta35/scalajs_2.12-1.0.0-beta35.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.scalablytyped.converter",
+                    "name": "phases_2.12",
+                    "version": "1.0.0-beta35",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "phases_2.12",
+                            "path": "/Users/hichemhadhri/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scalablytyped/converter/phases_2.12/1.0.0-beta35/phases_2.12-1.0.0-beta35.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "com.typesafe.play",
+                    "name": "play-json_2.12",
+                    "version": "2.6.7",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "play-json_2.12",
+                            "path": "/Users/hichemhadhri/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/typesafe/play/play-json_2.12/2.6.7/play-json_2.12-2.6.7.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "software.amazon.awssdk",
+                    "name": "aws-xml-protocol",
+                    "version": "2.15.28",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "aws-xml-protocol",
+                            "path": "/Users/hichemhadhri/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/software/amazon/awssdk/aws-xml-protocol/2.15.28/aws-xml-protocol-2.15.28.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "software.amazon.awssdk",
+                    "name": "protocol-core",
+                    "version": "2.15.28",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "protocol-core",
+                            "path": "/Users/hichemhadhri/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/software/amazon/awssdk/protocol-core/2.15.28/protocol-core-2.15.28.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "software.amazon.awssdk",
+                    "name": "arns",
+                    "version": "2.15.28",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "arns",
+                            "path": "/Users/hichemhadhri/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/software/amazon/awssdk/arns/2.15.28/arns-2.15.28.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "software.amazon.awssdk",
+                    "name": "profiles",
+                    "version": "2.15.28",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "profiles",
+                            "path": "/Users/hichemhadhri/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/software/amazon/awssdk/profiles/2.15.28/profiles-2.15.28.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "software.amazon.awssdk",
+                    "name": "sdk-core",
+                    "version": "2.15.28",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "sdk-core",
+                            "path": "/Users/hichemhadhri/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/software/amazon/awssdk/sdk-core/2.15.28/sdk-core-2.15.28.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "software.amazon.awssdk",
+                    "name": "auth",
+                    "version": "2.15.28",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "auth",
+                            "path": "/Users/hichemhadhri/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/software/amazon/awssdk/auth/2.15.28/auth-2.15.28.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "software.amazon.awssdk",
+                    "name": "http-client-spi",
+                    "version": "2.15.28",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "http-client-spi",
+                            "path": "/Users/hichemhadhri/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/software/amazon/awssdk/http-client-spi/2.15.28/http-client-spi-2.15.28.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "software.amazon.awssdk",
+                    "name": "regions",
+                    "version": "2.15.28",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "regions",
+                            "path": "/Users/hichemhadhri/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/software/amazon/awssdk/regions/2.15.28/regions-2.15.28.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "software.amazon.awssdk",
+                    "name": "annotations",
+                    "version": "2.15.28",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "annotations",
+                            "path": "/Users/hichemhadhri/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/software/amazon/awssdk/annotations/2.15.28/annotations-2.15.28.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "software.amazon.awssdk",
+                    "name": "utils",
+                    "version": "2.15.28",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "utils",
+                            "path": "/Users/hichemhadhri/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/software/amazon/awssdk/utils/2.15.28/utils-2.15.28.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "software.amazon.awssdk",
+                    "name": "aws-core",
+                    "version": "2.15.28",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "aws-core",
+                            "path": "/Users/hichemhadhri/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/software/amazon/awssdk/aws-core/2.15.28/aws-core-2.15.28.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "software.amazon.awssdk",
+                    "name": "metrics-spi",
+                    "version": "2.15.28",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "metrics-spi",
+                            "path": "/Users/hichemhadhri/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/software/amazon/awssdk/metrics-spi/2.15.28/metrics-spi-2.15.28.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "software.amazon.awssdk",
+                    "name": "apache-client",
+                    "version": "2.15.28",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "apache-client",
+                            "path": "/Users/hichemhadhri/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/software/amazon/awssdk/apache-client/2.15.28/apache-client-2.15.28.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "software.amazon.awssdk",
+                    "name": "netty-nio-client",
+                    "version": "2.15.28",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "netty-nio-client",
+                            "path": "/Users/hichemhadhri/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/software/amazon/awssdk/netty-nio-client/2.15.28/netty-nio-client-2.15.28.jar"
+                        }
+                    ]
+                },
+                {
                     "organization": "com.google.guava",
                     "name": "guava",
                     "version": "18.0",
@@ -435,6 +775,561 @@
                         {
                             "name": "guava",
                             "path": "/Users/hichemhadhri/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/google/guava/guava/18.0/guava-18.0.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.scalablytyped.converter",
+                    "name": "core_2.12",
+                    "version": "1.0.0-beta35",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "core_2.12",
+                            "path": "/Users/hichemhadhri/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scalablytyped/converter/core_2.12/1.0.0-beta35/core_2.12-1.0.0-beta35.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.scalablytyped.converter",
+                    "name": "logging_2.12",
+                    "version": "1.0.0-beta35",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "logging_2.12",
+                            "path": "/Users/hichemhadhri/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scalablytyped/converter/logging_2.12/1.0.0-beta35/logging_2.12-1.0.0-beta35.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.scala-lang.modules",
+                    "name": "scala-parser-combinators_2.12",
+                    "version": "1.1.2",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "scala-parser-combinators_2.12",
+                            "path": "/Users/hichemhadhri/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/modules/scala-parser-combinators_2.12/1.1.2/scala-parser-combinators_2.12-1.1.2.jar"
+                        },
+                        {
+                            "name": "scala-parser-combinators_2.12",
+                            "classifier": "sources",
+                            "path": "/Users/hichemhadhri/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/modules/scala-parser-combinators_2.12/1.1.2/scala-parser-combinators_2.12-1.1.2-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.scala-lang.modules",
+                    "name": "scala-xml_2.12",
+                    "version": "1.3.0",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "scala-xml_2.12",
+                            "path": "/Users/hichemhadhri/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/modules/scala-xml_2.12/1.3.0/scala-xml_2.12-1.3.0.jar"
+                        },
+                        {
+                            "name": "scala-xml_2.12",
+                            "classifier": "sources",
+                            "path": "/Users/hichemhadhri/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/modules/scala-xml_2.12/1.3.0/scala-xml_2.12-1.3.0-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "com.typesafe.play",
+                    "name": "play-functional_2.12",
+                    "version": "2.6.7",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "play-functional_2.12",
+                            "path": "/Users/hichemhadhri/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/typesafe/play/play-functional_2.12/2.6.7/play-functional_2.12-2.6.7.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.scala-lang",
+                    "name": "scala-reflect",
+                    "version": "2.12.14",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "scala-reflect",
+                            "path": "/Users/hichemhadhri/.sbt/boot/scala-2.12.14/lib/scala-reflect.jar"
+                        },
+                        {
+                            "name": "scala-reflect",
+                            "classifier": "sources",
+                            "path": "/Users/hichemhadhri/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-reflect/2.12.14/scala-reflect-2.12.14-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.typelevel",
+                    "name": "macro-compat_2.12",
+                    "version": "1.1.1",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "macro-compat_2.12",
+                            "path": "/Users/hichemhadhri/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/typelevel/macro-compat_2.12/1.1.1/macro-compat_2.12-1.1.1.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "joda-time",
+                    "name": "joda-time",
+                    "version": "2.9.9",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "joda-time",
+                            "path": "/Users/hichemhadhri/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/joda-time/joda-time/2.9.9/joda-time-2.9.9.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "com.fasterxml.jackson.core",
+                    "name": "jackson-core",
+                    "version": "2.10.4",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "jackson-core",
+                            "path": "/Users/hichemhadhri/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-core/2.10.4/jackson-core-2.10.4.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "com.fasterxml.jackson.core",
+                    "name": "jackson-annotations",
+                    "version": "2.10.4",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "jackson-annotations",
+                            "path": "/Users/hichemhadhri/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-annotations/2.10.4/jackson-annotations-2.10.4.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "com.fasterxml.jackson.core",
+                    "name": "jackson-databind",
+                    "version": "2.10.4",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "jackson-databind",
+                            "path": "/Users/hichemhadhri/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-databind/2.10.4/jackson-databind-2.10.4.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "com.fasterxml.jackson.datatype",
+                    "name": "jackson-datatype-jdk8",
+                    "version": "2.8.9",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "jackson-datatype-jdk8",
+                            "path": "/Users/hichemhadhri/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/fasterxml/jackson/datatype/jackson-datatype-jdk8/2.8.9/jackson-datatype-jdk8-2.8.9.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "com.fasterxml.jackson.datatype",
+                    "name": "jackson-datatype-jsr310",
+                    "version": "2.8.9",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "jackson-datatype-jsr310",
+                            "path": "/Users/hichemhadhri/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/fasterxml/jackson/datatype/jackson-datatype-jsr310/2.8.9/jackson-datatype-jsr310-2.8.9.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "software.amazon.awssdk",
+                    "name": "aws-query-protocol",
+                    "version": "2.15.28",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "aws-query-protocol",
+                            "path": "/Users/hichemhadhri/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/software/amazon/awssdk/aws-query-protocol/2.15.28/aws-query-protocol-2.15.28.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.slf4j",
+                    "name": "slf4j-api",
+                    "version": "1.7.28",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "slf4j-api",
+                            "path": "/Users/hichemhadhri/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/slf4j/slf4j-api/1.7.28/slf4j-api-1.7.28.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.reactivestreams",
+                    "name": "reactive-streams",
+                    "version": "1.0.3",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "reactive-streams",
+                            "path": "/Users/hichemhadhri/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/reactivestreams/reactive-streams/1.0.3/reactive-streams-1.0.3.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "software.amazon.eventstream",
+                    "name": "eventstream",
+                    "version": "1.0.1",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "eventstream",
+                            "path": "/Users/hichemhadhri/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/software/amazon/eventstream/eventstream/1.0.1/eventstream-1.0.1.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.apache.httpcomponents",
+                    "name": "httpclient",
+                    "version": "4.5.13",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "httpclient",
+                            "path": "/Users/hichemhadhri/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/apache/httpcomponents/httpclient/4.5.13/httpclient-4.5.13.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.apache.httpcomponents",
+                    "name": "httpcore",
+                    "version": "4.4.13",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "httpcore",
+                            "path": "/Users/hichemhadhri/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/apache/httpcomponents/httpcore/4.4.13/httpcore-4.4.13.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "io.netty",
+                    "name": "netty-codec-http",
+                    "version": "4.1.53.Final",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "netty-codec-http",
+                            "path": "/Users/hichemhadhri/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/io/netty/netty-codec-http/4.1.53.Final/netty-codec-http-4.1.53.Final.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "io.netty",
+                    "name": "netty-codec-http2",
+                    "version": "4.1.53.Final",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "netty-codec-http2",
+                            "path": "/Users/hichemhadhri/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/io/netty/netty-codec-http2/4.1.53.Final/netty-codec-http2-4.1.53.Final.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "io.netty",
+                    "name": "netty-codec",
+                    "version": "4.1.53.Final",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "netty-codec",
+                            "path": "/Users/hichemhadhri/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/io/netty/netty-codec/4.1.53.Final/netty-codec-4.1.53.Final.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "io.netty",
+                    "name": "netty-transport",
+                    "version": "4.1.53.Final",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "netty-transport",
+                            "path": "/Users/hichemhadhri/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/io/netty/netty-transport/4.1.53.Final/netty-transport-4.1.53.Final.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "io.netty",
+                    "name": "netty-common",
+                    "version": "4.1.53.Final",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "netty-common",
+                            "path": "/Users/hichemhadhri/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/io/netty/netty-common/4.1.53.Final/netty-common-4.1.53.Final.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "io.netty",
+                    "name": "netty-buffer",
+                    "version": "4.1.53.Final",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "netty-buffer",
+                            "path": "/Users/hichemhadhri/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/io/netty/netty-buffer/4.1.53.Final/netty-buffer-4.1.53.Final.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "io.netty",
+                    "name": "netty-handler",
+                    "version": "4.1.53.Final",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "netty-handler",
+                            "path": "/Users/hichemhadhri/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/io/netty/netty-handler/4.1.53.Final/netty-handler-4.1.53.Final.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "com.typesafe.netty",
+                    "name": "netty-reactive-streams-http",
+                    "version": "2.0.4",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "netty-reactive-streams-http",
+                            "path": "/Users/hichemhadhri/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/typesafe/netty/netty-reactive-streams-http/2.0.4/netty-reactive-streams-http-2.0.4.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "com.lihaoyi",
+                    "name": "ammonite-ops_2.12",
+                    "version": "2.4.0",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "ammonite-ops_2.12",
+                            "path": "/Users/hichemhadhri/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/lihaoyi/ammonite-ops_2.12/2.4.0/ammonite-ops_2.12-2.4.0.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "com.lihaoyi",
+                    "name": "os-lib_2.12",
+                    "version": "0.7.7",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "os-lib_2.12",
+                            "path": "/Users/hichemhadhri/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/lihaoyi/os-lib_2.12/0.7.7/os-lib_2.12-0.7.7.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "com.lihaoyi",
+                    "name": "sourcecode_2.12",
+                    "version": "0.2.7",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "sourcecode_2.12",
+                            "path": "/Users/hichemhadhri/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/lihaoyi/sourcecode_2.12/0.2.7/sourcecode_2.12-0.2.7.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.scalablytyped.circe013",
+                    "name": "circe-generic_2.12",
+                    "version": "0.13.0-shaded-2",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "circe-generic_2.12",
+                            "path": "/Users/hichemhadhri/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scalablytyped/circe013/circe-generic_2.12/0.13.0-shaded-2/circe-generic_2.12-0.13.0-shaded-2.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.scalablytyped.circe013",
+                    "name": "circe-jackson29_2.12",
+                    "version": "0.13.0-shaded-2",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "circe-jackson29_2.12",
+                            "path": "/Users/hichemhadhri/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scalablytyped/circe013/circe-jackson29_2.12/0.13.0-shaded-2/circe-jackson29_2.12-0.13.0-shaded-2.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "com.lihaoyi",
+                    "name": "fansi_2.12",
+                    "version": "0.2.14",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "fansi_2.12",
+                            "path": "/Users/hichemhadhri/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/lihaoyi/fansi_2.12/0.2.14/fansi_2.12-0.2.14.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "commons-logging",
+                    "name": "commons-logging",
+                    "version": "1.2",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "commons-logging",
+                            "path": "/Users/hichemhadhri/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/commons-logging/commons-logging/1.2/commons-logging-1.2.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "commons-codec",
+                    "name": "commons-codec",
+                    "version": "1.11",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "commons-codec",
+                            "path": "/Users/hichemhadhri/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/commons-codec/commons-codec/1.11/commons-codec-1.11.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "io.netty",
+                    "name": "netty-resolver",
+                    "version": "4.1.53.Final",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "netty-resolver",
+                            "path": "/Users/hichemhadhri/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/io/netty/netty-resolver/4.1.53.Final/netty-resolver-4.1.53.Final.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "io.netty",
+                    "name": "netty-transport-native-unix-common",
+                    "version": "4.1.53.Final",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "netty-transport-native-unix-common",
+                            "path": "/Users/hichemhadhri/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/io/netty/netty-transport-native-unix-common/4.1.53.Final/netty-transport-native-unix-common-4.1.53.Final.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "com.typesafe.netty",
+                    "name": "netty-reactive-streams",
+                    "version": "2.0.4",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "netty-reactive-streams",
+                            "path": "/Users/hichemhadhri/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/typesafe/netty/netty-reactive-streams/2.0.4/netty-reactive-streams-2.0.4.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "com.lihaoyi",
+                    "name": "geny_2.12",
+                    "version": "0.6.10",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "geny_2.12",
+                            "path": "/Users/hichemhadhri/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/lihaoyi/geny_2.12/0.6.10/geny_2.12-0.6.10.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.scalablytyped.circe013",
+                    "name": "circe-core_2.12",
+                    "version": "0.13.0-shaded-2",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "circe-core_2.12",
+                            "path": "/Users/hichemhadhri/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scalablytyped/circe013/circe-core_2.12/0.13.0-shaded-2/circe-core_2.12-0.13.0-shaded-2.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "com.chuusai",
+                    "name": "shapeless_2.12",
+                    "version": "2.3.3",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "shapeless_2.12",
+                            "path": "/Users/hichemhadhri/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/chuusai/shapeless_2.12/2.3.3/shapeless_2.12-2.3.3.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.scalablytyped.circe013",
+                    "name": "circe-numbers_2.12",
+                    "version": "0.13.0-shaded-2",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "circe-numbers_2.12",
+                            "path": "/Users/hichemhadhri/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scalablytyped/circe013/circe-numbers_2.12/0.13.0-shaded-2/circe-numbers_2.12-0.13.0-shaded-2.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.typelevel",
+                    "name": "cats-core_2.12",
+                    "version": "2.1.0",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "cats-core_2.12",
+                            "path": "/Users/hichemhadhri/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/typelevel/cats-core_2.12/2.1.0/cats-core_2.12-2.1.0.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.typelevel",
+                    "name": "cats-macros_2.12",
+                    "version": "2.1.0",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "cats-macros_2.12",
+                            "path": "/Users/hichemhadhri/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/typelevel/cats-macros_2.12/2.1.0/cats-macros_2.12-2.1.0.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.typelevel",
+                    "name": "cats-kernel_2.12",
+                    "version": "2.1.0",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "cats-kernel_2.12",
+                            "path": "/Users/hichemhadhri/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/typelevel/cats-kernel_2.12/2.1.0/cats-kernel_2.12-2.1.0.jar"
                         }
                     ]
                 },
@@ -673,23 +1568,6 @@
                             "name": "util-logging_2.12",
                             "classifier": "sources",
                             "path": "/Users/hichemhadhri/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-sbt/util-logging_2.12/1.5.5/util-logging_2.12-1.5.5-sources.jar"
-                        }
-                    ]
-                },
-                {
-                    "organization": "org.scala-lang.modules",
-                    "name": "scala-xml_2.12",
-                    "version": "1.3.0",
-                    "configurations": "default",
-                    "artifacts": [
-                        {
-                            "name": "scala-xml_2.12",
-                            "path": "/Users/hichemhadhri/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/modules/scala-xml_2.12/1.3.0/scala-xml_2.12-1.3.0.jar"
-                        },
-                        {
-                            "name": "scala-xml_2.12",
-                            "classifier": "sources",
-                            "path": "/Users/hichemhadhri/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/modules/scala-xml_2.12/1.3.0/scala-xml_2.12-1.3.0-sources.jar"
                         }
                     ]
                 },
@@ -1289,23 +2167,6 @@
                     ]
                 },
                 {
-                    "organization": "org.scala-lang",
-                    "name": "scala-reflect",
-                    "version": "2.12.14",
-                    "configurations": "default",
-                    "artifacts": [
-                        {
-                            "name": "scala-reflect",
-                            "path": "/Users/hichemhadhri/.sbt/boot/scala-2.12.14/lib/scala-reflect.jar"
-                        },
-                        {
-                            "name": "scala-reflect",
-                            "classifier": "sources",
-                            "path": "/Users/hichemhadhri/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-reflect/2.12.14/scala-reflect-2.12.14-sources.jar"
-                        }
-                    ]
-                },
-                {
                     "organization": "org.checkerframework",
                     "name": "checker-qual",
                     "version": "3.4.1",
@@ -1353,23 +2214,6 @@
                             "name": "scala-collection-compat_2.12",
                             "classifier": "sources",
                             "path": "/Users/hichemhadhri/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/modules/scala-collection-compat_2.12/2.4.2/scala-collection-compat_2.12-2.4.2-sources.jar"
-                        }
-                    ]
-                },
-                {
-                    "organization": "org.slf4j",
-                    "name": "slf4j-api",
-                    "version": "1.7.26",
-                    "configurations": "default",
-                    "artifacts": [
-                        {
-                            "name": "slf4j-api",
-                            "path": "/Users/hichemhadhri/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/slf4j/slf4j-api/1.7.26/slf4j-api-1.7.26.jar"
-                        },
-                        {
-                            "name": "slf4j-api",
-                            "classifier": "sources",
-                            "path": "/Users/hichemhadhri/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/slf4j/slf4j-api/1.7.26/slf4j-api-1.7.26-sources.jar"
                         }
                     ]
                 },
@@ -1646,23 +2490,6 @@
                     ]
                 },
                 {
-                    "organization": "org.scala-lang.modules",
-                    "name": "scala-parser-combinators_2.12",
-                    "version": "1.1.2",
-                    "configurations": "default",
-                    "artifacts": [
-                        {
-                            "name": "scala-parser-combinators_2.12",
-                            "path": "/Users/hichemhadhri/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/modules/scala-parser-combinators_2.12/1.1.2/scala-parser-combinators_2.12-1.1.2.jar"
-                        },
-                        {
-                            "name": "scala-parser-combinators_2.12",
-                            "classifier": "sources",
-                            "path": "/Users/hichemhadhri/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/modules/scala-parser-combinators_2.12/1.1.2/scala-parser-combinators_2.12-1.1.2-sources.jar"
-                        }
-                    ]
-                },
-                {
                     "organization": "net.openhft",
                     "name": "zero-allocation-hashing",
                     "version": "0.10.1",
@@ -1795,23 +2622,6 @@
                             "name": "ssl-config-core_2.12",
                             "classifier": "sources",
                             "path": "/Users/hichemhadhri/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/typesafe/ssl-config-core_2.12/0.4.0/ssl-config-core_2.12-0.4.0-sources.jar"
-                        }
-                    ]
-                },
-                {
-                    "organization": "org.reactivestreams",
-                    "name": "reactive-streams",
-                    "version": "1.0.2",
-                    "configurations": "default",
-                    "artifacts": [
-                        {
-                            "name": "reactive-streams",
-                            "path": "/Users/hichemhadhri/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/reactivestreams/reactive-streams/1.0.2/reactive-streams-1.0.2.jar"
-                        },
-                        {
-                            "name": "reactive-streams",
-                            "classifier": "sources",
-                            "path": "/Users/hichemhadhri/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/reactivestreams/reactive-streams/1.0.2/reactive-streams-1.0.2-sources.jar"
                         }
                     ]
                 },

@@ -1,0 +1,5 @@
+{
+  "imports": {
+    "@zip.js/zip.js": "./@zipjs/zipjs.js"
+  }
+}

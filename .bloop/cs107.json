@@ -1,0 +1,391 @@
+{
+    "version": "1.4.0",
+    "project": {
+        "name": "cs107",
+        "directory": "/Users/hichemhadhri/cs107",
+        "workspaceDir": "/Users/hichemhadhri/cs107",
+        "sources": [
+            "/Users/hichemhadhri/cs107/src/main/scala",
+            "/Users/hichemhadhri/cs107/src/main/scala-2.13",
+            "/Users/hichemhadhri/cs107/src/main/scala-2",
+            "/Users/hichemhadhri/cs107/src/main/java",
+            "/Users/hichemhadhri/cs107/target/scala-2.13/src_managed/main"
+        ],
+        "dependencies": [
+            
+        ],
+        "classpath": [
+            "/Users/hichemhadhri/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-library/2.13.6/scala-library-2.13.6.jar",
+            "/Users/hichemhadhri/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-js/scalajs-library_2.13/1.6.0/scalajs-library_2.13-1.6.0.jar",
+            "/Users/hichemhadhri/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/raquo/laminar_sjs1_2.13/0.13.1/laminar_sjs1_2.13-0.13.1.jar",
+            "/Users/hichemhadhri/.ivy2/local/org.scalablytyped/node_sjs1_2.13/16.4.1-2fbc01/jars/node_sjs1_2.13.jar",
+            "/Users/hichemhadhri/.ivy2/local/org.scalablytyped/std_sjs1_2.13/4.3-8cb640/jars/std_sjs1_2.13.jar",
+            "/Users/hichemhadhri/.ivy2/local/org.scalablytyped/tough-cookie_sjs1_2.13/4.0.1-53709a/jars/tough-cookie_sjs1_2.13.jar",
+            "/Users/hichemhadhri/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-js/scalajs-dom_sjs1_2.13/1.1.0/scalajs-dom_sjs1_2.13-1.1.0.jar",
+            "/Users/hichemhadhri/.ivy2/local/org.scalablytyped/zip_dot_js__zip_dot_js_sjs1_2.13/2.3.7-3f0de8/jars/zip_dot_js__zip_dot_js_sjs1_2.13.jar",
+            "/Users/hichemhadhri/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/olvind/scalablytyped-runtime_sjs1_2.13/2.4.2/scalablytyped-runtime_sjs1_2.13-2.4.2.jar",
+            "/Users/hichemhadhri/.ivy2/local/org.scalablytyped/jsdom_sjs1_2.13/16.2.13-76b4c5/jars/jsdom_sjs1_2.13.jar",
+            "/Users/hichemhadhri/.ivy2/local/org.scalablytyped/parse5_sjs1_2.13/6.0.1-18b0e3/jars/parse5_sjs1_2.13.jar",
+            "/Users/hichemhadhri/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/raquo/airstream_sjs1_2.13/0.13.0/airstream_sjs1_2.13-0.13.0.jar",
+            "/Users/hichemhadhri/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/raquo/domtypes_sjs1_2.13/0.14.3/domtypes_sjs1_2.13-0.14.3.jar",
+            "/Users/hichemhadhri/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/app/tulz/tuplez-full-light_sjs1_2.13/0.3.6/tuplez-full-light_sjs1_2.13-0.3.6.jar"
+        ],
+        "out": "/Users/hichemhadhri/cs107/.bloop/cs107",
+        "classesDir": "/Users/hichemhadhri/cs107/.bloop/cs107/scala-2.13/classes",
+        "resources": [
+            "/Users/hichemhadhri/cs107/src/main/resources",
+            "/Users/hichemhadhri/cs107/target/scala-2.13/resource_managed/main"
+        ],
+        "scala": {
+            "organization": "org.scala-lang",
+            "name": "scala-compiler",
+            "version": "2.13.6",
+            "options": [
+                "-Xplugin:/Users/hichemhadhri/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-js/scalajs-compiler_2.13.6/1.6.0/scalajs-compiler_2.13.6-1.6.0.jar"
+            ],
+            "jars": [
+                "/Users/hichemhadhri/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-library/2.13.6/scala-library-2.13.6.jar",
+                "/Users/hichemhadhri/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-compiler/2.13.6/scala-compiler-2.13.6.jar",
+                "/Users/hichemhadhri/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-reflect/2.13.6/scala-reflect-2.13.6.jar",
+                "/Users/hichemhadhri/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/jline/jline/3.19.0/jline-3.19.0.jar",
+                "/Users/hichemhadhri/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/net/java/dev/jna/jna/5.3.1/jna-5.3.1.jar"
+            ],
+            "analysis": "/Users/hichemhadhri/cs107/target/streams/compile/bloopAnalysisOut/_global/streams/inc_compile_2.13.zip",
+            "setup": {
+                "order": "mixed",
+                "addLibraryToBootClasspath": true,
+                "addCompilerToClasspath": false,
+                "addExtraJarsToClasspath": false,
+                "manageBootClasspath": true,
+                "filterLibraryFromClasspath": true
+            }
+        },
+        "java": {
+            "options": [
+                
+            ]
+        },
+        "test": {
+            "frameworks": [
+                {
+                    "names": [
+                        "org.scalacheck.ScalaCheckFramework"
+                    ]
+                },
+                {
+                    "names": [
+                        "org.specs2.runner.Specs2Framework",
+                        "org.specs2.runner.SpecsFramework"
+                    ]
+                },
+                {
+                    "names": [
+                        "org.specs.runner.SpecsFramework"
+                    ]
+                },
+                {
+                    "names": [
+                        "org.scalatest.tools.Framework",
+                        "org.scalatest.tools.ScalaTestFramework"
+                    ]
+                },
+                {
+                    "names": [
+                        "com.novocode.junit.JUnitFramework"
+                    ]
+                },
+                {
+                    "names": [
+                        "munit.Framework"
+                    ]
+                }
+            ],
+            "options": {
+                "excludes": [
+                    
+                ],
+                "arguments": [
+                    
+                ]
+            }
+        },
+        "platform": {
+            "name": "js",
+            "config": {
+                "version": "1.6.0",
+                "mode": "debug",
+                "kind": "none",
+                "emitSourceMaps": false,
+                "jsdom": false,
+                "toolchain": [
+                    
+                ]
+            },
+            "mainClass": [
+                
+            ]
+        },
+        "resolution": {
+            "modules": [
+                {
+                    "organization": "org.scala-lang",
+                    "name": "scala-library",
+                    "version": "2.13.6",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "scala-library",
+                            "path": "/Users/hichemhadhri/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-library/2.13.6/scala-library-2.13.6.jar"
+                        },
+                        {
+                            "name": "scala-library",
+                            "classifier": "sources",
+                            "path": "/Users/hichemhadhri/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-library/2.13.6/scala-library-2.13.6-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.scala-js",
+                    "name": "scalajs-library_2.13",
+                    "version": "1.6.0",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "scalajs-library_2.13",
+                            "path": "/Users/hichemhadhri/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-js/scalajs-library_2.13/1.6.0/scalajs-library_2.13-1.6.0.jar"
+                        },
+                        {
+                            "name": "scalajs-library_2.13",
+                            "classifier": "sources",
+                            "path": "/Users/hichemhadhri/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-js/scalajs-library_2.13/1.6.0/scalajs-library_2.13-1.6.0-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "com.raquo",
+                    "name": "laminar_sjs1_2.13",
+                    "version": "0.13.1",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "laminar_sjs1_2.13",
+                            "path": "/Users/hichemhadhri/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/raquo/laminar_sjs1_2.13/0.13.1/laminar_sjs1_2.13-0.13.1.jar"
+                        },
+                        {
+                            "name": "laminar_sjs1_2.13",
+                            "classifier": "sources",
+                            "path": "/Users/hichemhadhri/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/raquo/laminar_sjs1_2.13/0.13.1/laminar_sjs1_2.13-0.13.1-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.scalablytyped",
+                    "name": "node_sjs1_2.13",
+                    "version": "16.4.1-2fbc01",
+                    "configurations": "compile",
+                    "artifacts": [
+                        {
+                            "name": "node_sjs1_2.13",
+                            "path": "/Users/hichemhadhri/.ivy2/local/org.scalablytyped/node_sjs1_2.13/16.4.1-2fbc01/jars/node_sjs1_2.13.jar"
+                        },
+                        {
+                            "name": "node_sjs1_2.13",
+                            "classifier": "sources",
+                            "path": "/Users/hichemhadhri/.ivy2/local/org.scalablytyped/node_sjs1_2.13/16.4.1-2fbc01/srcs/node_sjs1_2.13-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.scalablytyped",
+                    "name": "std_sjs1_2.13",
+                    "version": "4.3-8cb640",
+                    "configurations": "compile",
+                    "artifacts": [
+                        {
+                            "name": "std_sjs1_2.13",
+                            "path": "/Users/hichemhadhri/.ivy2/local/org.scalablytyped/std_sjs1_2.13/4.3-8cb640/jars/std_sjs1_2.13.jar"
+                        },
+                        {
+                            "name": "std_sjs1_2.13",
+                            "classifier": "sources",
+                            "path": "/Users/hichemhadhri/.ivy2/local/org.scalablytyped/std_sjs1_2.13/4.3-8cb640/srcs/std_sjs1_2.13-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.scalablytyped",
+                    "name": "tough-cookie_sjs1_2.13",
+                    "version": "4.0.1-53709a",
+                    "configurations": "compile",
+                    "artifacts": [
+                        {
+                            "name": "tough-cookie_sjs1_2.13",
+                            "path": "/Users/hichemhadhri/.ivy2/local/org.scalablytyped/tough-cookie_sjs1_2.13/4.0.1-53709a/jars/tough-cookie_sjs1_2.13.jar"
+                        },
+                        {
+                            "name": "tough-cookie_sjs1_2.13",
+                            "classifier": "sources",
+                            "path": "/Users/hichemhadhri/.ivy2/local/org.scalablytyped/tough-cookie_sjs1_2.13/4.0.1-53709a/srcs/tough-cookie_sjs1_2.13-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.scala-js",
+                    "name": "scalajs-dom_sjs1_2.13",
+                    "version": "1.1.0",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "scalajs-dom_sjs1_2.13",
+                            "path": "/Users/hichemhadhri/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-js/scalajs-dom_sjs1_2.13/1.1.0/scalajs-dom_sjs1_2.13-1.1.0.jar"
+                        },
+                        {
+                            "name": "scalajs-dom_sjs1_2.13",
+                            "classifier": "sources",
+                            "path": "/Users/hichemhadhri/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-js/scalajs-dom_sjs1_2.13/1.1.0/scalajs-dom_sjs1_2.13-1.1.0-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.scalablytyped",
+                    "name": "zip_dot_js__zip_dot_js_sjs1_2.13",
+                    "version": "2.3.7-3f0de8",
+                    "configurations": "compile",
+                    "artifacts": [
+                        {
+                            "name": "zip_dot_js__zip_dot_js_sjs1_2.13",
+                            "path": "/Users/hichemhadhri/.ivy2/local/org.scalablytyped/zip_dot_js__zip_dot_js_sjs1_2.13/2.3.7-3f0de8/jars/zip_dot_js__zip_dot_js_sjs1_2.13.jar"
+                        },
+                        {
+                            "name": "zip_dot_js__zip_dot_js_sjs1_2.13",
+                            "classifier": "sources",
+                            "path": "/Users/hichemhadhri/.ivy2/local/org.scalablytyped/zip_dot_js__zip_dot_js_sjs1_2.13/2.3.7-3f0de8/srcs/zip_dot_js__zip_dot_js_sjs1_2.13-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "com.olvind",
+                    "name": "scalablytyped-runtime_sjs1_2.13",
+                    "version": "2.4.2",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "scalablytyped-runtime_sjs1_2.13",
+                            "path": "/Users/hichemhadhri/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/olvind/scalablytyped-runtime_sjs1_2.13/2.4.2/scalablytyped-runtime_sjs1_2.13-2.4.2.jar"
+                        },
+                        {
+                            "name": "scalablytyped-runtime_sjs1_2.13",
+                            "classifier": "sources",
+                            "path": "/Users/hichemhadhri/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/olvind/scalablytyped-runtime_sjs1_2.13/2.4.2/scalablytyped-runtime_sjs1_2.13-2.4.2-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.scalablytyped",
+                    "name": "jsdom_sjs1_2.13",
+                    "version": "16.2.13-76b4c5",
+                    "configurations": "compile",
+                    "artifacts": [
+                        {
+                            "name": "jsdom_sjs1_2.13",
+                            "path": "/Users/hichemhadhri/.ivy2/local/org.scalablytyped/jsdom_sjs1_2.13/16.2.13-76b4c5/jars/jsdom_sjs1_2.13.jar"
+                        },
+                        {
+                            "name": "jsdom_sjs1_2.13",
+                            "classifier": "sources",
+                            "path": "/Users/hichemhadhri/.ivy2/local/org.scalablytyped/jsdom_sjs1_2.13/16.2.13-76b4c5/srcs/jsdom_sjs1_2.13-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.scalablytyped",
+                    "name": "parse5_sjs1_2.13",
+                    "version": "6.0.1-18b0e3",
+                    "configurations": "compile",
+                    "artifacts": [
+                        {
+                            "name": "parse5_sjs1_2.13",
+                            "path": "/Users/hichemhadhri/.ivy2/local/org.scalablytyped/parse5_sjs1_2.13/6.0.1-18b0e3/jars/parse5_sjs1_2.13.jar"
+                        },
+                        {
+                            "name": "parse5_sjs1_2.13",
+                            "classifier": "sources",
+                            "path": "/Users/hichemhadhri/.ivy2/local/org.scalablytyped/parse5_sjs1_2.13/6.0.1-18b0e3/srcs/parse5_sjs1_2.13-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "com.raquo",
+                    "name": "airstream_sjs1_2.13",
+                    "version": "0.13.0",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "airstream_sjs1_2.13",
+                            "path": "/Users/hichemhadhri/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/raquo/airstream_sjs1_2.13/0.13.0/airstream_sjs1_2.13-0.13.0.jar"
+                        },
+                        {
+                            "name": "airstream_sjs1_2.13",
+                            "classifier": "sources",
+                            "path": "/Users/hichemhadhri/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/raquo/airstream_sjs1_2.13/0.13.0/airstream_sjs1_2.13-0.13.0-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "com.raquo",
+                    "name": "domtypes_sjs1_2.13",
+                    "version": "0.14.3",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "domtypes_sjs1_2.13",
+                            "path": "/Users/hichemhadhri/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/raquo/domtypes_sjs1_2.13/0.14.3/domtypes_sjs1_2.13-0.14.3.jar"
+                        },
+                        {
+                            "name": "domtypes_sjs1_2.13",
+                            "classifier": "sources",
+                            "path": "/Users/hichemhadhri/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/raquo/domtypes_sjs1_2.13/0.14.3/domtypes_sjs1_2.13-0.14.3-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "app.tulz",
+                    "name": "tuplez-full-light_sjs1_2.13",
+                    "version": "0.3.6",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "tuplez-full-light_sjs1_2.13",
+                            "path": "/Users/hichemhadhri/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/app/tulz/tuplez-full-light_sjs1_2.13/0.3.6/tuplez-full-light_sjs1_2.13-0.3.6.jar"
+                        },
+                        {
+                            "name": "tuplez-full-light_sjs1_2.13",
+                            "classifier": "sources",
+                            "path": "/Users/hichemhadhri/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/app/tulz/tuplez-full-light_sjs1_2.13/0.3.6/tuplez-full-light_sjs1_2.13-0.3.6-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.scala-lang",
+                    "name": "scala-library",
+                    "version": "2.13.6",
+                    "configurations": "optional",
+                    "artifacts": [
+                        {
+                            "name": "scala-library",
+                            "path": "/Users/hichemhadhri/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-library/2.13.6/scala-library-2.13.6.jar"
+                        },
+                        {
+                            "name": "scala-library",
+                            "classifier": "sources",
+                            "path": "/Users/hichemhadhri/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-library/2.13.6/scala-library-2.13.6-sources.jar"
+                        }
+                    ]
+                }
+            ]
+        },
+        "tags": [
+            "library"
+        ]
+    }
+}
