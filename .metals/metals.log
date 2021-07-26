@@ -3434,3 +3434,68 @@ WARNING: String index out of range: -1
 [0m2021.07.26 17:17:59 ERROR Referring to non-existent method static org.scalajs.testing.bridge.Bridge.start()void[0m
 [0m2021.07.26 17:17:59 ERROR   called from core module module initializers[0m
 [0m2021.07.26 17:17:59 ERROR JavaScript linking failed with 'There were linking errors'[0m
+[0m2021.07.26 17:20:55 INFO  compiling cs107 (1 scala source)[0m
+[0m2021.07.26 17:20:57 INFO  time: compiled cs107 in 2.14s[0m
+[0m2021.07.26 17:20:57 ERROR Referring to non-existent class org.scalajs.testing.bridge.Bridge[0m
+[0m2021.07.26 17:20:57 ERROR   called from core module module initializers[0m
+[0m2021.07.26 17:20:57 ERROR Referring to non-existent method static org.scalajs.testing.bridge.Bridge.start()void[0m
+[0m2021.07.26 17:20:57 ERROR   called from core module module initializers[0m
+[0m2021.07.26 17:20:57 ERROR JavaScript linking failed with 'There were linking errors'[0m
+something's wrong: no file:///Users/hichemhadhri/cs107/src/main/scala/cs107/Main.scala in IndexedSeq[org.scalajs.dom.raw.File]RangePosition(file:///Users/hichemhadhri/cs107/src/main/scala/cs107/Main.scala, 1986, 1986, 2010)
+[0m2021.07.26 20:43:00 INFO  compiling cs107 (1 scala source)[0m
+[0m2021.07.26 20:43:03 INFO  time: compiled cs107 in 2.42s[0m
+[0m2021.07.26 20:43:03 ERROR Referring to non-existent class org.scalajs.testing.bridge.Bridge[0m
+[0m2021.07.26 20:43:03 ERROR   called from core module module initializers[0m
+[0m2021.07.26 20:43:03 ERROR Referring to non-existent method static org.scalajs.testing.bridge.Bridge.start()void[0m
+[0m2021.07.26 20:43:03 ERROR   called from core module module initializers[0m
+[0m2021.07.26 20:43:03 ERROR JavaScript linking failed with 'There were linking errors'[0m
+[0m2021.07.26 20:44:01 INFO  compiling cs107 (1 scala source)[0m
+[0m2021.07.26 20:44:03 INFO  time: compiled cs107 in 1.94s[0m
+[0m2021.07.26 20:44:03 ERROR Referring to non-existent class org.scalajs.testing.bridge.Bridge[0m
+[0m2021.07.26 20:44:03 ERROR   called from core module module initializers[0m
+[0m2021.07.26 20:44:03 ERROR Referring to non-existent method static org.scalajs.testing.bridge.Bridge.start()void[0m
+[0m2021.07.26 20:44:03 ERROR   called from core module module initializers[0m
+[0m2021.07.26 20:44:03 ERROR JavaScript linking failed with 'There were linking errors'[0m
+[0m2021.07.26 20:45:30 INFO  compiling cs107 (1 scala source)[0m
+[0m2021.07.26 20:45:34 INFO  time: compiled cs107 in 4.17s[0m
+[0m2021.07.26 20:45:34 ERROR Referring to non-existent class org.scalajs.testing.bridge.Bridge[0m
+[0m2021.07.26 20:45:34 ERROR   called from core module module initializers[0m
+[0m2021.07.26 20:45:34 ERROR Referring to non-existent method static org.scalajs.testing.bridge.Bridge.start()void[0m
+[0m2021.07.26 20:45:34 ERROR   called from core module module initializers[0m
+[0m2021.07.26 20:45:34 ERROR JavaScript linking failed with 'There were linking errors'[0m
+[0m2021.07.26 20:46:05 INFO  compiling cs107 (1 scala source)[0m
+[0m2021.07.26 20:46:08 INFO  time: compiled cs107 in 2.44s[0m
+[0m2021.07.26 20:46:08 ERROR Referring to non-existent class org.scalajs.testing.bridge.Bridge[0m
+[0m2021.07.26 20:46:08 ERROR   called from core module module initializers[0m
+[0m2021.07.26 20:46:08 ERROR Referring to non-existent method static org.scalajs.testing.bridge.Bridge.start()void[0m
+[0m2021.07.26 20:46:08 ERROR   called from core module module initializers[0m
+[0m2021.07.26 20:46:08 ERROR JavaScript linking failed with 'There were linking errors'[0m
+[0m2021.07.26 20:46:22 INFO  compiling cs107 (1 scala source)[0m
+[0m2021.07.26 20:46:24 INFO  time: compiled cs107 in 1.99s[0m
+[0m2021.07.26 20:46:24 ERROR Referring to non-existent class org.scalajs.testing.bridge.Bridge[0m
+[0m2021.07.26 20:46:24 ERROR   called from core module module initializers[0m
+[0m2021.07.26 20:46:24 ERROR Referring to non-existent method static org.scalajs.testing.bridge.Bridge.start()void[0m
+[0m2021.07.26 20:46:24 ERROR   called from core module module initializers[0m
+[0m2021.07.26 20:46:24 ERROR JavaScript linking failed with 'There were linking errors'[0m
+[0m2021.07.26 20:51:02 INFO  compiling cs107 (1 scala source)[0m
+[0m2021.07.26 20:51:02 INFO  time: compiled cs107 in 0.7s[0m
+[0m2021.07.26 20:51:03 ERROR Referring to non-existent class org.scalajs.testing.bridge.Bridge[0m
+[0m2021.07.26 20:51:03 ERROR   called from core module module initializers[0m
+[0m2021.07.26 20:51:03 ERROR Referring to non-existent method static org.scalajs.testing.bridge.Bridge.start()void[0m
+[0m2021.07.26 20:51:03 ERROR   called from core module module initializers[0m
+[0m2021.07.26 20:51:03 ERROR JavaScript linking failed with 'There were linking errors'[0m
+[0m2021.07.26 20:51:42 INFO  compiling cs107 (1 scala source)[0m
+[0m2021.07.26 20:51:44 INFO  time: compiled cs107 in 2.01s[0m
+[0m2021.07.26 20:51:44 ERROR Referring to non-existent class org.scalajs.testing.bridge.Bridge[0m
+[0m2021.07.26 20:51:44 ERROR   called from core module module initializers[0m
+[0m2021.07.26 20:51:44 ERROR Referring to non-existent method static org.scalajs.testing.bridge.Bridge.start()void[0m
+[0m2021.07.26 20:51:44 ERROR   called from core module module initializers[0m
+[0m2021.07.26 20:51:44 ERROR JavaScript linking failed with 'There were linking errors'[0m
+[0m2021.07.26 20:54:59 INFO  compiling cs107 (1 scala source)[0m
+[0m2021.07.26 20:55:01 INFO  time: compiled cs107 in 2.04s[0m
+[0m2021.07.26 20:55:01 ERROR Referring to non-existent class org.scalajs.testing.bridge.Bridge[0m
+[0m2021.07.26 20:55:01 ERROR   called from core module module initializers[0m
+[0m2021.07.26 20:55:01 ERROR Referring to non-existent method static org.scalajs.testing.bridge.Bridge.start()void[0m
+[0m2021.07.26 20:55:01 ERROR   called from core module module initializers[0m
+[0m2021.07.26 20:55:01 ERROR JavaScript linking failed with 'There were linking errors'[0m
+something's wrong: no file:///Users/hichemhadhri/cs107/src/main/scala/cs107/Main.scala in IndexedSeq[org.scalajs.dom.raw.File]RangePosition(file:///Users/hichemhadhri/cs107/src/main/scala/cs107/Main.scala, 1542, 1542, 1566)

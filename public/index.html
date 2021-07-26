@@ -9,18 +9,22 @@
     <button type="button" id="button">Upload</button>
      
     <input type="file" id="directory"  webkitDirectory multiple />
-    <div id ="path"  ></div>
+   
    
 <script>
+ 
   directory.onchange = async event => {
-   var div = document.getElementById("path")
-   div.style.display = "none"
-    await Promise.all(Array.from(event.target.files).map(async file => {
-      div.innerHTML += file.webkitRelativePath + "<br>";
-    }));
+    var div = document.createElement("div")
+    div.id="path"
+    div.style.display = "none"
+    Array.from(event.target.files).map(async file => {
+    div.innerHTML += file.webkitRelativePath + "<br>";
+  });
+  document.body.appendChild(div)
   }
 </script>
-    <!-- Include Scala.js compiled code -->
+
+
    
     <script type="module" src="/main.js"></script>
   </body>
