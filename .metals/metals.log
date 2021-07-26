@@ -3425,3 +3425,12 @@ WARNING: Unmatched cancel notification for request id 6306
 [0m2021.07.26 17:00:41 ERROR JavaScript linking failed with 'There were linking errors'[0m
 Jul 26, 2021 5:06:16 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
 INFO: Unsupported notification method: $/setTrace
+Jul 26, 2021 5:16:10 PM scala.meta.internal.pc.CompletionProvider expected$1
+WARNING: String index out of range: -1
+[0m2021.07.26 17:17:56 INFO  compiling cs107 (1 scala source)[0m
+[0m2021.07.26 17:17:59 INFO  time: compiled cs107 in 2.62s[0m
+[0m2021.07.26 17:17:59 ERROR Referring to non-existent class org.scalajs.testing.bridge.Bridge[0m
+[0m2021.07.26 17:17:59 ERROR   called from core module module initializers[0m
+[0m2021.07.26 17:17:59 ERROR Referring to non-existent method static org.scalajs.testing.bridge.Bridge.start()void[0m
+[0m2021.07.26 17:17:59 ERROR   called from core module module initializers[0m
+[0m2021.07.26 17:17:59 ERROR JavaScript linking failed with 'There were linking errors'[0m

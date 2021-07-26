@@ -42,9 +42,12 @@ object Main {
     zipFile()
     val zip = new ZipWriter(new Data64URIWriter("application/zip"))
 
-    js.Promise.all(displayFiles().map(file => {
-      appendPar(document.body, file._2  )
-      zip.add(file._2, new BlobReader(file._1));   
+    js.Promise.all(displayFiles().filter(file=> file._1.name.endsWith(".java") ).map(file => {
+      
+        appendPar(document.body, file._2  )
+  
+        zip.add(file._2, new BlobReader(file._1));   
+      
     })).toFuture.andThen({
       case Success(value) =>  val link = document.createElement("a").asInstanceOf[dom.raw.HTMLAnchorElement];
     
