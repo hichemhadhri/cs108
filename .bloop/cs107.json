@@ -18,18 +18,24 @@
             "/Users/hichemhadhri/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-library/2.13.6/scala-library-2.13.6.jar",
             "/Users/hichemhadhri/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-js/scalajs-library_2.13/1.6.0/scalajs-library_2.13-1.6.0.jar",
             "/Users/hichemhadhri/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/raquo/laminar_sjs1_2.13/0.13.1/laminar_sjs1_2.13-0.13.1.jar",
+            "/Users/hichemhadhri/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/lihaoyi/upickle_sjs1_2.13/1.2.2/upickle_sjs1_2.13-1.2.2.jar",
             "/Users/hichemhadhri/.ivy2/local/org.scalablytyped/node_sjs1_2.13/16.4.1-2fbc01/jars/node_sjs1_2.13.jar",
             "/Users/hichemhadhri/.ivy2/local/org.scalablytyped/std_sjs1_2.13/4.3-8cb640/jars/std_sjs1_2.13.jar",
             "/Users/hichemhadhri/.ivy2/local/org.scalablytyped/tough-cookie_sjs1_2.13/4.0.1-53709a/jars/tough-cookie_sjs1_2.13.jar",
             "/Users/hichemhadhri/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-js/scalajs-dom_sjs1_2.13/1.1.0/scalajs-dom_sjs1_2.13-1.1.0.jar",
             "/Users/hichemhadhri/.ivy2/local/org.scalablytyped/zip_dot_js__zip_dot_js_sjs1_2.13/2.3.7-3f0de8/jars/zip_dot_js__zip_dot_js_sjs1_2.13.jar",
-            "/Users/hichemhadhri/.ivy2/local/org.scalablytyped/chrome-file-system-api_sjs1_2.13/1.0.3-6ac85c/jars/chrome-file-system-api_sjs1_2.13.jar",
             "/Users/hichemhadhri/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/olvind/scalablytyped-runtime_sjs1_2.13/2.4.2/scalablytyped-runtime_sjs1_2.13-2.4.2.jar",
             "/Users/hichemhadhri/.ivy2/local/org.scalablytyped/jsdom_sjs1_2.13/16.2.13-76b4c5/jars/jsdom_sjs1_2.13.jar",
             "/Users/hichemhadhri/.ivy2/local/org.scalablytyped/parse5_sjs1_2.13/6.0.1-18b0e3/jars/parse5_sjs1_2.13.jar",
             "/Users/hichemhadhri/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/raquo/airstream_sjs1_2.13/0.13.0/airstream_sjs1_2.13-0.13.0.jar",
             "/Users/hichemhadhri/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/raquo/domtypes_sjs1_2.13/0.14.3/domtypes_sjs1_2.13-0.14.3.jar",
-            "/Users/hichemhadhri/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/app/tulz/tuplez-full-light_sjs1_2.13/0.3.6/tuplez-full-light_sjs1_2.13-0.3.6.jar"
+            "/Users/hichemhadhri/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/lihaoyi/ujson_sjs1_2.13/1.2.2/ujson_sjs1_2.13-1.2.2.jar",
+            "/Users/hichemhadhri/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/lihaoyi/upack_sjs1_2.13/1.2.2/upack_sjs1_2.13-1.2.2.jar",
+            "/Users/hichemhadhri/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/lihaoyi/upickle-implicits_sjs1_2.13/1.2.2/upickle-implicits_sjs1_2.13-1.2.2.jar",
+            "/Users/hichemhadhri/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/app/tulz/tuplez-full-light_sjs1_2.13/0.3.6/tuplez-full-light_sjs1_2.13-0.3.6.jar",
+            "/Users/hichemhadhri/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/lihaoyi/upickle-core_sjs1_2.13/1.2.2/upickle-core_sjs1_2.13-1.2.2.jar",
+            "/Users/hichemhadhri/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/lihaoyi/geny_sjs1_2.13/0.6.2/geny_sjs1_2.13-0.6.2.jar",
+            "/Users/hichemhadhri/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/modules/scala-collection-compat_sjs1_2.13/2.1.4/scala-collection-compat_sjs1_2.13-2.1.4.jar"
         ],
         "out": "/Users/hichemhadhri/cs107/.bloop/cs107",
         "classesDir": "/Users/hichemhadhri/cs107/.bloop/cs107/scala-2.13/classes",
@@ -180,6 +186,23 @@
                     ]
                 },
                 {
+                    "organization": "com.lihaoyi",
+                    "name": "upickle_sjs1_2.13",
+                    "version": "1.2.2",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "upickle_sjs1_2.13",
+                            "path": "/Users/hichemhadhri/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/lihaoyi/upickle_sjs1_2.13/1.2.2/upickle_sjs1_2.13-1.2.2.jar"
+                        },
+                        {
+                            "name": "upickle_sjs1_2.13",
+                            "classifier": "sources",
+                            "path": "/Users/hichemhadhri/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/lihaoyi/upickle_sjs1_2.13/1.2.2/upickle_sjs1_2.13-1.2.2-sources.jar"
+                        }
+                    ]
+                },
+                {
                     "organization": "org.scalablytyped",
                     "name": "node_sjs1_2.13",
                     "version": "16.4.1-2fbc01",
@@ -261,23 +284,6 @@
                             "name": "zip_dot_js__zip_dot_js_sjs1_2.13",
                             "classifier": "sources",
                             "path": "/Users/hichemhadhri/.ivy2/local/org.scalablytyped/zip_dot_js__zip_dot_js_sjs1_2.13/2.3.7-3f0de8/srcs/zip_dot_js__zip_dot_js_sjs1_2.13-sources.jar"
-                        }
-                    ]
-                },
-                {
-                    "organization": "org.scalablytyped",
-                    "name": "chrome-file-system-api_sjs1_2.13",
-                    "version": "1.0.3-6ac85c",
-                    "configurations": "compile",
-                    "artifacts": [
-                        {
-                            "name": "chrome-file-system-api_sjs1_2.13",
-                            "path": "/Users/hichemhadhri/.ivy2/local/org.scalablytyped/chrome-file-system-api_sjs1_2.13/1.0.3-6ac85c/jars/chrome-file-system-api_sjs1_2.13.jar"
-                        },
-                        {
-                            "name": "chrome-file-system-api_sjs1_2.13",
-                            "classifier": "sources",
-                            "path": "/Users/hichemhadhri/.ivy2/local/org.scalablytyped/chrome-file-system-api_sjs1_2.13/1.0.3-6ac85c/srcs/chrome-file-system-api_sjs1_2.13-sources.jar"
                         }
                     ]
                 },
@@ -367,6 +373,57 @@
                     ]
                 },
                 {
+                    "organization": "com.lihaoyi",
+                    "name": "ujson_sjs1_2.13",
+                    "version": "1.2.2",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "ujson_sjs1_2.13",
+                            "path": "/Users/hichemhadhri/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/lihaoyi/ujson_sjs1_2.13/1.2.2/ujson_sjs1_2.13-1.2.2.jar"
+                        },
+                        {
+                            "name": "ujson_sjs1_2.13",
+                            "classifier": "sources",
+                            "path": "/Users/hichemhadhri/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/lihaoyi/ujson_sjs1_2.13/1.2.2/ujson_sjs1_2.13-1.2.2-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "com.lihaoyi",
+                    "name": "upack_sjs1_2.13",
+                    "version": "1.2.2",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "upack_sjs1_2.13",
+                            "path": "/Users/hichemhadhri/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/lihaoyi/upack_sjs1_2.13/1.2.2/upack_sjs1_2.13-1.2.2.jar"
+                        },
+                        {
+                            "name": "upack_sjs1_2.13",
+                            "classifier": "sources",
+                            "path": "/Users/hichemhadhri/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/lihaoyi/upack_sjs1_2.13/1.2.2/upack_sjs1_2.13-1.2.2-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "com.lihaoyi",
+                    "name": "upickle-implicits_sjs1_2.13",
+                    "version": "1.2.2",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "upickle-implicits_sjs1_2.13",
+                            "path": "/Users/hichemhadhri/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/lihaoyi/upickle-implicits_sjs1_2.13/1.2.2/upickle-implicits_sjs1_2.13-1.2.2.jar"
+                        },
+                        {
+                            "name": "upickle-implicits_sjs1_2.13",
+                            "classifier": "sources",
+                            "path": "/Users/hichemhadhri/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/lihaoyi/upickle-implicits_sjs1_2.13/1.2.2/upickle-implicits_sjs1_2.13-1.2.2-sources.jar"
+                        }
+                    ]
+                },
+                {
                     "organization": "app.tulz",
                     "name": "tuplez-full-light_sjs1_2.13",
                     "version": "0.3.6",
@@ -380,6 +437,57 @@
                             "name": "tuplez-full-light_sjs1_2.13",
                             "classifier": "sources",
                             "path": "/Users/hichemhadhri/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/app/tulz/tuplez-full-light_sjs1_2.13/0.3.6/tuplez-full-light_sjs1_2.13-0.3.6-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "com.lihaoyi",
+                    "name": "upickle-core_sjs1_2.13",
+                    "version": "1.2.2",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "upickle-core_sjs1_2.13",
+                            "path": "/Users/hichemhadhri/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/lihaoyi/upickle-core_sjs1_2.13/1.2.2/upickle-core_sjs1_2.13-1.2.2.jar"
+                        },
+                        {
+                            "name": "upickle-core_sjs1_2.13",
+                            "classifier": "sources",
+                            "path": "/Users/hichemhadhri/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/lihaoyi/upickle-core_sjs1_2.13/1.2.2/upickle-core_sjs1_2.13-1.2.2-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "com.lihaoyi",
+                    "name": "geny_sjs1_2.13",
+                    "version": "0.6.2",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "geny_sjs1_2.13",
+                            "path": "/Users/hichemhadhri/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/lihaoyi/geny_sjs1_2.13/0.6.2/geny_sjs1_2.13-0.6.2.jar"
+                        },
+                        {
+                            "name": "geny_sjs1_2.13",
+                            "classifier": "sources",
+                            "path": "/Users/hichemhadhri/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/lihaoyi/geny_sjs1_2.13/0.6.2/geny_sjs1_2.13-0.6.2-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.scala-lang.modules",
+                    "name": "scala-collection-compat_sjs1_2.13",
+                    "version": "2.1.4",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "scala-collection-compat_sjs1_2.13",
+                            "path": "/Users/hichemhadhri/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/modules/scala-collection-compat_sjs1_2.13/2.1.4/scala-collection-compat_sjs1_2.13-2.1.4.jar"
+                        },
+                        {
+                            "name": "scala-collection-compat_sjs1_2.13",
+                            "classifier": "sources",
+                            "path": "/Users/hichemhadhri/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/modules/scala-collection-compat_sjs1_2.13/2.1.4/scala-collection-compat_sjs1_2.13-2.1.4-sources.jar"
                         }
                     ]
                 },

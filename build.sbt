@@ -34,6 +34,9 @@ externalNpm := {
 }
 
 libraryDependencies += "com.raquo" %%% "laminar" % "0.13.1"
+libraryDependencies ++= Seq(
+    "com.lihaoyi" %%% "upickle"   % "1.2.2")
+
 
   
 // See https://www.scala-sbt.org/1.x/docs/Using-Sonatype.html for instructions on how to publish to Sonatype.

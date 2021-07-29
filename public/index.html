@@ -2,30 +2,22 @@
 <html>
   <head>
     <meta charset="UTF-8">
-    <title>CS108 Submission</title>
+      <title>Rendu de projet</title>
+      <link rel="stylesheet" href="submit.css"> 
   </head>
   <body>
-    
-    <button type="button" id="button">Upload</button>
-     
-    <input type="file" id="directory"  webkitDirectory multiple />
-   
-   
-<script>
- 
-  directory.onchange = async event => {
-    var div = document.createElement("div")
-    div.id="path"
-    div.style.display = "none"
-    Array.from(event.target.files).map(async file => {
-    div.innerHTML += file.webkitRelativePath + "<br>";
-  });
-  document.body.appendChild(div)
-  }
-</script>
+    <p>
+      Le jeton suivant est disponibles&nbsp;:
+    </p>
+    <ul>
+      <li><code>fo9OhF6w</code> (SCIPER 300434, événement <code>test</code>).
+    </ul>
+
+    <!-- Div in which the form will be inserted -->
+    <div id="submission-form"></div>
 
 
-   
     <script type="module" src="/main.js"></script>
+    
   </body>
 </html>
