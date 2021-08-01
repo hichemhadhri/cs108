@@ -32,6 +32,13 @@ import typings.zipJsZipJs.mod.BlobReader
 import java.io.File
 import java.io.FileReader
 import java.net.URI
+import typings.zipJsZipJs.mod
+import java.util.Base64.Decoder
+import java.util.Base64
+import typings.std.WindowOrWorkerGlobalScope
+
+
+
 
 
 
@@ -124,18 +131,52 @@ class Client(apiBaseURL: String, container: dom.Element) {
     validatedTokenStream.startWith(Left(Err.Empty))
   }
 
+
+  
   // File
-  val file = Var[Option[dom.File]](None)
-  val validatedFile: Signal[Either[Err, dom.File]] =
-    file.signal.combineWith(validatedToken)
-      .map {
-        case (Some(f), Right(t)) if f.size > t.event.maxFileSize =>
-          Left(Err.FileTooBig(f.size.toLong, t.event.maxFileSize))
-        case (Some(f), Right(t)) =>
-          Right(f)
-        case _ =>
-          Left(Err.Empty)
-      }
+ val file = Var[dom.File](new dom.raw.Blob().asInstanceOf[dom.File])
+ 
+ val zip = Var[Future[Option[dom.raw.File]]](Future(None))
+  
+   val webkitdirectory: ReactiveProp[Boolean,Boolean] = customProp("webkitdirectory", BooleanAsIsCodec) // imaginary prop
+  
+  val fileID = "file"
+  val fileInput = input(
+    idAttr := fileID,
+    typ := "file",
+    name := "file",
+    multiple:= true,
+    required := true,
+    webkitdirectory := true , 
+    value <-- file.signal.map(f=> f.toString()).source,
+    
+    
+   inContext{thisNode => 
+    
+    onChange.mapTo(zipFile(thisNode.ref.files)) --> zip
+
+   }
+                                )
+
+  
+    
+   
+  val f_validatedFile : Signal[Either[Err, dom.File]] = 
+   zip.signal.flatMap(x=> Signal.fromFuture(x)).combineWith(validatedToken).map(  {
+    
+       case (Some(Some(f)), Right(t))if f.size > t.event.maxFileSize   =>
+           Left(Err.FileTooBig(f.size.toLong, t.event.maxFileSize))
+         case (Some(Some(f)), Right(t)) => 
+           file.set(f)
+           Right(f)
+         case _ =>
+      
+           Left(Err.Empty)
+     }
+
+    )
+
+    
 
   def validatedClass(validated: Either[Any, Any]): String = validated match {
     case Left(_) => "error"
@@ -162,61 +203,66 @@ class Client(apiBaseURL: String, container: dom.Element) {
     className <-- validatedToken.map(validatedClass),
     child <-- validatedToken.map(tokenFeedbackFr))
  
-  val webkitdirectory: ReactiveProp[Boolean,Boolean] = customProp("webkitdirectory", BooleanAsIsCodec) // imaginary prop
-
-  val fileID = "file"
-  val fileInput = input(
-    idAttr := fileID,
-    typ := "file",
-    name := "file",
-    multiple:= true,
-    required := true,
-    webkitdirectory := true , 
-    inContext { thisNode =>
-        onChange.mapTo(Option.when(thisNode.ref.files.length > 0)
-                                (zipFile(thisNode.ref.files))) --> file })
-
-  
+ 
     
      
   
    // zip the selected folder 
-  def zipFile(files : dom.raw.FileList): dom.raw.File = {  
+   def zipFile(files : dom.raw.FileList): Future[Option[dom.raw.File]] = {  
+     println("zipping")
     val zip = new ZipWriter(new Data64URIWriter("application/zip"))
     var result : dom.raw.Blob  = new dom.raw.Blob()
-    js.Promise.all(inputFilestoArray(files)
+    val f = js.Promise.all(inputFilestoArray(files)
     .map(file => {
         println(file._1.name)
         zip.add(file._2, new BlobReader(file._1));   
     }))
-    .toFuture.andThen({
-      case Success(value) =>  
-      zip.close().toFuture.andThen({
-        case Success(value) => {
-          val link = document.createElement("a").asInstanceOf[dom.raw.HTMLAnchorElement];
+    .toFuture.flatMap(x =>
+      zip.close().toFuture).flatMap(value => 
+        
+        base64toBlob(value.toString()))
+
+        f
+      }
+    
+      
+    
+      
+      
+  
+  def base64toBlob(b: String) : Future[Option[dom.raw.File]] = {
+       
+       val byte_c  =  Base64.getDecoder().decode(b.substring(b.indexOf(",")+1)).map(b => b.asInstanceOf[js.Any]).toJSArray
+      
+     Fetch.fetch(b).toFuture.flatMap(res => res.blob()).map(blob => {
+     val result = blob
+          println("size "+ result.size)
+        val link = document.createElement("a").asInstanceOf[dom.raw.HTMLAnchorElement];
     
       link.textContent = "Download";
-          link.href= value.toString()
-          result = new dom.raw.Blob(js.Array.apply(value))
+          link.href= dom.raw.URL.createObjectURL(result)
             document.body.appendChild(link)
-        }
-      });
-    
-      });
-    
-      println(result)
-  result.asInstanceOf[dom.raw.File]
-  }        
-  
+      val o =Option.apply(blob.asInstanceOf[dom.raw.File])
+      println(o)
+      o
+     })
+       
 
+     
+          
+}
+
+
+
+  
   def inputFilestoArray(files : dom.raw.FileList) : js.Array[(File_c,String)] = {
        
        
-        println(files.length)
+        println("length " +files.length)
        
         var t_files : IndexedSeq[File_c] = for( i<- 0 to files.length-1) yield   files.item(i).asInstanceOf[File_c]
         
-        var paths = t_files.toList.zip(t_files.toList.map(f => f.webkitRelativePath))
+        var paths = t_files.toList.zip(t_files.toList.map(f => f.webkitRelativePath.substring(f.webkitRelativePath.indexOf("/")+1)))
        
        
         scala.collection.mutable.Seq(paths:_*).toJSArray
@@ -225,14 +271,14 @@ class Client(apiBaseURL: String, container: dom.Element) {
     
   val fileFeedback = div(
     className := "feedback",
-    className <-- validatedFile.map(validatedClass),
-    child <-- validatedFile.map(fileFeedbackFr))
+    className <-- f_validatedFile.map(validatedClass),
+    child <-- f_validatedFile.map(fileFeedbackFr))
 
   val submitInput = input(
     typ := "submit",
     value := "Envoyer",
     // Note: file cannot be validated if token isn't either
-    disabled <-- validatedFile.map(_.isLeft))
+    disabled <-- f_validatedFile.map(_.isLeft))
 
   val submissionName = Var("")
 
@@ -242,7 +288,8 @@ class Client(apiBaseURL: String, container: dom.Element) {
     val requestInit = new RequestInit(){}
     requestInit.method = HttpMethod.POST
     requestInit.body = new dom.FormData(form)
-
+    
+    
     Fetch.fetch(s"${apiBaseURL}/submit", requestInit)
       .flatMap(_.text())
       .map(read[SubmissionReceipt](_))
