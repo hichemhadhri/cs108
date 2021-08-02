@@ -16030,3 +16030,659 @@ WARNING: Unmatched cancel notification for request id 17558
 [0m2021.08.01 20:51:50 ERROR JavaScript linking failed with 'There were linking errors'[0m
 Aug 01, 2021 8:51:52 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
 INFO: Unsupported notification method: $/setTrace
+[0m2021.08.01 21:15:49 INFO  shutting down Metals[0m
+[0m2021.08.01 21:15:49 INFO  Shut down connection with build server.[0m
+[0m2021.08.01 21:15:49 INFO  Shut down connection with build server.[0m
+[0m2021.08.01 21:15:49 INFO  Shut down connection with build server.[0m
+No more data in the client stdin, exiting...
+No more data in the client stdin, exiting...
+No more data in the client stdin, exiting...
+No more data in the server stdin, exiting...
+No more data in the server stdin, exiting...
+No more data in the server stdin, exiting...
+No more data in the server stdin, exiting...
+No more data in the server stdin, exiting...
+No more data in the server stdin, exiting...
+[0m2021.08.02 09:53:27 INFO  Started: Metals version 0.10.5 in workspace '/Users/hichemhadhri/cs107' for client Visual Studio Code 1.58.2.[0m
+[0m2021.08.02 09:53:28 INFO  time: initialize in 0.66s[0m
+[0m2021.08.02 09:53:29 INFO  Attempting to connect to the build server...[0m
+Starting the bsp launcher for bloop...
+Opening a bsp server connection with 'bsp --protocol local --socket /var/folders/zp/t_7t2xyj4n760sxfr2jkq6z40000gn/T/bsp-launcher3626522687770384212/bsp.socket'...
+Waiting for the bsp connection to come up...
+[0m2021.08.02 09:53:28 WARN  no build target for: /Users/hichemhadhri/cs107/src/main/scala/cs108/Client.scala[0m
+[0m2021.08.02 09:53:29 INFO  skipping build import with status 'Installed'[0m
+[0m[32m[D][0m Loading workspace settings from bloop.settings.json
+[0m[32m[D][0m Waiting for a connection at local:///var/folders/zp/t_7t2xyj4n760sxfr2jkq6z40000gn/T/bsp-launcher3626522687770384212/bsp.socket...
+The server is listening for incoming connections at local:///var/folders/zp/t_7t2xyj4n760sxfr2jkq6z40000gn/T/bsp-launcher3626522687770384212/bsp.socket...
+Starting thread that pumps stdin and redirects it to the bsp server...
+Starting thread that pumps server stdout and redirects it to the client stdout...
+[0m2021.08.02 09:53:30 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/hichemhadhri/Library/Caches/org.scalameta.metals/bsp.trace.json[0m
+[0m2021.08.02 09:53:30 INFO  Attempting to connect to the build server...[0m
+Starting the bsp launcher for bloop...
+Opening a bsp server connection with 'bsp --protocol local --socket /var/folders/zp/t_7t2xyj4n760sxfr2jkq6z40000gn/T/bsp-launcher8837026343763520649/bsp.socket'...
+Waiting for the bsp connection to come up...
+[0m2021.08.02 09:53:30 INFO  Attempting to connect to the build server...[0m
+Starting the bsp launcher for bloop...
+Opening a bsp server connection with 'bsp --protocol local --socket /var/folders/zp/t_7t2xyj4n760sxfr2jkq6z40000gn/T/bsp-launcher6566865535823677513/bsp.socket'...
+Waiting for the bsp connection to come up...
+[0m[32m[D][0m Loading workspace settings from bloop.settings.json
+[0m[32m[D][0m Waiting for a connection at local:///var/folders/zp/t_7t2xyj4n760sxfr2jkq6z40000gn/T/bsp-launcher8837026343763520649/bsp.socket...
+The server is listening for incoming connections at local:///var/folders/zp/t_7t2xyj4n760sxfr2jkq6z40000gn/T/bsp-launcher8837026343763520649/bsp.socket...
+[0m[32m[D][0m Loading workspace settings from bloop.settings.json
+[0m[32m[D][0m Waiting for a connection at local:///var/folders/zp/t_7t2xyj4n760sxfr2jkq6z40000gn/T/bsp-launcher6566865535823677513/bsp.socket...
+The server is listening for incoming connections at local:///var/folders/zp/t_7t2xyj4n760sxfr2jkq6z40000gn/T/bsp-launcher6566865535823677513/bsp.socket...
+Starting thread that pumps stdin and redirects it to the bsp server...
+Starting thread that pumps stdin and redirects it to the bsp server...
+Starting thread that pumps server stdout and redirects it to the client stdout...
+Starting thread that pumps server stdout and redirects it to the client stdout...
+[0m2021.08.02 09:53:30 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/hichemhadhri/Library/Caches/org.scalameta.metals/bsp.trace.json[0m
+[0m2021.08.02 09:53:30 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/hichemhadhri/Library/Caches/org.scalameta.metals/bsp.trace.json[0m
+[0m2021.08.02 09:53:30 INFO  time: Connected to build server in 1.83s[0m
+[0m2021.08.02 09:53:30 INFO  Connected to Build server: Bloop v1.4.8-19-4d9f966b[0m
+[0m2021.08.02 09:53:33 INFO  no build target: using presentation compiler with only scala-library: 2.12.14[0m
+[0m2021.08.02 09:53:33 INFO  time: Imported build in 0.21s[0m
+[0m2021.08.02 09:53:34 INFO  no build target: using presentation compiler with only scala-library: 2.12.14[0m
+[0m2021.08.02 09:53:40 INFO  time: code lens generation in 9.97s[0m
+[0m2021.08.02 09:53:42 INFO  time: indexed workspace in 8.53s[0m
+[0m2021.08.02 09:53:43 INFO  Generated JavaScript file '/Users/hichemhadhri/cs107/.bloop/cs107/cs107-test.js'[0m
+[0m2021.08.02 09:53:43 ERROR Referring to non-existent class org.scalajs.testing.bridge.Bridge[0m
+[0m2021.08.02 09:53:43 ERROR   called from core module module initializers[0m
+[0m2021.08.02 09:53:43 ERROR Referring to non-existent method static org.scalajs.testing.bridge.Bridge.start()void[0m
+[0m2021.08.02 09:53:43 ERROR   called from core module module initializers[0m
+[0m2021.08.02 09:53:43 ERROR JavaScript linking failed with 'There were linking errors'[0m
+[0m2021.08.02 09:55:49 INFO  compiling cs107-test (1 scala source)[0m
+[0m2021.08.02 09:55:49 INFO  time: compiled cs107-test in 0.58s[0m
+[0m2021.08.02 09:55:49 ERROR typings.zipJsZipJs.mod.ZipWriter needs to be imported from module '@zip.js/zip.js' but module support is disabled[0m
+[0m2021.08.02 09:55:49 ERROR   called from cs108.Client.zipFile(org.scalajs.dom.raw.FileList)scala.concurrent.Future[0m
+[0m2021.08.02 09:55:49 ERROR   called from private cs108.Client.$anonfun$fileInput$3(com.raquo.laminar.nodes.ReactiveHtmlElement)scala.concurrent.Future[0m
+[0m2021.08.02 09:55:49 ERROR   called from private cs108.Client.$anonfun$fileInput$2(com.raquo.laminar.nodes.ReactiveHtmlElement)com.raquo.laminar.modifiers.EventListener[0m
+[0m2021.08.02 09:55:49 ERROR   called from constructor cs108.Client.<init>(java.lang.String,org.scalajs.dom.raw.Element)void[0m
+[0m2021.08.02 09:55:49 ERROR   called from cs108.Client$.start(java.lang.String,org.scalajs.dom.raw.Element)void[0m
+[0m2021.08.02 09:55:49 ERROR   called from cs108.Client$.$js$exported$meth$start(java.lang.String,org.scalajs.dom.raw.Element)java.lang.Object[0m
+[0m2021.08.02 09:55:49 ERROR   exported to JavaScript with @JSExport[0m
+[0m2021.08.02 09:55:49 ERROR involving instantiated classes:[0m
+[0m2021.08.02 09:55:49 ERROR   cs108.Client[0m
+[0m2021.08.02 09:55:49 ERROR   cs108.Client$[0m
+[0m2021.08.02 09:55:49 ERROR typings.zipJsZipJs.mod.Data64URIWriter needs to be imported from module '@zip.js/zip.js' but module support is disabled[0m
+[0m2021.08.02 09:55:49 ERROR   called from cs108.Client.zipFile(org.scalajs.dom.raw.FileList)scala.concurrent.Future[0m
+[0m2021.08.02 09:55:49 ERROR   called from private cs108.Client.$anonfun$fileInput$3(com.raquo.laminar.nodes.ReactiveHtmlElement)scala.concurrent.Future[0m
+[0m2021.08.02 09:55:49 ERROR   called from private cs108.Client.$anonfun$fileInput$2(com.raquo.laminar.nodes.ReactiveHtmlElement)com.raquo.laminar.modifiers.EventListener[0m
+[0m2021.08.02 09:55:49 ERROR   called from constructor cs108.Client.<init>(java.lang.String,org.scalajs.dom.raw.Element)void[0m
+[0m2021.08.02 09:55:49 ERROR   called from cs108.Client$.start(java.lang.String,org.scalajs.dom.raw.Element)void[0m
+[0m2021.08.02 09:55:49 ERROR   called from cs108.Client$.$js$exported$meth$start(java.lang.String,org.scalajs.dom.raw.Element)java.lang.Object[0m
+[0m2021.08.02 09:55:49 ERROR   exported to JavaScript with @JSExport[0m
+[0m2021.08.02 09:55:50 ERROR involving instantiated classes:[0m
+[0m2021.08.02 09:55:50 ERROR   cs108.Client[0m
+[0m2021.08.02 09:55:50 ERROR   cs108.Client$[0m
+[0m2021.08.02 09:55:50 ERROR typings.zipJsZipJs.mod.BlobReader needs to be imported from module '@zip.js/zip.js' but module support is disabled[0m
+[0m2021.08.02 09:55:50 ERROR   called from private cs108.Client.$anonfun$zipFile$1(typings.zipJsZipJs.mod.ZipWriter,scala.Tuple2)scala.scalajs.js.Promise[0m
+[0m2021.08.02 09:55:50 ERROR   called from cs108.Client.zipFile(org.scalajs.dom.raw.FileList)scala.concurrent.Future[0m
+[0m2021.08.02 09:55:50 ERROR   called from private cs108.Client.$anonfun$fileInput$3(com.raquo.laminar.nodes.ReactiveHtmlElement)scala.concurrent.Future[0m
+[0m2021.08.02 09:55:50 ERROR   called from private cs108.Client.$anonfun$fileInput$2(com.raquo.laminar.nodes.ReactiveHtmlElement)com.raquo.laminar.modifiers.EventListener[0m
+[0m2021.08.02 09:55:50 ERROR   called from constructor cs108.Client.<init>(java.lang.String,org.scalajs.dom.raw.Element)void[0m
+[0m2021.08.02 09:55:50 ERROR   called from cs108.Client$.start(java.lang.String,org.scalajs.dom.raw.Element)void[0m
+[0m2021.08.02 09:55:50 ERROR   called from cs108.Client$.$js$exported$meth$start(java.lang.String,org.scalajs.dom.raw.Element)java.lang.Object[0m
+[0m2021.08.02 09:55:50 ERROR   exported to JavaScript with @JSExport[0m
+[0m2021.08.02 09:55:50 ERROR involving instantiated classes:[0m
+[0m2021.08.02 09:55:50 ERROR   cs108.Client[0m
+[0m2021.08.02 09:55:50 ERROR   cs108.Client$[0m
+[0m2021.08.02 09:55:50 ERROR JavaScript linking failed with 'There were linking errors'[0m
+[0m2021.08.02 09:56:57 ERROR Referring to non-existent class org.scalajs.testing.bridge.Bridge[0m
+[0m2021.08.02 09:56:57 ERROR   called from core module module initializers[0m
+[0m2021.08.02 09:56:57 ERROR Referring to non-existent method static org.scalajs.testing.bridge.Bridge.start()void[0m
+[0m2021.08.02 09:56:57 ERROR   called from core module module initializers[0m
+[0m2021.08.02 09:56:57 ERROR typings.zipJsZipJs.mod.ZipWriter needs to be imported from module '@zip.js/zip.js' but module support is disabled[0m
+[0m2021.08.02 09:56:57 ERROR   called from cs108.Client.zipFile(org.scalajs.dom.raw.FileList)scala.concurrent.Future[0m
+[0m2021.08.02 09:56:57 ERROR   called from private cs108.Client.$anonfun$fileInput$3(com.raquo.laminar.nodes.ReactiveHtmlElement)scala.concurrent.Future[0m
+[0m2021.08.02 09:56:57 ERROR   called from private cs108.Client.$anonfun$fileInput$2(com.raquo.laminar.nodes.ReactiveHtmlElement)com.raquo.laminar.modifiers.EventListener[0m
+[0m2021.08.02 09:56:57 ERROR   called from constructor cs108.Client.<init>(java.lang.String,org.scalajs.dom.raw.Element)void[0m
+[0m2021.08.02 09:56:57 ERROR   called from cs108.Client$.start(java.lang.String,org.scalajs.dom.raw.Element)void[0m
+[0m2021.08.02 09:56:57 ERROR   called from cs108.Client$.$js$exported$meth$start(java.lang.String,org.scalajs.dom.raw.Element)java.lang.Object[0m
+[0m2021.08.02 09:56:57 ERROR   exported to JavaScript with @JSExport[0m
+[0m2021.08.02 09:56:57 ERROR involving instantiated classes:[0m
+[0m2021.08.02 09:56:57 ERROR   cs108.Client[0m
+[0m2021.08.02 09:56:57 ERROR   cs108.Client$[0m
+[0m2021.08.02 09:56:57 ERROR typings.zipJsZipJs.mod.Data64URIWriter needs to be imported from module '@zip.js/zip.js' but module support is disabled[0m
+[0m2021.08.02 09:56:57 ERROR   called from cs108.Client.zipFile(org.scalajs.dom.raw.FileList)scala.concurrent.Future[0m
+[0m2021.08.02 09:56:57 ERROR   called from private cs108.Client.$anonfun$fileInput$3(com.raquo.laminar.nodes.ReactiveHtmlElement)scala.concurrent.Future[0m
+[0m2021.08.02 09:56:57 ERROR   called from private cs108.Client.$anonfun$fileInput$2(com.raquo.laminar.nodes.ReactiveHtmlElement)com.raquo.laminar.modifiers.EventListener[0m
+[0m2021.08.02 09:56:57 ERROR   called from constructor cs108.Client.<init>(java.lang.String,org.scalajs.dom.raw.Element)void[0m
+[0m2021.08.02 09:56:57 ERROR   called from cs108.Client$.start(java.lang.String,org.scalajs.dom.raw.Element)void[0m
+[0m2021.08.02 09:56:57 ERROR   called from cs108.Client$.$js$exported$meth$start(java.lang.String,org.scalajs.dom.raw.Element)java.lang.Object[0m
+[0m2021.08.02 09:56:57 ERROR   exported to JavaScript with @JSExport[0m
+[0m2021.08.02 09:56:57 ERROR involving instantiated classes:[0m
+[0m2021.08.02 09:56:57 ERROR   cs108.Client[0m
+[0m2021.08.02 09:56:57 ERROR   cs108.Client$[0m
+[0m2021.08.02 09:56:57 ERROR typings.zipJsZipJs.mod.BlobReader needs to be imported from module '@zip.js/zip.js' but module support is disabled[0m
+[0m2021.08.02 09:56:57 ERROR   called from private cs108.Client.$anonfun$zipFile$1(typings.zipJsZipJs.mod.ZipWriter,scala.Tuple2)scala.scalajs.js.Promise[0m
+[0m2021.08.02 09:56:57 ERROR   called from cs108.Client.zipFile(org.scalajs.dom.raw.FileList)scala.concurrent.Future[0m
+[0m2021.08.02 09:56:57 ERROR   called from private cs108.Client.$anonfun$fileInput$3(com.raquo.laminar.nodes.ReactiveHtmlElement)scala.concurrent.Future[0m
+[0m2021.08.02 09:56:57 ERROR   called from private cs108.Client.$anonfun$fileInput$2(com.raquo.laminar.nodes.ReactiveHtmlElement)com.raquo.laminar.modifiers.EventListener[0m
+[0m2021.08.02 09:56:57 ERROR   called from constructor cs108.Client.<init>(java.lang.String,org.scalajs.dom.raw.Element)void[0m
+[0m2021.08.02 09:56:57 ERROR   called from cs108.Client$.start(java.lang.String,org.scalajs.dom.raw.Element)void[0m
+[0m2021.08.02 09:56:57 ERROR   called from cs108.Client$.$js$exported$meth$start(java.lang.String,org.scalajs.dom.raw.Element)java.lang.Object[0m
+[0m2021.08.02 09:56:57 ERROR   exported to JavaScript with @JSExport[0m
+[0m2021.08.02 09:56:57 ERROR involving instantiated classes:[0m
+[0m2021.08.02 09:56:57 ERROR   cs108.Client[0m
+[0m2021.08.02 09:56:57 ERROR   cs108.Client$[0m
+[0m2021.08.02 09:56:57 ERROR JavaScript linking failed with 'There were linking errors'[0m
+[0m2021.08.02 10:01:27 ERROR Referring to non-existent class org.scalajs.testing.bridge.Bridge[0m
+[0m2021.08.02 10:01:27 ERROR   called from core module module initializers[0m
+[0m2021.08.02 10:01:27 ERROR Referring to non-existent method static org.scalajs.testing.bridge.Bridge.start()void[0m
+[0m2021.08.02 10:01:27 ERROR   called from core module module initializers[0m
+[0m2021.08.02 10:01:27 ERROR typings.zipJsZipJs.mod.ZipWriter needs to be imported from module '@zip.js/zip.js' but module support is disabled[0m
+[0m2021.08.02 10:01:27 ERROR   called from cs108.Client.zipFile(org.scalajs.dom.raw.FileList)scala.concurrent.Future[0m
+[0m2021.08.02 10:01:27 ERROR   called from private cs108.Client.$anonfun$fileInput$3(com.raquo.laminar.nodes.ReactiveHtmlElement)scala.concurrent.Future[0m
+[0m2021.08.02 10:01:27 ERROR   called from private cs108.Client.$anonfun$fileInput$2(com.raquo.laminar.nodes.ReactiveHtmlElement)com.raquo.laminar.modifiers.EventListener[0m
+[0m2021.08.02 10:01:27 ERROR   called from constructor cs108.Client.<init>(java.lang.String,org.scalajs.dom.raw.Element)void[0m
+[0m2021.08.02 10:01:27 ERROR   called from cs108.Client$.start(java.lang.String,org.scalajs.dom.raw.Element)void[0m
+[0m2021.08.02 10:01:27 ERROR   called from cs108.Client$.$js$exported$meth$start(java.lang.String,org.scalajs.dom.raw.Element)java.lang.Object[0m
+[0m2021.08.02 10:01:27 ERROR   exported to JavaScript with @JSExport[0m
+[0m2021.08.02 10:01:27 ERROR involving instantiated classes:[0m
+[0m2021.08.02 10:01:27 ERROR   cs108.Client[0m
+[0m2021.08.02 10:01:27 ERROR   cs108.Client$[0m
+[0m2021.08.02 10:01:27 ERROR typings.zipJsZipJs.mod.BlobReader needs to be imported from module '@zip.js/zip.js' but module support is disabled[0m
+[0m2021.08.02 10:01:27 ERROR   called from private cs108.Client.$anonfun$zipFile$1(typings.zipJsZipJs.mod.ZipWriter,scala.Tuple2)scala.scalajs.js.Promise[0m
+[0m2021.08.02 10:01:27 ERROR   called from cs108.Client.zipFile(org.scalajs.dom.raw.FileList)scala.concurrent.Future[0m
+[0m2021.08.02 10:01:27 ERROR   called from private cs108.Client.$anonfun$fileInput$3(com.raquo.laminar.nodes.ReactiveHtmlElement)scala.concurrent.Future[0m
+[0m2021.08.02 10:01:27 ERROR   called from private cs108.Client.$anonfun$fileInput$2(com.raquo.laminar.nodes.ReactiveHtmlElement)com.raquo.laminar.modifiers.EventListener[0m
+[0m2021.08.02 10:01:27 ERROR   called from constructor cs108.Client.<init>(java.lang.String,org.scalajs.dom.raw.Element)void[0m
+[0m2021.08.02 10:01:27 ERROR   called from cs108.Client$.start(java.lang.String,org.scalajs.dom.raw.Element)void[0m
+[0m2021.08.02 10:01:27 ERROR   called from cs108.Client$.$js$exported$meth$start(java.lang.String,org.scalajs.dom.raw.Element)java.lang.Object[0m
+[0m2021.08.02 10:01:27 ERROR   exported to JavaScript with @JSExport[0m
+[0m2021.08.02 10:01:27 ERROR involving instantiated classes:[0m
+[0m2021.08.02 10:01:27 ERROR   cs108.Client[0m
+[0m2021.08.02 10:01:27 ERROR   cs108.Client$[0m
+[0m2021.08.02 10:01:27 ERROR typings.zipJsZipJs.mod.Data64URIWriter needs to be imported from module '@zip.js/zip.js' but module support is disabled[0m
+[0m2021.08.02 10:01:27 ERROR   called from cs108.Client.zipFile(org.scalajs.dom.raw.FileList)scala.concurrent.Future[0m
+[0m2021.08.02 10:01:27 ERROR   called from private cs108.Client.$anonfun$fileInput$3(com.raquo.laminar.nodes.ReactiveHtmlElement)scala.concurrent.Future[0m
+[0m2021.08.02 10:01:27 ERROR   called from private cs108.Client.$anonfun$fileInput$2(com.raquo.laminar.nodes.ReactiveHtmlElement)com.raquo.laminar.modifiers.EventListener[0m
+[0m2021.08.02 10:01:27 ERROR   called from constructor cs108.Client.<init>(java.lang.String,org.scalajs.dom.raw.Element)void[0m
+[0m2021.08.02 10:01:27 ERROR   called from cs108.Client$.start(java.lang.String,org.scalajs.dom.raw.Element)void[0m
+[0m2021.08.02 10:01:27 ERROR   called from cs108.Client$.$js$exported$meth$start(java.lang.String,org.scalajs.dom.raw.Element)java.lang.Object[0m
+[0m2021.08.02 10:01:27 ERROR   exported to JavaScript with @JSExport[0m
+[0m2021.08.02 10:01:27 ERROR involving instantiated classes:[0m
+[0m2021.08.02 10:01:27 ERROR   cs108.Client[0m
+[0m2021.08.02 10:01:27 ERROR   cs108.Client$[0m
+[0m2021.08.02 10:01:27 ERROR JavaScript linking failed with 'There were linking errors'[0m
+[0m2021.08.02 10:01:30 ERROR Referring to non-existent class org.scalajs.testing.bridge.Bridge[0m
+[0m2021.08.02 10:01:30 ERROR   called from core module module initializers[0m
+[0m2021.08.02 10:01:30 ERROR Referring to non-existent method static org.scalajs.testing.bridge.Bridge.start()void[0m
+[0m2021.08.02 10:01:30 ERROR   called from core module module initializers[0m
+[0m2021.08.02 10:01:30 ERROR typings.zipJsZipJs.mod.ZipWriter needs to be imported from module '@zip.js/zip.js' but module support is disabled[0m
+[0m2021.08.02 10:01:30 ERROR   called from cs108.Client.zipFile(org.scalajs.dom.raw.FileList)scala.concurrent.Future[0m
+[0m2021.08.02 10:01:30 ERROR   called from private cs108.Client.$anonfun$fileInput$3(com.raquo.laminar.nodes.ReactiveHtmlElement)scala.concurrent.Future[0m
+[0m2021.08.02 10:01:30 ERROR   called from private cs108.Client.$anonfun$fileInput$2(com.raquo.laminar.nodes.ReactiveHtmlElement)com.raquo.laminar.modifiers.EventListener[0m
+[0m2021.08.02 10:01:30 ERROR   called from constructor cs108.Client.<init>(java.lang.String,org.scalajs.dom.raw.Element)void[0m
+[0m2021.08.02 10:01:30 ERROR   called from cs108.Client$.start(java.lang.String,org.scalajs.dom.raw.Element)void[0m
+[0m2021.08.02 10:01:30 ERROR   called from cs108.Client$.$js$exported$meth$start(java.lang.String,org.scalajs.dom.raw.Element)java.lang.Object[0m
+[0m2021.08.02 10:01:30 ERROR   exported to JavaScript with @JSExport[0m
+[0m2021.08.02 10:01:30 ERROR involving instantiated classes:[0m
+[0m2021.08.02 10:01:30 ERROR   cs108.Client[0m
+[0m2021.08.02 10:01:30 ERROR   cs108.Client$[0m
+[0m2021.08.02 10:01:30 ERROR typings.zipJsZipJs.mod.BlobReader needs to be imported from module '@zip.js/zip.js' but module support is disabled[0m
+[0m2021.08.02 10:01:30 ERROR   called from private cs108.Client.$anonfun$zipFile$1(typings.zipJsZipJs.mod.ZipWriter,scala.Tuple2)scala.scalajs.js.Promise[0m
+[0m2021.08.02 10:01:30 ERROR   called from cs108.Client.zipFile(org.scalajs.dom.raw.FileList)scala.concurrent.Future[0m
+[0m2021.08.02 10:01:30 ERROR   called from private cs108.Client.$anonfun$fileInput$3(com.raquo.laminar.nodes.ReactiveHtmlElement)scala.concurrent.Future[0m
+[0m2021.08.02 10:01:30 ERROR   called from private cs108.Client.$anonfun$fileInput$2(com.raquo.laminar.nodes.ReactiveHtmlElement)com.raquo.laminar.modifiers.EventListener[0m
+[0m2021.08.02 10:01:30 ERROR   called from constructor cs108.Client.<init>(java.lang.String,org.scalajs.dom.raw.Element)void[0m
+[0m2021.08.02 10:01:30 ERROR   called from cs108.Client$.start(java.lang.String,org.scalajs.dom.raw.Element)void[0m
+[0m2021.08.02 10:01:30 ERROR   called from cs108.Client$.$js$exported$meth$start(java.lang.String,org.scalajs.dom.raw.Element)java.lang.Object[0m
+[0m2021.08.02 10:01:30 ERROR   exported to JavaScript with @JSExport[0m
+[0m2021.08.02 10:01:30 ERROR involving instantiated classes:[0m
+[0m2021.08.02 10:01:30 ERROR   cs108.Client[0m
+[0m2021.08.02 10:01:30 ERROR   cs108.Client$[0m
+[0m2021.08.02 10:01:30 ERROR typings.zipJsZipJs.mod.Data64URIWriter needs to be imported from module '@zip.js/zip.js' but module support is disabled[0m
+[0m2021.08.02 10:01:30 ERROR   called from cs108.Client.zipFile(org.scalajs.dom.raw.FileList)scala.concurrent.Future[0m
+[0m2021.08.02 10:01:30 ERROR   called from private cs108.Client.$anonfun$fileInput$3(com.raquo.laminar.nodes.ReactiveHtmlElement)scala.concurrent.Future[0m
+[0m2021.08.02 10:01:30 ERROR   called from private cs108.Client.$anonfun$fileInput$2(com.raquo.laminar.nodes.ReactiveHtmlElement)com.raquo.laminar.modifiers.EventListener[0m
+[0m2021.08.02 10:01:30 ERROR   called from constructor cs108.Client.<init>(java.lang.String,org.scalajs.dom.raw.Element)void[0m
+[0m2021.08.02 10:01:30 ERROR   called from cs108.Client$.start(java.lang.String,org.scalajs.dom.raw.Element)void[0m
+[0m2021.08.02 10:01:30 ERROR   called from cs108.Client$.$js$exported$meth$start(java.lang.String,org.scalajs.dom.raw.Element)java.lang.Object[0m
+[0m2021.08.02 10:01:30 ERROR   exported to JavaScript with @JSExport[0m
+[0m2021.08.02 10:01:30 ERROR involving instantiated classes:[0m
+[0m2021.08.02 10:01:30 ERROR   cs108.Client[0m
+[0m2021.08.02 10:01:30 ERROR   cs108.Client$[0m
+[0m2021.08.02 10:01:30 ERROR JavaScript linking failed with 'There were linking errors'[0m
+Aug 02, 2021 10:01:34 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 57
+[0m2021.08.02 10:08:00 INFO  compiling cs107 (1 scala source)[0m
+[0m2021.08.02 10:08:00 INFO  time: compiled cs107 in 0.65s[0m
+[0m2021.08.02 10:08:01 ERROR Referring to non-existent class org.scalajs.testing.bridge.Bridge[0m
+[0m2021.08.02 10:08:01 ERROR   called from core module module initializers[0m
+[0m2021.08.02 10:08:01 ERROR Referring to non-existent method static org.scalajs.testing.bridge.Bridge.start()void[0m
+[0m2021.08.02 10:08:01 ERROR   called from core module module initializers[0m
+[0m2021.08.02 10:08:01 ERROR typings.zipJsZipJs.mod.ZipWriter needs to be imported from module '@zip.js/zip.js' but module support is disabled[0m
+[0m2021.08.02 10:08:01 ERROR   called from cs108.Client.zipFile(org.scalajs.dom.raw.FileList)scala.concurrent.Future[0m
+[0m2021.08.02 10:08:01 ERROR   called from private cs108.Client.$anonfun$fileInput$3(com.raquo.laminar.nodes.ReactiveHtmlElement)scala.concurrent.Future[0m
+[0m2021.08.02 10:08:01 ERROR   called from private cs108.Client.$anonfun$fileInput$2(com.raquo.laminar.nodes.ReactiveHtmlElement)com.raquo.laminar.modifiers.EventListener[0m
+[0m2021.08.02 10:08:01 ERROR   called from constructor cs108.Client.<init>(java.lang.String,org.scalajs.dom.raw.Element)void[0m
+[0m2021.08.02 10:08:01 ERROR   called from cs108.Client$.start(java.lang.String,org.scalajs.dom.raw.Element)void[0m
+[0m2021.08.02 10:08:01 ERROR   called from cs108.Client$.$js$exported$meth$start(java.lang.String,org.scalajs.dom.raw.Element)java.lang.Object[0m
+[0m2021.08.02 10:08:01 ERROR   exported to JavaScript with @JSExport[0m
+[0m2021.08.02 10:08:01 ERROR involving instantiated classes:[0m
+[0m2021.08.02 10:08:01 ERROR   cs108.Client[0m
+[0m2021.08.02 10:08:01 ERROR   cs108.Client$[0m
+[0m2021.08.02 10:08:01 ERROR typings.zipJsZipJs.mod.Data64URIWriter needs to be imported from module '@zip.js/zip.js' but module support is disabled[0m
+[0m2021.08.02 10:08:01 ERROR   called from cs108.Client.zipFile(org.scalajs.dom.raw.FileList)scala.concurrent.Future[0m
+[0m2021.08.02 10:08:01 ERROR   called from private cs108.Client.$anonfun$fileInput$3(com.raquo.laminar.nodes.ReactiveHtmlElement)scala.concurrent.Future[0m
+[0m2021.08.02 10:08:01 ERROR   called from private cs108.Client.$anonfun$fileInput$2(com.raquo.laminar.nodes.ReactiveHtmlElement)com.raquo.laminar.modifiers.EventListener[0m
+[0m2021.08.02 10:08:01 ERROR   called from constructor cs108.Client.<init>(java.lang.String,org.scalajs.dom.raw.Element)void[0m
+[0m2021.08.02 10:08:01 ERROR   called from cs108.Client$.start(java.lang.String,org.scalajs.dom.raw.Element)void[0m
+[0m2021.08.02 10:08:01 ERROR   called from cs108.Client$.$js$exported$meth$start(java.lang.String,org.scalajs.dom.raw.Element)java.lang.Object[0m
+[0m2021.08.02 10:08:01 ERROR   exported to JavaScript with @JSExport[0m
+[0m2021.08.02 10:08:01 ERROR involving instantiated classes:[0m
+[0m2021.08.02 10:08:01 ERROR   cs108.Client[0m
+[0m2021.08.02 10:08:01 ERROR   cs108.Client$[0m
+[0m2021.08.02 10:08:01 ERROR typings.zipJsZipJs.mod.BlobReader needs to be imported from module '@zip.js/zip.js' but module support is disabled[0m
+[0m2021.08.02 10:08:01 ERROR   called from private cs108.Client.$anonfun$zipFile$1(typings.zipJsZipJs.mod.ZipWriter,scala.Tuple2)scala.scalajs.js.Promise[0m
+[0m2021.08.02 10:08:01 ERROR   called from cs108.Client.zipFile(org.scalajs.dom.raw.FileList)scala.concurrent.Future[0m
+[0m2021.08.02 10:08:01 ERROR   called from private cs108.Client.$anonfun$fileInput$3(com.raquo.laminar.nodes.ReactiveHtmlElement)scala.concurrent.Future[0m
+[0m2021.08.02 10:08:01 ERROR   called from private cs108.Client.$anonfun$fileInput$2(com.raquo.laminar.nodes.ReactiveHtmlElement)com.raquo.laminar.modifiers.EventListener[0m
+[0m2021.08.02 10:08:01 ERROR   called from constructor cs108.Client.<init>(java.lang.String,org.scalajs.dom.raw.Element)void[0m
+[0m2021.08.02 10:08:01 ERROR   called from cs108.Client$.start(java.lang.String,org.scalajs.dom.raw.Element)void[0m
+[0m2021.08.02 10:08:01 ERROR   called from cs108.Client$.$js$exported$meth$start(java.lang.String,org.scalajs.dom.raw.Element)java.lang.Object[0m
+[0m2021.08.02 10:08:01 ERROR   exported to JavaScript with @JSExport[0m
+[0m2021.08.02 10:08:01 ERROR involving instantiated classes:[0m
+[0m2021.08.02 10:08:01 ERROR   cs108.Client[0m
+[0m2021.08.02 10:08:01 ERROR   cs108.Client$[0m
+[0m2021.08.02 10:08:01 ERROR JavaScript linking failed with 'There were linking errors'[0m
+Aug 02, 2021 10:25:08 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 307
+[0m2021.08.02 10:25:27 INFO  compiling cs107 (1 scala source)[0m
+[0m2021.08.02 10:25:29 INFO  time: compiled cs107 in 2.01s[0m
+[0m2021.08.02 10:25:29 ERROR Referring to non-existent class org.scalajs.testing.bridge.Bridge[0m
+[0m2021.08.02 10:25:29 ERROR   called from core module module initializers[0m
+[0m2021.08.02 10:25:29 ERROR Referring to non-existent method static org.scalajs.testing.bridge.Bridge.start()void[0m
+[0m2021.08.02 10:25:29 ERROR   called from core module module initializers[0m
+[0m2021.08.02 10:25:29 ERROR typings.zipJsZipJs.mod.ZipWriter needs to be imported from module '@zip.js/zip.js' but module support is disabled[0m
+[0m2021.08.02 10:25:29 ERROR   called from cs108.Client.zipFile(org.scalajs.dom.raw.FileList)scala.concurrent.Future[0m
+[0m2021.08.02 10:25:29 ERROR   called from private cs108.Client.$anonfun$fileInput$3(com.raquo.laminar.nodes.ReactiveHtmlElement)scala.concurrent.Future[0m
+[0m2021.08.02 10:25:29 ERROR   called from private cs108.Client.$anonfun$fileInput$2(com.raquo.laminar.nodes.ReactiveHtmlElement)com.raquo.laminar.modifiers.EventListener[0m
+[0m2021.08.02 10:25:29 ERROR   called from constructor cs108.Client.<init>(java.lang.String,org.scalajs.dom.raw.Element)void[0m
+[0m2021.08.02 10:25:29 ERROR   called from cs108.Client$.start(java.lang.String,org.scalajs.dom.raw.Element)void[0m
+[0m2021.08.02 10:25:29 ERROR   called from cs108.Client$.$js$exported$meth$start(java.lang.String,org.scalajs.dom.raw.Element)java.lang.Object[0m
+[0m2021.08.02 10:25:29 ERROR   exported to JavaScript with @JSExport[0m
+[0m2021.08.02 10:25:29 ERROR involving instantiated classes:[0m
+[0m2021.08.02 10:25:29 ERROR   cs108.Client[0m
+[0m2021.08.02 10:25:29 ERROR   cs108.Client$[0m
+[0m2021.08.02 10:25:29 ERROR typings.zipJsZipJs.mod.BlobReader needs to be imported from module '@zip.js/zip.js' but module support is disabled[0m
+[0m2021.08.02 10:25:29 ERROR   called from private cs108.Client.$anonfun$zipFile$1(typings.zipJsZipJs.mod.ZipWriter,scala.Tuple2)scala.scalajs.js.Promise[0m
+[0m2021.08.02 10:25:29 ERROR   called from cs108.Client.zipFile(org.scalajs.dom.raw.FileList)scala.concurrent.Future[0m
+[0m2021.08.02 10:25:29 ERROR   called from private cs108.Client.$anonfun$fileInput$3(com.raquo.laminar.nodes.ReactiveHtmlElement)scala.concurrent.Future[0m
+[0m2021.08.02 10:25:29 ERROR   called from private cs108.Client.$anonfun$fileInput$2(com.raquo.laminar.nodes.ReactiveHtmlElement)com.raquo.laminar.modifiers.EventListener[0m
+[0m2021.08.02 10:25:29 ERROR   called from constructor cs108.Client.<init>(java.lang.String,org.scalajs.dom.raw.Element)void[0m
+[0m2021.08.02 10:25:29 ERROR   called from cs108.Client$.start(java.lang.String,org.scalajs.dom.raw.Element)void[0m
+[0m2021.08.02 10:25:29 ERROR   called from cs108.Client$.$js$exported$meth$start(java.lang.String,org.scalajs.dom.raw.Element)java.lang.Object[0m
+[0m2021.08.02 10:25:29 ERROR   exported to JavaScript with @JSExport[0m
+[0m2021.08.02 10:25:29 ERROR involving instantiated classes:[0m
+[0m2021.08.02 10:25:29 ERROR   cs108.Client[0m
+[0m2021.08.02 10:25:29 ERROR   cs108.Client$[0m
+[0m2021.08.02 10:25:29 ERROR typings.zipJsZipJs.mod.Data64URIWriter needs to be imported from module '@zip.js/zip.js' but module support is disabled[0m
+[0m2021.08.02 10:25:29 ERROR   called from cs108.Client.zipFile(org.scalajs.dom.raw.FileList)scala.concurrent.Future[0m
+[0m2021.08.02 10:25:29 ERROR   called from private cs108.Client.$anonfun$fileInput$3(com.raquo.laminar.nodes.ReactiveHtmlElement)scala.concurrent.Future[0m
+[0m2021.08.02 10:25:29 ERROR   called from private cs108.Client.$anonfun$fileInput$2(com.raquo.laminar.nodes.ReactiveHtmlElement)com.raquo.laminar.modifiers.EventListener[0m
+[0m2021.08.02 10:25:29 ERROR   called from constructor cs108.Client.<init>(java.lang.String,org.scalajs.dom.raw.Element)void[0m
+[0m2021.08.02 10:25:29 ERROR   called from cs108.Client$.start(java.lang.String,org.scalajs.dom.raw.Element)void[0m
+[0m2021.08.02 10:25:29 ERROR   called from cs108.Client$.$js$exported$meth$start(java.lang.String,org.scalajs.dom.raw.Element)java.lang.Object[0m
+[0m2021.08.02 10:25:29 ERROR   exported to JavaScript with @JSExport[0m
+[0m2021.08.02 10:25:29 ERROR involving instantiated classes:[0m
+[0m2021.08.02 10:25:29 ERROR   cs108.Client[0m
+[0m2021.08.02 10:25:29 ERROR   cs108.Client$[0m
+[0m2021.08.02 10:25:29 ERROR JavaScript linking failed with 'There were linking errors'[0m
+Aug 02, 2021 10:27:22 AM scala.meta.internal.pc.CompletionProvider expected$1
+WARNING: null
+Aug 02, 2021 10:27:23 AM scala.meta.internal.pc.CompletionProvider expected$1
+WARNING: null
+[0m2021.08.02 10:28:00 INFO  compiling cs107 (1 scala source)[0m
+[0m2021.08.02 10:28:06 INFO  time: compiled cs107 in 6.16s[0m
+[0m2021.08.02 10:28:06 ERROR Referring to non-existent class org.scalajs.testing.bridge.Bridge[0m
+[0m2021.08.02 10:28:06 ERROR   called from core module module initializers[0m
+[0m2021.08.02 10:28:06 ERROR Referring to non-existent method static org.scalajs.testing.bridge.Bridge.start()void[0m
+[0m2021.08.02 10:28:06 ERROR   called from core module module initializers[0m
+[0m2021.08.02 10:28:06 ERROR typings.zipJsZipJs.mod.ZipWriter needs to be imported from module '@zip.js/zip.js' but module support is disabled[0m
+[0m2021.08.02 10:28:06 ERROR   called from cs108.Client.zipFile(org.scalajs.dom.raw.FileList)scala.concurrent.Future[0m
+[0m2021.08.02 10:28:06 ERROR   called from private cs108.Client.$anonfun$fileInput$3(com.raquo.laminar.nodes.ReactiveHtmlElement)scala.concurrent.Future[0m
+[0m2021.08.02 10:28:06 ERROR   called from private cs108.Client.$anonfun$fileInput$2(com.raquo.laminar.nodes.ReactiveHtmlElement)com.raquo.laminar.modifiers.EventListener[0m
+[0m2021.08.02 10:28:06 ERROR   called from constructor cs108.Client.<init>(java.lang.String,org.scalajs.dom.raw.Element)void[0m
+[0m2021.08.02 10:28:06 ERROR   called from cs108.Client$.start(java.lang.String,org.scalajs.dom.raw.Element)void[0m
+[0m2021.08.02 10:28:06 ERROR   called from cs108.Client$.$js$exported$meth$start(java.lang.String,org.scalajs.dom.raw.Element)java.lang.Object[0m
+[0m2021.08.02 10:28:06 ERROR   exported to JavaScript with @JSExport[0m
+[0m2021.08.02 10:28:06 ERROR involving instantiated classes:[0m
+[0m2021.08.02 10:28:06 ERROR   cs108.Client[0m
+[0m2021.08.02 10:28:06 ERROR   cs108.Client$[0m
+[0m2021.08.02 10:28:06 ERROR typings.zipJsZipJs.mod.Data64URIWriter needs to be imported from module '@zip.js/zip.js' but module support is disabled[0m
+[0m2021.08.02 10:28:06 ERROR   called from cs108.Client.zipFile(org.scalajs.dom.raw.FileList)scala.concurrent.Future[0m
+[0m2021.08.02 10:28:06 ERROR   called from private cs108.Client.$anonfun$fileInput$3(com.raquo.laminar.nodes.ReactiveHtmlElement)scala.concurrent.Future[0m
+[0m2021.08.02 10:28:06 ERROR   called from private cs108.Client.$anonfun$fileInput$2(com.raquo.laminar.nodes.ReactiveHtmlElement)com.raquo.laminar.modifiers.EventListener[0m
+[0m2021.08.02 10:28:06 ERROR   called from constructor cs108.Client.<init>(java.lang.String,org.scalajs.dom.raw.Element)void[0m
+[0m2021.08.02 10:28:06 ERROR   called from cs108.Client$.start(java.lang.String,org.scalajs.dom.raw.Element)void[0m
+[0m2021.08.02 10:28:06 ERROR   called from cs108.Client$.$js$exported$meth$start(java.lang.String,org.scalajs.dom.raw.Element)java.lang.Object[0m
+[0m2021.08.02 10:28:06 ERROR   exported to JavaScript with @JSExport[0m
+[0m2021.08.02 10:28:06 ERROR involving instantiated classes:[0m
+[0m2021.08.02 10:28:06 ERROR   cs108.Client[0m
+[0m2021.08.02 10:28:06 ERROR   cs108.Client$[0m
+[0m2021.08.02 10:28:06 ERROR typings.zipJsZipJs.mod.BlobReader needs to be imported from module '@zip.js/zip.js' but module support is disabled[0m
+[0m2021.08.02 10:28:06 ERROR   called from private cs108.Client.$anonfun$zipFile$1(typings.zipJsZipJs.mod.ZipWriter,scala.Tuple2)scala.scalajs.js.Promise[0m
+[0m2021.08.02 10:28:06 ERROR   called from cs108.Client.zipFile(org.scalajs.dom.raw.FileList)scala.concurrent.Future[0m
+[0m2021.08.02 10:28:06 ERROR   called from private cs108.Client.$anonfun$fileInput$3(com.raquo.laminar.nodes.ReactiveHtmlElement)scala.concurrent.Future[0m
+[0m2021.08.02 10:28:06 ERROR   called from private cs108.Client.$anonfun$fileInput$2(com.raquo.laminar.nodes.ReactiveHtmlElement)com.raquo.laminar.modifiers.EventListener[0m
+[0m2021.08.02 10:28:06 ERROR   called from constructor cs108.Client.<init>(java.lang.String,org.scalajs.dom.raw.Element)void[0m
+[0m2021.08.02 10:28:06 ERROR   called from cs108.Client$.start(java.lang.String,org.scalajs.dom.raw.Element)void[0m
+[0m2021.08.02 10:28:06 ERROR   called from cs108.Client$.$js$exported$meth$start(java.lang.String,org.scalajs.dom.raw.Element)java.lang.Object[0m
+[0m2021.08.02 10:28:06 ERROR   exported to JavaScript with @JSExport[0m
+[0m2021.08.02 10:28:06 ERROR involving instantiated classes:[0m
+[0m2021.08.02 10:28:06 ERROR   cs108.Client[0m
+[0m2021.08.02 10:28:06 ERROR   cs108.Client$[0m
+[0m2021.08.02 10:28:06 ERROR JavaScript linking failed with 'There were linking errors'[0m
+Aug 02, 2021 10:28:07 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 579
+Aug 02, 2021 10:28:45 AM scala.meta.internal.pc.CompletionProvider expected$1
+WARNING: null
+Aug 02, 2021 10:28:47 AM scala.meta.internal.pc.CompletionProvider expected$1
+WARNING: null
+Aug 02, 2021 10:28:47 AM scala.meta.internal.pc.CompletionProvider expected$1
+WARNING: null
+Aug 02, 2021 10:29:00 AM scala.meta.internal.pc.CompletionProvider expected$1
+WARNING: String index out of range: -1
+[0m2021.08.02 10:29:48 INFO  compiling cs107 (1 scala source)[0m
+[0m2021.08.02 10:29:48 INFO  time: compiled cs107 in 0.95s[0m
+[0m2021.08.02 10:29:50 ERROR Referring to non-existent class org.scalajs.testing.bridge.Bridge[0m
+[0m2021.08.02 10:29:50 ERROR   called from core module module initializers[0m
+[0m2021.08.02 10:29:50 ERROR Referring to non-existent method static org.scalajs.testing.bridge.Bridge.start()void[0m
+[0m2021.08.02 10:29:50 ERROR   called from core module module initializers[0m
+[0m2021.08.02 10:29:50 ERROR typings.zipJsZipJs.mod.ZipWriter needs to be imported from module '@zip.js/zip.js' but module support is disabled[0m
+[0m2021.08.02 10:29:50 ERROR   called from cs108.Client.zipFile(org.scalajs.dom.raw.FileList)scala.concurrent.Future[0m
+[0m2021.08.02 10:29:50 ERROR   called from private cs108.Client.$anonfun$fileInput$3(com.raquo.laminar.nodes.ReactiveHtmlElement)scala.concurrent.Future[0m
+[0m2021.08.02 10:29:50 ERROR   called from private cs108.Client.$anonfun$fileInput$2(com.raquo.laminar.nodes.ReactiveHtmlElement)com.raquo.laminar.modifiers.EventListener[0m
+[0m2021.08.02 10:29:50 ERROR   called from constructor cs108.Client.<init>(java.lang.String,org.scalajs.dom.raw.Element)void[0m
+[0m2021.08.02 10:29:50 ERROR   called from cs108.Client$.start(java.lang.String,org.scalajs.dom.raw.Element)void[0m
+[0m2021.08.02 10:29:50 ERROR   called from cs108.Client$.$js$exported$meth$start(java.lang.String,org.scalajs.dom.raw.Element)java.lang.Object[0m
+[0m2021.08.02 10:29:50 ERROR   exported to JavaScript with @JSExport[0m
+[0m2021.08.02 10:29:50 ERROR involving instantiated classes:[0m
+[0m2021.08.02 10:29:50 ERROR   cs108.Client[0m
+[0m2021.08.02 10:29:50 ERROR   cs108.Client$[0m
+[0m2021.08.02 10:29:50 ERROR typings.zipJsZipJs.mod.BlobReader needs to be imported from module '@zip.js/zip.js' but module support is disabled[0m
+[0m2021.08.02 10:29:50 ERROR   called from private cs108.Client.$anonfun$zipFile$1(typings.zipJsZipJs.mod.ZipWriter,scala.Tuple2)scala.scalajs.js.Promise[0m
+[0m2021.08.02 10:29:50 ERROR   called from cs108.Client.zipFile(org.scalajs.dom.raw.FileList)scala.concurrent.Future[0m
+[0m2021.08.02 10:29:50 ERROR   called from private cs108.Client.$anonfun$fileInput$3(com.raquo.laminar.nodes.ReactiveHtmlElement)scala.concurrent.Future[0m
+[0m2021.08.02 10:29:50 ERROR   called from private cs108.Client.$anonfun$fileInput$2(com.raquo.laminar.nodes.ReactiveHtmlElement)com.raquo.laminar.modifiers.EventListener[0m
+[0m2021.08.02 10:29:50 ERROR   called from constructor cs108.Client.<init>(java.lang.String,org.scalajs.dom.raw.Element)void[0m
+[0m2021.08.02 10:29:50 ERROR   called from cs108.Client$.start(java.lang.String,org.scalajs.dom.raw.Element)void[0m
+[0m2021.08.02 10:29:50 ERROR   called from cs108.Client$.$js$exported$meth$start(java.lang.String,org.scalajs.dom.raw.Element)java.lang.Object[0m
+[0m2021.08.02 10:29:50 ERROR   exported to JavaScript with @JSExport[0m
+[0m2021.08.02 10:29:50 ERROR involving instantiated classes:[0m
+[0m2021.08.02 10:29:50 ERROR   cs108.Client[0m
+[0m2021.08.02 10:29:50 ERROR   cs108.Client$[0m
+[0m2021.08.02 10:29:50 ERROR typings.zipJsZipJs.mod.Data64URIWriter needs to be imported from module '@zip.js/zip.js' but module support is disabled[0m
+[0m2021.08.02 10:29:50 ERROR   called from cs108.Client.zipFile(org.scalajs.dom.raw.FileList)scala.concurrent.Future[0m
+[0m2021.08.02 10:29:50 ERROR   called from private cs108.Client.$anonfun$fileInput$3(com.raquo.laminar.nodes.ReactiveHtmlElement)scala.concurrent.Future[0m
+[0m2021.08.02 10:29:50 ERROR   called from private cs108.Client.$anonfun$fileInput$2(com.raquo.laminar.nodes.ReactiveHtmlElement)com.raquo.laminar.modifiers.EventListener[0m
+[0m2021.08.02 10:29:50 ERROR   called from constructor cs108.Client.<init>(java.lang.String,org.scalajs.dom.raw.Element)void[0m
+[0m2021.08.02 10:29:50 ERROR   called from cs108.Client$.start(java.lang.String,org.scalajs.dom.raw.Element)void[0m
+[0m2021.08.02 10:29:50 ERROR   called from cs108.Client$.$js$exported$meth$start(java.lang.String,org.scalajs.dom.raw.Element)java.lang.Object[0m
+[0m2021.08.02 10:29:50 ERROR   exported to JavaScript with @JSExport[0m
+[0m2021.08.02 10:29:50 ERROR involving instantiated classes:[0m
+[0m2021.08.02 10:29:50 ERROR   cs108.Client[0m
+[0m2021.08.02 10:29:50 ERROR   cs108.Client$[0m
+[0m2021.08.02 10:29:50 ERROR JavaScript linking failed with 'There were linking errors'[0m
+[0m2021.08.02 10:29:57 INFO  compiling cs107 (1 scala source)[0m
+[0m2021.08.02 10:29:57 INFO  time: compiled cs107 in 0.66s[0m
+[0m2021.08.02 10:29:59 ERROR Referring to non-existent class org.scalajs.testing.bridge.Bridge[0m
+[0m2021.08.02 10:29:59 ERROR   called from core module module initializers[0m
+[0m2021.08.02 10:29:59 ERROR Referring to non-existent method static org.scalajs.testing.bridge.Bridge.start()void[0m
+[0m2021.08.02 10:29:59 ERROR   called from core module module initializers[0m
+[0m2021.08.02 10:29:59 ERROR typings.zipJsZipJs.mod.ZipWriter needs to be imported from module '@zip.js/zip.js' but module support is disabled[0m
+[0m2021.08.02 10:29:59 ERROR   called from cs108.Client.zipFile(org.scalajs.dom.raw.FileList)scala.concurrent.Future[0m
+[0m2021.08.02 10:29:59 ERROR   called from private cs108.Client.$anonfun$fileInput$3(com.raquo.laminar.nodes.ReactiveHtmlElement)scala.concurrent.Future[0m
+[0m2021.08.02 10:29:59 ERROR   called from private cs108.Client.$anonfun$fileInput$2(com.raquo.laminar.nodes.ReactiveHtmlElement)com.raquo.laminar.modifiers.EventListener[0m
+[0m2021.08.02 10:29:59 ERROR   called from constructor cs108.Client.<init>(java.lang.String,org.scalajs.dom.raw.Element)void[0m
+[0m2021.08.02 10:29:59 ERROR   called from cs108.Client$.start(java.lang.String,org.scalajs.dom.raw.Element)void[0m
+[0m2021.08.02 10:29:59 ERROR   called from cs108.Client$.$js$exported$meth$start(java.lang.String,org.scalajs.dom.raw.Element)java.lang.Object[0m
+[0m2021.08.02 10:29:59 ERROR   exported to JavaScript with @JSExport[0m
+[0m2021.08.02 10:29:59 ERROR involving instantiated classes:[0m
+[0m2021.08.02 10:29:59 ERROR   cs108.Client[0m
+[0m2021.08.02 10:29:59 ERROR   cs108.Client$[0m
+[0m2021.08.02 10:29:59 ERROR typings.zipJsZipJs.mod.Data64URIWriter needs to be imported from module '@zip.js/zip.js' but module support is disabled[0m
+[0m2021.08.02 10:29:59 ERROR   called from cs108.Client.zipFile(org.scalajs.dom.raw.FileList)scala.concurrent.Future[0m
+[0m2021.08.02 10:29:59 ERROR   called from private cs108.Client.$anonfun$fileInput$3(com.raquo.laminar.nodes.ReactiveHtmlElement)scala.concurrent.Future[0m
+[0m2021.08.02 10:29:59 ERROR   called from private cs108.Client.$anonfun$fileInput$2(com.raquo.laminar.nodes.ReactiveHtmlElement)com.raquo.laminar.modifiers.EventListener[0m
+[0m2021.08.02 10:29:59 ERROR   called from constructor cs108.Client.<init>(java.lang.String,org.scalajs.dom.raw.Element)void[0m
+[0m2021.08.02 10:29:59 ERROR   called from cs108.Client$.start(java.lang.String,org.scalajs.dom.raw.Element)void[0m
+[0m2021.08.02 10:29:59 ERROR   called from cs108.Client$.$js$exported$meth$start(java.lang.String,org.scalajs.dom.raw.Element)java.lang.Object[0m
+[0m2021.08.02 10:29:59 ERROR   exported to JavaScript with @JSExport[0m
+[0m2021.08.02 10:29:59 ERROR involving instantiated classes:[0m
+[0m2021.08.02 10:29:59 ERROR   cs108.Client[0m
+[0m2021.08.02 10:29:59 ERROR   cs108.Client$[0m
+[0m2021.08.02 10:29:59 ERROR typings.zipJsZipJs.mod.BlobReader needs to be imported from module '@zip.js/zip.js' but module support is disabled[0m
+[0m2021.08.02 10:29:59 ERROR   called from private cs108.Client.$anonfun$zipFile$1(typings.zipJsZipJs.mod.ZipWriter,scala.Tuple2)scala.scalajs.js.Promise[0m
+[0m2021.08.02 10:29:59 ERROR   called from cs108.Client.zipFile(org.scalajs.dom.raw.FileList)scala.concurrent.Future[0m
+[0m2021.08.02 10:29:59 ERROR   called from private cs108.Client.$anonfun$fileInput$3(com.raquo.laminar.nodes.ReactiveHtmlElement)scala.concurrent.Future[0m
+[0m2021.08.02 10:29:59 ERROR   called from private cs108.Client.$anonfun$fileInput$2(com.raquo.laminar.nodes.ReactiveHtmlElement)com.raquo.laminar.modifiers.EventListener[0m
+[0m2021.08.02 10:29:59 ERROR   called from constructor cs108.Client.<init>(java.lang.String,org.scalajs.dom.raw.Element)void[0m
+[0m2021.08.02 10:29:59 ERROR   called from cs108.Client$.start(java.lang.String,org.scalajs.dom.raw.Element)void[0m
+[0m2021.08.02 10:29:59 ERROR   called from cs108.Client$.$js$exported$meth$start(java.lang.String,org.scalajs.dom.raw.Element)java.lang.Object[0m
+[0m2021.08.02 10:29:59 ERROR   exported to JavaScript with @JSExport[0m
+[0m2021.08.02 10:29:59 ERROR involving instantiated classes:[0m
+[0m2021.08.02 10:29:59 ERROR   cs108.Client[0m
+[0m2021.08.02 10:29:59 ERROR   cs108.Client$[0m
+[0m2021.08.02 10:29:59 ERROR JavaScript linking failed with 'There were linking errors'[0m
+Aug 02, 2021 10:30:07 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 942
+Aug 02, 2021 10:30:18 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 962
+Aug 02, 2021 10:30:18 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 961
+Aug 02, 2021 10:30:18 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 963
+Aug 02, 2021 10:30:18 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 969
+Aug 02, 2021 10:30:33 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1066
+[0m2021.08.02 10:30:38 INFO  compiling cs107 (1 scala source)[0m
+[0m2021.08.02 10:30:41 INFO  time: compiled cs107 in 3.54s[0m
+[0m2021.08.02 10:30:41 ERROR Referring to non-existent class org.scalajs.testing.bridge.Bridge[0m
+[0m2021.08.02 10:30:41 ERROR   called from core module module initializers[0m
+[0m2021.08.02 10:30:41 ERROR Referring to non-existent method static org.scalajs.testing.bridge.Bridge.start()void[0m
+[0m2021.08.02 10:30:41 ERROR   called from core module module initializers[0m
+[0m2021.08.02 10:30:41 ERROR typings.zipJsZipJs.mod.ZipWriter needs to be imported from module '@zip.js/zip.js' but module support is disabled[0m
+[0m2021.08.02 10:30:41 ERROR   called from cs108.Client.zipFile(org.scalajs.dom.raw.FileList)scala.concurrent.Future[0m
+[0m2021.08.02 10:30:41 ERROR   called from private cs108.Client.$anonfun$fileInput$3(com.raquo.laminar.nodes.ReactiveHtmlElement)scala.concurrent.Future[0m
+[0m2021.08.02 10:30:41 ERROR   called from private cs108.Client.$anonfun$fileInput$2(com.raquo.laminar.nodes.ReactiveHtmlElement)com.raquo.laminar.modifiers.EventListener[0m
+[0m2021.08.02 10:30:41 ERROR   called from constructor cs108.Client.<init>(java.lang.String,org.scalajs.dom.raw.Element)void[0m
+[0m2021.08.02 10:30:41 ERROR   called from cs108.Client$.start(java.lang.String,org.scalajs.dom.raw.Element)void[0m
+[0m2021.08.02 10:30:41 ERROR   called from cs108.Client$.$js$exported$meth$start(java.lang.String,org.scalajs.dom.raw.Element)java.lang.Object[0m
+[0m2021.08.02 10:30:41 ERROR   exported to JavaScript with @JSExport[0m
+[0m2021.08.02 10:30:41 ERROR involving instantiated classes:[0m
+[0m2021.08.02 10:30:41 ERROR   cs108.Client[0m
+[0m2021.08.02 10:30:41 ERROR   cs108.Client$[0m
+[0m2021.08.02 10:30:41 ERROR typings.zipJsZipJs.mod.Data64URIWriter needs to be imported from module '@zip.js/zip.js' but module support is disabled[0m
+[0m2021.08.02 10:30:41 ERROR   called from cs108.Client.zipFile(org.scalajs.dom.raw.FileList)scala.concurrent.Future[0m
+[0m2021.08.02 10:30:41 ERROR   called from private cs108.Client.$anonfun$fileInput$3(com.raquo.laminar.nodes.ReactiveHtmlElement)scala.concurrent.Future[0m
+[0m2021.08.02 10:30:41 ERROR   called from private cs108.Client.$anonfun$fileInput$2(com.raquo.laminar.nodes.ReactiveHtmlElement)com.raquo.laminar.modifiers.EventListener[0m
+[0m2021.08.02 10:30:41 ERROR   called from constructor cs108.Client.<init>(java.lang.String,org.scalajs.dom.raw.Element)void[0m
+[0m2021.08.02 10:30:41 ERROR   called from cs108.Client$.start(java.lang.String,org.scalajs.dom.raw.Element)void[0m
+[0m2021.08.02 10:30:41 ERROR   called from cs108.Client$.$js$exported$meth$start(java.lang.String,org.scalajs.dom.raw.Element)java.lang.Object[0m
+[0m2021.08.02 10:30:41 ERROR   exported to JavaScript with @JSExport[0m
+[0m2021.08.02 10:30:41 ERROR involving instantiated classes:[0m
+[0m2021.08.02 10:30:41 ERROR   cs108.Client[0m
+[0m2021.08.02 10:30:41 ERROR   cs108.Client$[0m
+[0m2021.08.02 10:30:41 ERROR typings.zipJsZipJs.mod.BlobReader needs to be imported from module '@zip.js/zip.js' but module support is disabled[0m
+[0m2021.08.02 10:30:41 ERROR   called from private cs108.Client.$anonfun$zipFile$1(typings.zipJsZipJs.mod.ZipWriter,scala.Tuple2)scala.scalajs.js.Promise[0m
+[0m2021.08.02 10:30:41 ERROR   called from cs108.Client.zipFile(org.scalajs.dom.raw.FileList)scala.concurrent.Future[0m
+[0m2021.08.02 10:30:41 ERROR   called from private cs108.Client.$anonfun$fileInput$3(com.raquo.laminar.nodes.ReactiveHtmlElement)scala.concurrent.Future[0m
+[0m2021.08.02 10:30:41 ERROR   called from private cs108.Client.$anonfun$fileInput$2(com.raquo.laminar.nodes.ReactiveHtmlElement)com.raquo.laminar.modifiers.EventListener[0m
+[0m2021.08.02 10:30:41 ERROR   called from constructor cs108.Client.<init>(java.lang.String,org.scalajs.dom.raw.Element)void[0m
+[0m2021.08.02 10:30:41 ERROR   called from cs108.Client$.start(java.lang.String,org.scalajs.dom.raw.Element)void[0m
+[0m2021.08.02 10:30:41 ERROR   called from cs108.Client$.$js$exported$meth$start(java.lang.String,org.scalajs.dom.raw.Element)java.lang.Object[0m
+[0m2021.08.02 10:30:41 ERROR   exported to JavaScript with @JSExport[0m
+[0m2021.08.02 10:30:41 ERROR involving instantiated classes:[0m
+[0m2021.08.02 10:30:41 ERROR   cs108.Client[0m
+[0m2021.08.02 10:30:41 ERROR   cs108.Client$[0m
+[0m2021.08.02 10:30:41 ERROR JavaScript linking failed with 'There were linking errors'[0m
+[0m2021.08.02 10:31:47 INFO  compiling cs107 (1 scala source)[0m
+[0m2021.08.02 10:31:51 INFO  time: compiled cs107 in 4.64s[0m
+[0m2021.08.02 10:31:51 ERROR Referring to non-existent class org.scalajs.testing.bridge.Bridge[0m
+[0m2021.08.02 10:31:51 ERROR   called from core module module initializers[0m
+[0m2021.08.02 10:31:51 ERROR Referring to non-existent method static org.scalajs.testing.bridge.Bridge.start()void[0m
+[0m2021.08.02 10:31:51 ERROR   called from core module module initializers[0m
+[0m2021.08.02 10:31:51 ERROR typings.zipJsZipJs.mod.ZipWriter needs to be imported from module '@zip.js/zip.js' but module support is disabled[0m
+[0m2021.08.02 10:31:51 ERROR   called from cs108.Client.zipFile(org.scalajs.dom.raw.FileList)scala.concurrent.Future[0m
+[0m2021.08.02 10:31:51 ERROR   called from private cs108.Client.$anonfun$fileInput$3(com.raquo.laminar.nodes.ReactiveHtmlElement)scala.concurrent.Future[0m
+[0m2021.08.02 10:31:51 ERROR   called from private cs108.Client.$anonfun$fileInput$2(com.raquo.laminar.nodes.ReactiveHtmlElement)com.raquo.laminar.modifiers.EventListener[0m
+[0m2021.08.02 10:31:51 ERROR   called from constructor cs108.Client.<init>(java.lang.String,org.scalajs.dom.raw.Element)void[0m
+[0m2021.08.02 10:31:51 ERROR   called from cs108.Client$.start(java.lang.String,org.scalajs.dom.raw.Element)void[0m
+[0m2021.08.02 10:31:51 ERROR   called from cs108.Client$.$js$exported$meth$start(java.lang.String,org.scalajs.dom.raw.Element)java.lang.Object[0m
+[0m2021.08.02 10:31:51 ERROR   exported to JavaScript with @JSExport[0m
+[0m2021.08.02 10:31:51 ERROR involving instantiated classes:[0m
+[0m2021.08.02 10:31:51 ERROR   cs108.Client[0m
+[0m2021.08.02 10:31:51 ERROR   cs108.Client$[0m
+[0m2021.08.02 10:31:51 ERROR typings.zipJsZipJs.mod.Data64URIWriter needs to be imported from module '@zip.js/zip.js' but module support is disabled[0m
+[0m2021.08.02 10:31:51 ERROR   called from cs108.Client.zipFile(org.scalajs.dom.raw.FileList)scala.concurrent.Future[0m
+[0m2021.08.02 10:31:51 ERROR   called from private cs108.Client.$anonfun$fileInput$3(com.raquo.laminar.nodes.ReactiveHtmlElement)scala.concurrent.Future[0m
+[0m2021.08.02 10:31:51 ERROR   called from private cs108.Client.$anonfun$fileInput$2(com.raquo.laminar.nodes.ReactiveHtmlElement)com.raquo.laminar.modifiers.EventListener[0m
+[0m2021.08.02 10:31:51 ERROR   called from constructor cs108.Client.<init>(java.lang.String,org.scalajs.dom.raw.Element)void[0m
+[0m2021.08.02 10:31:51 ERROR   called from cs108.Client$.start(java.lang.String,org.scalajs.dom.raw.Element)void[0m
+[0m2021.08.02 10:31:51 ERROR   called from cs108.Client$.$js$exported$meth$start(java.lang.String,org.scalajs.dom.raw.Element)java.lang.Object[0m
+[0m2021.08.02 10:31:51 ERROR   exported to JavaScript with @JSExport[0m
+[0m2021.08.02 10:31:51 ERROR involving instantiated classes:[0m
+[0m2021.08.02 10:31:51 ERROR   cs108.Client[0m
+[0m2021.08.02 10:31:51 ERROR   cs108.Client$[0m
+[0m2021.08.02 10:31:51 ERROR typings.zipJsZipJs.mod.BlobReader needs to be imported from module '@zip.js/zip.js' but module support is disabled[0m
+[0m2021.08.02 10:31:51 ERROR   called from private cs108.Client.$anonfun$zipFile$1(typings.zipJsZipJs.mod.ZipWriter,scala.Tuple2)scala.scalajs.js.Promise[0m
+[0m2021.08.02 10:31:51 ERROR   called from cs108.Client.zipFile(org.scalajs.dom.raw.FileList)scala.concurrent.Future[0m
+[0m2021.08.02 10:31:51 ERROR   called from private cs108.Client.$anonfun$fileInput$3(com.raquo.laminar.nodes.ReactiveHtmlElement)scala.concurrent.Future[0m
+[0m2021.08.02 10:31:51 ERROR   called from private cs108.Client.$anonfun$fileInput$2(com.raquo.laminar.nodes.ReactiveHtmlElement)com.raquo.laminar.modifiers.EventListener[0m
+[0m2021.08.02 10:31:51 ERROR   called from constructor cs108.Client.<init>(java.lang.String,org.scalajs.dom.raw.Element)void[0m
+[0m2021.08.02 10:31:51 ERROR   called from cs108.Client$.start(java.lang.String,org.scalajs.dom.raw.Element)void[0m
+[0m2021.08.02 10:31:51 ERROR   called from cs108.Client$.$js$exported$meth$start(java.lang.String,org.scalajs.dom.raw.Element)java.lang.Object[0m
+[0m2021.08.02 10:31:51 ERROR   exported to JavaScript with @JSExport[0m
+[0m2021.08.02 10:31:51 ERROR involving instantiated classes:[0m
+[0m2021.08.02 10:31:51 ERROR   cs108.Client[0m
+[0m2021.08.02 10:31:51 ERROR   cs108.Client$[0m
+[0m2021.08.02 10:31:51 ERROR JavaScript linking failed with 'There were linking errors'[0m
+[0m2021.08.02 10:32:20 INFO  compiling cs107 (1 scala source)[0m
+[0m2021.08.02 10:32:25 INFO  time: compiled cs107 in 5.39s[0m
+[0m2021.08.02 10:32:25 ERROR Referring to non-existent class org.scalajs.testing.bridge.Bridge[0m
+[0m2021.08.02 10:32:25 ERROR   called from core module module initializers[0m
+[0m2021.08.02 10:32:25 ERROR Referring to non-existent method static org.scalajs.testing.bridge.Bridge.start()void[0m
+[0m2021.08.02 10:32:25 ERROR   called from core module module initializers[0m
+[0m2021.08.02 10:32:25 ERROR typings.zipJsZipJs.mod.ZipWriter needs to be imported from module '@zip.js/zip.js' but module support is disabled[0m
+[0m2021.08.02 10:32:25 ERROR   called from cs108.Client.zipFile(org.scalajs.dom.raw.FileList)scala.concurrent.Future[0m
+[0m2021.08.02 10:32:25 ERROR   called from private cs108.Client.$anonfun$fileInput$3(com.raquo.laminar.nodes.ReactiveHtmlElement)scala.concurrent.Future[0m
+[0m2021.08.02 10:32:25 ERROR   called from private cs108.Client.$anonfun$fileInput$2(com.raquo.laminar.nodes.ReactiveHtmlElement)com.raquo.laminar.modifiers.EventListener[0m
+[0m2021.08.02 10:32:25 ERROR   called from constructor cs108.Client.<init>(java.lang.String,org.scalajs.dom.raw.Element)void[0m
+[0m2021.08.02 10:32:25 ERROR   called from cs108.Client$.start(java.lang.String,org.scalajs.dom.raw.Element)void[0m
+[0m2021.08.02 10:32:25 ERROR   called from cs108.Client$.$js$exported$meth$start(java.lang.String,org.scalajs.dom.raw.Element)java.lang.Object[0m
+[0m2021.08.02 10:32:25 ERROR   exported to JavaScript with @JSExport[0m
+[0m2021.08.02 10:32:25 ERROR involving instantiated classes:[0m
+[0m2021.08.02 10:32:25 ERROR   cs108.Client[0m
+[0m2021.08.02 10:32:25 ERROR   cs108.Client$[0m
+[0m2021.08.02 10:32:25 ERROR typings.zipJsZipJs.mod.BlobReader needs to be imported from module '@zip.js/zip.js' but module support is disabled[0m
+[0m2021.08.02 10:32:25 ERROR   called from private cs108.Client.$anonfun$zipFile$1(typings.zipJsZipJs.mod.ZipWriter,scala.Tuple2)scala.scalajs.js.Promise[0m
+[0m2021.08.02 10:32:25 ERROR   called from cs108.Client.zipFile(org.scalajs.dom.raw.FileList)scala.concurrent.Future[0m
+[0m2021.08.02 10:32:25 ERROR   called from private cs108.Client.$anonfun$fileInput$3(com.raquo.laminar.nodes.ReactiveHtmlElement)scala.concurrent.Future[0m
+[0m2021.08.02 10:32:25 ERROR   called from private cs108.Client.$anonfun$fileInput$2(com.raquo.laminar.nodes.ReactiveHtmlElement)com.raquo.laminar.modifiers.EventListener[0m
+[0m2021.08.02 10:32:25 ERROR   called from constructor cs108.Client.<init>(java.lang.String,org.scalajs.dom.raw.Element)void[0m
+[0m2021.08.02 10:32:25 ERROR   called from cs108.Client$.start(java.lang.String,org.scalajs.dom.raw.Element)void[0m
+[0m2021.08.02 10:32:25 ERROR   called from cs108.Client$.$js$exported$meth$start(java.lang.String,org.scalajs.dom.raw.Element)java.lang.Object[0m
+[0m2021.08.02 10:32:25 ERROR   exported to JavaScript with @JSExport[0m
+[0m2021.08.02 10:32:25 ERROR involving instantiated classes:[0m
+[0m2021.08.02 10:32:25 ERROR   cs108.Client[0m
+[0m2021.08.02 10:32:25 ERROR   cs108.Client$[0m
+[0m2021.08.02 10:32:25 ERROR typings.zipJsZipJs.mod.Data64URIWriter needs to be imported from module '@zip.js/zip.js' but module support is disabled[0m
+[0m2021.08.02 10:32:25 ERROR   called from cs108.Client.zipFile(org.scalajs.dom.raw.FileList)scala.concurrent.Future[0m
+[0m2021.08.02 10:32:25 ERROR   called from private cs108.Client.$anonfun$fileInput$3(com.raquo.laminar.nodes.ReactiveHtmlElement)scala.concurrent.Future[0m
+[0m2021.08.02 10:32:25 ERROR   called from private cs108.Client.$anonfun$fileInput$2(com.raquo.laminar.nodes.ReactiveHtmlElement)com.raquo.laminar.modifiers.EventListener[0m
+[0m2021.08.02 10:32:25 ERROR   called from constructor cs108.Client.<init>(java.lang.String,org.scalajs.dom.raw.Element)void[0m
+[0m2021.08.02 10:32:25 ERROR   called from cs108.Client$.start(java.lang.String,org.scalajs.dom.raw.Element)void[0m
+[0m2021.08.02 10:32:25 ERROR   called from cs108.Client$.$js$exported$meth$start(java.lang.String,org.scalajs.dom.raw.Element)java.lang.Object[0m
+[0m2021.08.02 10:32:25 ERROR   exported to JavaScript with @JSExport[0m
+[0m2021.08.02 10:32:25 ERROR involving instantiated classes:[0m
+[0m2021.08.02 10:32:25 ERROR   cs108.Client[0m
+[0m2021.08.02 10:32:25 ERROR   cs108.Client$[0m
+[0m2021.08.02 10:32:25 ERROR JavaScript linking failed with 'There were linking errors'[0m
+[0m2021.08.02 10:32:36 INFO  compiling cs107 (1 scala source)[0m
+[0m2021.08.02 10:32:39 INFO  time: compiled cs107 in 3.71s[0m
+[0m2021.08.02 10:32:39 ERROR Referring to non-existent class org.scalajs.testing.bridge.Bridge[0m
+[0m2021.08.02 10:32:39 ERROR   called from core module module initializers[0m
+[0m2021.08.02 10:32:39 ERROR Referring to non-existent method static org.scalajs.testing.bridge.Bridge.start()void[0m
+[0m2021.08.02 10:32:39 ERROR   called from core module module initializers[0m
+[0m2021.08.02 10:32:39 ERROR typings.zipJsZipJs.mod.Data64URIWriter needs to be imported from module '@zip.js/zip.js' but module support is disabled[0m
+[0m2021.08.02 10:32:39 ERROR   called from cs108.Client.zipFile(org.scalajs.dom.raw.FileList)scala.concurrent.Future[0m
+[0m2021.08.02 10:32:39 ERROR   called from private cs108.Client.$anonfun$fileInput$3(com.raquo.laminar.nodes.ReactiveHtmlElement)scala.concurrent.Future[0m
+[0m2021.08.02 10:32:39 ERROR   called from private cs108.Client.$anonfun$fileInput$2(com.raquo.laminar.nodes.ReactiveHtmlElement)com.raquo.laminar.modifiers.EventListener[0m
+[0m2021.08.02 10:32:39 ERROR   called from constructor cs108.Client.<init>(java.lang.String,org.scalajs.dom.raw.Element)void[0m
+[0m2021.08.02 10:32:39 ERROR   called from cs108.Client$.start(java.lang.String,org.scalajs.dom.raw.Element)void[0m
+[0m2021.08.02 10:32:39 ERROR   called from cs108.Client$.$js$exported$meth$start(java.lang.String,org.scalajs.dom.raw.Element)java.lang.Object[0m
+[0m2021.08.02 10:32:39 ERROR   exported to JavaScript with @JSExport[0m
+[0m2021.08.02 10:32:39 ERROR involving instantiated classes:[0m
+[0m2021.08.02 10:32:39 ERROR   cs108.Client[0m
+[0m2021.08.02 10:32:39 ERROR   cs108.Client$[0m
+[0m2021.08.02 10:32:39 ERROR typings.zipJsZipJs.mod.BlobReader needs to be imported from module '@zip.js/zip.js' but module support is disabled[0m
+[0m2021.08.02 10:32:39 ERROR   called from private cs108.Client.$anonfun$zipFile$1(typings.zipJsZipJs.mod.ZipWriter,scala.Tuple2)scala.scalajs.js.Promise[0m
+[0m2021.08.02 10:32:39 ERROR   called from cs108.Client.zipFile(org.scalajs.dom.raw.FileList)scala.concurrent.Future[0m
+[0m2021.08.02 10:32:39 ERROR   called from private cs108.Client.$anonfun$fileInput$3(com.raquo.laminar.nodes.ReactiveHtmlElement)scala.concurrent.Future[0m
+[0m2021.08.02 10:32:39 ERROR   called from private cs108.Client.$anonfun$fileInput$2(com.raquo.laminar.nodes.ReactiveHtmlElement)com.raquo.laminar.modifiers.EventListener[0m
+[0m2021.08.02 10:32:39 ERROR   called from constructor cs108.Client.<init>(java.lang.String,org.scalajs.dom.raw.Element)void[0m
+[0m2021.08.02 10:32:39 ERROR   called from cs108.Client$.start(java.lang.String,org.scalajs.dom.raw.Element)void[0m
+[0m2021.08.02 10:32:39 ERROR   called from cs108.Client$.$js$exported$meth$start(java.lang.String,org.scalajs.dom.raw.Element)java.lang.Object[0m
+[0m2021.08.02 10:32:39 ERROR   exported to JavaScript with @JSExport[0m
+[0m2021.08.02 10:32:39 ERROR involving instantiated classes:[0m
+[0m2021.08.02 10:32:39 ERROR   cs108.Client[0m
+[0m2021.08.02 10:32:39 ERROR   cs108.Client$[0m
+[0m2021.08.02 10:32:39 ERROR typings.zipJsZipJs.mod.ZipWriter needs to be imported from module '@zip.js/zip.js' but module support is disabled[0m
+[0m2021.08.02 10:32:39 ERROR   called from cs108.Client.zipFile(org.scalajs.dom.raw.FileList)scala.concurrent.Future[0m
+[0m2021.08.02 10:32:39 ERROR   called from private cs108.Client.$anonfun$fileInput$3(com.raquo.laminar.nodes.ReactiveHtmlElement)scala.concurrent.Future[0m
+[0m2021.08.02 10:32:39 ERROR   called from private cs108.Client.$anonfun$fileInput$2(com.raquo.laminar.nodes.ReactiveHtmlElement)com.raquo.laminar.modifiers.EventListener[0m
+[0m2021.08.02 10:32:39 ERROR   called from constructor cs108.Client.<init>(java.lang.String,org.scalajs.dom.raw.Element)void[0m
+[0m2021.08.02 10:32:39 ERROR   called from cs108.Client$.start(java.lang.String,org.scalajs.dom.raw.Element)void[0m
+[0m2021.08.02 10:32:39 ERROR   called from cs108.Client$.$js$exported$meth$start(java.lang.String,org.scalajs.dom.raw.Element)java.lang.Object[0m
+[0m2021.08.02 10:32:39 ERROR   exported to JavaScript with @JSExport[0m
+[0m2021.08.02 10:32:39 ERROR involving instantiated classes:[0m
+[0m2021.08.02 10:32:39 ERROR   cs108.Client[0m
+[0m2021.08.02 10:32:39 ERROR   cs108.Client$[0m
+[0m2021.08.02 10:32:39 ERROR JavaScript linking failed with 'There were linking errors'[0m
+[0m2021.08.02 10:36:57 INFO  compiling cs107 (1 scala source)[0m
+[0m2021.08.02 10:37:01 INFO  time: compiled cs107 in 3.97s[0m
+[0m2021.08.02 10:37:01 ERROR Referring to non-existent class org.scalajs.testing.bridge.Bridge[0m
+[0m2021.08.02 10:37:01 ERROR   called from core module module initializers[0m
+[0m2021.08.02 10:37:01 ERROR Referring to non-existent method static org.scalajs.testing.bridge.Bridge.start()void[0m
+[0m2021.08.02 10:37:01 ERROR   called from core module module initializers[0m
+[0m2021.08.02 10:37:01 ERROR typings.zipJsZipJs.mod.ZipWriter needs to be imported from module '@zip.js/zip.js' but module support is disabled[0m
+[0m2021.08.02 10:37:01 ERROR   called from cs108.Client.zipFile(org.scalajs.dom.raw.FileList)scala.concurrent.Future[0m
+[0m2021.08.02 10:37:01 ERROR   called from private cs108.Client.$anonfun$fileInput$3(com.raquo.laminar.nodes.ReactiveHtmlElement)scala.concurrent.Future[0m
+[0m2021.08.02 10:37:01 ERROR   called from private cs108.Client.$anonfun$fileInput$2(com.raquo.laminar.nodes.ReactiveHtmlElement)com.raquo.laminar.modifiers.EventListener[0m
+[0m2021.08.02 10:37:01 ERROR   called from constructor cs108.Client.<init>(java.lang.String,org.scalajs.dom.raw.Element)void[0m
+[0m2021.08.02 10:37:01 ERROR   called from cs108.Client$.start(java.lang.String,org.scalajs.dom.raw.Element)void[0m
+[0m2021.08.02 10:37:01 ERROR   called from cs108.Client$.$js$exported$meth$start(java.lang.String,org.scalajs.dom.raw.Element)java.lang.Object[0m
+[0m2021.08.02 10:37:01 ERROR   exported to JavaScript with @JSExport[0m
+[0m2021.08.02 10:37:01 ERROR involving instantiated classes:[0m
+[0m2021.08.02 10:37:01 ERROR   cs108.Client[0m
+[0m2021.08.02 10:37:01 ERROR   cs108.Client$[0m
+[0m2021.08.02 10:37:01 ERROR typings.zipJsZipJs.mod.Data64URIWriter needs to be imported from module '@zip.js/zip.js' but module support is disabled[0m
+[0m2021.08.02 10:37:01 ERROR   called from cs108.Client.zipFile(org.scalajs.dom.raw.FileList)scala.concurrent.Future[0m
+[0m2021.08.02 10:37:01 ERROR   called from private cs108.Client.$anonfun$fileInput$3(com.raquo.laminar.nodes.ReactiveHtmlElement)scala.concurrent.Future[0m
+[0m2021.08.02 10:37:01 ERROR   called from private cs108.Client.$anonfun$fileInput$2(com.raquo.laminar.nodes.ReactiveHtmlElement)com.raquo.laminar.modifiers.EventListener[0m
+[0m2021.08.02 10:37:01 ERROR   called from constructor cs108.Client.<init>(java.lang.String,org.scalajs.dom.raw.Element)void[0m
+[0m2021.08.02 10:37:01 ERROR   called from cs108.Client$.start(java.lang.String,org.scalajs.dom.raw.Element)void[0m
+[0m2021.08.02 10:37:01 ERROR   called from cs108.Client$.$js$exported$meth$start(java.lang.String,org.scalajs.dom.raw.Element)java.lang.Object[0m
+[0m2021.08.02 10:37:01 ERROR   exported to JavaScript with @JSExport[0m
+[0m2021.08.02 10:37:01 ERROR involving instantiated classes:[0m
+[0m2021.08.02 10:37:01 ERROR   cs108.Client[0m
+[0m2021.08.02 10:37:01 ERROR   cs108.Client$[0m
+[0m2021.08.02 10:37:01 ERROR typings.zipJsZipJs.mod.BlobReader needs to be imported from module '@zip.js/zip.js' but module support is disabled[0m
+[0m2021.08.02 10:37:01 ERROR   called from private cs108.Client.$anonfun$zipFile$1(typings.zipJsZipJs.mod.ZipWriter,scala.Tuple2)scala.scalajs.js.Promise[0m
+[0m2021.08.02 10:37:01 ERROR   called from cs108.Client.zipFile(org.scalajs.dom.raw.FileList)scala.concurrent.Future[0m
+[0m2021.08.02 10:37:01 ERROR   called from private cs108.Client.$anonfun$fileInput$3(com.raquo.laminar.nodes.ReactiveHtmlElement)scala.concurrent.Future[0m
+[0m2021.08.02 10:37:01 ERROR   called from private cs108.Client.$anonfun$fileInput$2(com.raquo.laminar.nodes.ReactiveHtmlElement)com.raquo.laminar.modifiers.EventListener[0m
+[0m2021.08.02 10:37:01 ERROR   called from constructor cs108.Client.<init>(java.lang.String,org.scalajs.dom.raw.Element)void[0m
+[0m2021.08.02 10:37:01 ERROR   called from cs108.Client$.start(java.lang.String,org.scalajs.dom.raw.Element)void[0m
+[0m2021.08.02 10:37:01 ERROR   called from cs108.Client$.$js$exported$meth$start(java.lang.String,org.scalajs.dom.raw.Element)java.lang.Object[0m
+[0m2021.08.02 10:37:01 ERROR   exported to JavaScript with @JSExport[0m
+[0m2021.08.02 10:37:01 ERROR involving instantiated classes:[0m
+[0m2021.08.02 10:37:01 ERROR   cs108.Client[0m
+[0m2021.08.02 10:37:01 ERROR   cs108.Client$[0m
+[0m2021.08.02 10:37:01 ERROR JavaScript linking failed with 'There were linking errors'[0m
+Aug 02, 2021 10:50:08 AM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace

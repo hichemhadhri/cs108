@@ -282,13 +282,16 @@ class Client(apiBaseURL: String, container: dom.Element) {
 
   val submissionName = Var("")
 
-  def submitObserver(form: dom.html.Form)(event: dom.Event): Unit = {
+  def submitObserver(event: dom.Event): Unit = {
     event.preventDefault()
 
     val requestInit = new RequestInit(){}
     requestInit.method = HttpMethod.POST
-    requestInit.body = new dom.FormData(form)
-    
+    val newForm : dom.FormData = new dom.FormData()
+    newForm.append("token",tokenInput.ref.value)
+    newForm.append("file",file.now(),"submission.zip")
+    requestInit.body = newForm
+  
     
     Fetch.fetch(s"${apiBaseURL}/submit", requestInit)
       .flatMap(_.text())
@@ -303,7 +306,7 @@ class Client(apiBaseURL: String, container: dom.Element) {
 
   val submissionForm = form(
     inContext { thisNode =>
-      onSubmit --> Observer(submitObserver(thisNode.ref)) },
+      onSubmit --> Observer(submitObserver) },
     table(
       tr(td(className := "label", label(forId := tokenID, "Jeton :")),
          td(tokenInput)),
