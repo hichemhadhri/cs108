@@ -23,8 +23,10 @@ div#submission-form {
   padding: 0 1em;
   border-style: solid;
   border-color: hsl(0, 0%, 90%);
+
 }
 div#submission-form table {
+  position: relative;
   width: 100%;
   border-style: hidden;
 }
@@ -33,7 +35,18 @@ div#submission-form td {
   margin: 1em;
 }
 div#submission-form td.label {
+  width: 151px;
   text-align: right;
+}
+div#submission-form label.input{
+  width: 253px;
+ 
+}
+div#submission-form td.radioInput {
+  text-align: right;
+}
+div#submission-form td.radioLabel {
+  text-align: left;
 }
 div#submission-form div.feedback {
   visibility: hidden;

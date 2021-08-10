@@ -5,7 +5,8 @@ final case class Event(key: String,
                        validFrom: Long,
                        validTo: Long,
                        gitBranch: String,
-                       maxFileSize: Int)
+                       maxFileSize: Int,
+                       regex : Set[String])
     extends Keyed[String]
 
 object Event {

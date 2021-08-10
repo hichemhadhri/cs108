@@ -59,11 +59,14 @@ object Err {
 }
 
 class Client(apiBaseURL: String, container: dom.Element) {
-
+  val regexList= Var(List[String]())
+  val disabledInput = Var(true)
   def tokenFeedbackFr(validatedToken: Either[Err, Token]): HtmlElement =
     validatedToken match {
       case Right(token) =>
         val owners = token.owners.toSeq.map(_.lastName).sorted
+         regexList.set(token.event.regex.toList) // update the empty regexList
+        disabledInput.set(false)
         div("Jeton valide pour ", b(token.event.description), " par ",
             owners.mkString(" et "), ".")
       case Left(Err.UnknownTokenKey(tokenKey)) =>
@@ -77,6 +80,9 @@ class Client(apiBaseURL: String, container: dom.Element) {
       case _ =>
         div()
     }
+
+     def validatePath(path : String) : Boolean = 
+      regexList.now().map(s =>s.r).filter(r => r.matches(path)).length >0
 
   def fileFeedbackFr(validatedFile: Either[Err, dom.File]): HtmlElement =
     validatedFile match {
@@ -92,7 +98,7 @@ class Client(apiBaseURL: String, container: dom.Element) {
   val validatedToken: Signal[Either[Err, Token]] = {
     val tokenFor: String => Future[Either[Err, Token]] = {
       def tokenFor(tokenKey: String): Future[Either[Err, Token]] =
-        Fetch.fetch(s"$apiBaseURL/token/$tokenKey")
+        Fetch.fetch("http://localhost:3000/")
           .flatMap(_.text())
           .map(t => Right(read[Token](t)))
           .recover(_ => Left(Err.UnknownTokenKey(tokenKey)))
@@ -131,32 +137,46 @@ class Client(apiBaseURL: String, container: dom.Element) {
     validatedTokenStream.startWith(Left(Err.Empty))
   }
 
-
+def disableInput(validated: Either[Any, Any]): Boolean = validated match {
+    case Left(_) => true
+    case Right(_) => false
+  }
   
   // File
- val file = Var[dom.File](new dom.raw.Blob().asInstanceOf[dom.File])
+ val file = Var[Option[dom.File]](None)
  
  val zip = Var[Future[Option[dom.raw.File]]](Future(None))
   
    val webkitdirectory: ReactiveProp[Boolean,Boolean] = customProp("webkitdirectory", BooleanAsIsCodec) // imaginary prop
   
   val fileID = "file"
-  val fileInput = input(
-    idAttr := fileID,
+  val directoryInput = input(
+    idAttr := "directory",
     typ := "file",
-    name := "file",
+    name := "directory",
     multiple:= true,
     required := true,
     webkitdirectory := true , 
-    value <-- file.signal.map(f=> f.toString()).source,
-    
-    
+    disabled <-- disabledInput.toObservable,
+
    inContext{thisNode => 
     
     onChange.mapTo(zipFile(thisNode.ref.files)) --> zip
 
    }
-                                )
+)
+
+ val fileInput = input(
+    idAttr := fileID,
+    typ := "file",
+    name := "file",
+    accept := "application/zip,.jar,application/pdf",
+    required := true,
+    disabled <-- disabledInput.toObservable,
+    inContext { thisNode =>
+      
+      onChange.mapTo(Option.when(thisNode.ref.files.length > 0)
+                                (thisNode.ref.files(0))) --> file })
 
   
     
@@ -167,7 +187,7 @@ class Client(apiBaseURL: String, container: dom.Element) {
        case (Some(Some(f)), Right(t))if f.size > t.event.maxFileSize   =>
            Left(Err.FileTooBig(f.size.toLong, t.event.maxFileSize))
          case (Some(Some(f)), Right(t)) => 
-           file.set(f)
+           file.set(Option.apply(f))
            Right(f)
          case _ =>
       
@@ -268,6 +288,55 @@ class Client(apiBaseURL: String, container: dom.Element) {
         scala.collection.mutable.Seq(paths:_*).toJSArray
   }
 
+
+  val method = Var(true)
+
+  val zipRadio = input(
+    typ := "radio",
+    value := "zip",
+    checked := true ,
+    idAttr := "zip",
+    name := "method",
+     inContext{
+      thisNode => 
+        onChange.mapTo(thisNode.ref.checked) --> method
+    }
+   )
+
+  val zipLabel = label("Archive zip",
+   forId :="zip",
+  )
+
+  val directoryRadio = input(
+    typ := "radio",
+    value := "directory",
+    name := "method",
+    idAttr := "dirRadio",
+    inContext{
+      thisNode => 
+        onChange.mapTo(!thisNode.ref.checked) --> method
+    }
+  )
+
+  val directoryLabel = label("Dossier de  projet",
+   forId :="directory",
+  )
+
+   @JSExport
+  def changeMethod(b: Boolean ) : Unit = {
+    method.set(false)
+  }
+ 
+  def chooseMethods(s: Boolean) : HtmlElement ={
+      if (s)   
+        tr(td(className := "label", label(forId := fileID, "Fichier ZIP:")),
+        td(label(className:="input",fileInput)))
+      else  
+        tr(td(className := "label", label(forId := "directory", "Dossier SRC:")),
+        td(label(className:="input",directoryInput)))
+
+    }
+
     
   val fileFeedback = div(
     className := "feedback",
@@ -289,7 +358,7 @@ class Client(apiBaseURL: String, container: dom.Element) {
     requestInit.method = HttpMethod.POST
     val newForm : dom.FormData = new dom.FormData()
     newForm.append("token",tokenInput.ref.value)
-    newForm.append("file",file.now(),"submission.zip")
+    newForm.append("file",file.now().get,"submission.zip")
     requestInit.body = newForm
   
     
@@ -307,14 +376,18 @@ class Client(apiBaseURL: String, container: dom.Element) {
   val submissionForm = form(
     inContext { thisNode =>
       onSubmit --> Observer(submitObserver) },
-    table(
+        table(
       tr(td(className := "label", label(forId := tokenID, "Jeton :")),
          td(tokenInput)),
       tr(td(colSpan := 2, tokenFeedback)),
-      tr(td(className := "label", label(forId := fileID, "Archive Zip :")),
-         td(fileInput)),
+      child <-- method.signal.map(chooseMethods),
       tr(td(colSpan := 2, fileFeedback)),
+      tr(td(className := "radioInput",zipRadio),td(className := "radioLabel", zipLabel)
+         ),
+          tr(td(className := "radioInput",directoryRadio),td(className := "radioLabel", directoryLabel)
+         ),
       tr(td(), td(submitInput)))
+    
   )
 
   val serverFeedback = div(
@@ -334,10 +407,3 @@ class Client(apiBaseURL: String, container: dom.Element) {
 
 
 
-@JSExportTopLevel("SubserveClient")
-object Client {
-  @JSExport
-  def start(apiBaseURL: String, container: dom.Element): Unit = {
-    new Client(apiBaseURL, container)
-  }
-}
