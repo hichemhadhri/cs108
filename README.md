@@ -38,4 +38,9 @@ Steps to build the project :
  
  see documentation here : https://www.snowpack.dev/
                           https://scalablytyped.org/docs/readme.html
+                          
+                          
+ Ideas: 
+ -Unzip uploaded zip File and keep only needed files
+ 
  
