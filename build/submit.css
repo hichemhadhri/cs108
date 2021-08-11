@@ -1,0 +1,81 @@
+* {
+  box-sizing: border-box;
+}
+
+html {
+  width: 20cm;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 16px;
+  line-height: 1.4;
+  background-color: white;
+}
+body {
+  padding: 0.5em 4em;
+  background-color: hsl(0, 0%, 94%);
+  color: hsl(0, 0%, 30%);
+  box-shadow: 3px 3px 5px hsla(0, 0%, 0%, 0.2);
+}
+
+div#submission-form {
+  position: relative;
+  /* for overlay */
+  padding: 0 1em;
+  border-style: solid;
+  border-color: hsl(0, 0%, 90%);
+
+}
+div#submission-form table {
+  position: relative;
+  width: 100%;
+  border-style: hidden;
+}
+div#submission-form td {
+  padding: 0.2em;
+  margin: 1em;
+}
+div#submission-form td.label {
+  width: 151px;
+  text-align: right;
+}
+div#submission-form label.input{
+  width: 253px;
+ 
+}
+div#submission-form td.radioInput {
+  text-align: right;
+}
+div#submission-form td.radioLabel {
+  text-align: left;
+}
+div#submission-form div.feedback {
+  visibility: hidden;
+  font-size: 10pt;
+  font-style: italic;
+  padding-left: 1em;
+  padding-right: 1em;
+}
+div#submission-form div.ok {
+  visibility: visible;
+  background-color: hsl(120, 25%, 92%);
+}
+div#submission-form div.error {
+  visibility: visible;
+  background-color: hsl(0, 25%, 92%);
+}
+div#server-feedback {
+  position: absolute;
+  visibility: hidden;
+  background-color: hsl(0, 0%, 96%);
+  padding: 1em;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+div#submission-id {
+  font-family: monospace;
+  font-size: 16pt;
+  text-align: center;
+  margin: 2pt;
+}
