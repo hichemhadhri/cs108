@@ -18238,3 +18238,191 @@ Starting thread that pumps server stdout and redirects it to the client stdout..
 [0m2021.08.10 22:46:13 INFO  Generated JavaScript file '/Users/hichemhadhri/cs107/.bloop/cs107/cs107-test.js'[0m
 Aug 10, 2021 10:49:19 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
 INFO: Unsupported notification method: $/setTrace
+[0m2021.08.10 22:50:20 INFO  shutting down Metals[0m
+[0m2021.08.10 22:50:21 INFO  Shut down connection with build server.[0m
+[0m2021.08.10 22:50:21 INFO  Shut down connection with build server.[0m
+[0m2021.08.10 22:50:21 INFO  Shut down connection with build server.[0m
+No more data in the client stdin, exiting...
+No more data in the client stdin, exiting...
+No more data in the client stdin, exiting...
+No more data in the server stdin, exiting...
+No more data in the server stdin, exiting...
+No more data in the server stdin, exiting...
+No more data in the server stdin, exiting...
+No more data in the server stdin, exiting...
+No more data in the server stdin, exiting...
+[0m2021.08.10 22:54:21 INFO  Started: Metals version 0.10.5 in workspace '/Users/hichemhadhri/cs107' for client Visual Studio Code 1.59.0.[0m
+[0m2021.08.10 22:54:22 INFO  time: initialize in 0.64s[0m
+[0m2021.08.10 22:54:22 INFO  Attempting to connect to the build server...[0m
+Starting the bsp launcher for bloop...
+Opening a bsp server connection with 'bsp --protocol local --socket /var/folders/zp/t_7t2xyj4n760sxfr2jkq6z40000gn/T/bsp-launcher8361083521470223213/bsp.socket'...
+Waiting for the bsp connection to come up...
+[0m2021.08.10 22:54:22 WARN  no build target for: /Users/hichemhadhri/cs107/src/main/scala/cs108/Client.scala[0m
+[0m2021.08.10 22:54:23 INFO  skipping build import with status 'Installed'[0m
+[0m[32m[D][0m Loading workspace settings from bloop.settings.json
+[0m[32m[D][0m Waiting for a connection at local:///var/folders/zp/t_7t2xyj4n760sxfr2jkq6z40000gn/T/bsp-launcher8361083521470223213/bsp.socket...
+The server is listening for incoming connections at local:///var/folders/zp/t_7t2xyj4n760sxfr2jkq6z40000gn/T/bsp-launcher8361083521470223213/bsp.socket...
+Starting thread that pumps stdin and redirects it to the bsp server...
+Starting thread that pumps server stdout and redirects it to the client stdout...
+[0m2021.08.10 22:54:23 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/hichemhadhri/Library/Caches/org.scalameta.metals/bsp.trace.json[0m
+[0m2021.08.10 22:54:23 INFO  Attempting to connect to the build server...[0m
+[0m2021.08.10 22:54:23 INFO  Attempting to connect to the build server...[0m
+Starting the bsp launcher for bloop...
+Starting the bsp launcher for bloop...
+Opening a bsp server connection with 'bsp --protocol local --socket /var/folders/zp/t_7t2xyj4n760sxfr2jkq6z40000gn/T/bsp-launcher4464244706864672773/bsp.socket'...
+Opening a bsp server connection with 'bsp --protocol local --socket /var/folders/zp/t_7t2xyj4n760sxfr2jkq6z40000gn/T/bsp-launcher6745312956784506330/bsp.socket'...
+Waiting for the bsp connection to come up...
+Waiting for the bsp connection to come up...
+[0m[32m[D][0m Loading workspace settings from bloop.settings.json
+[0m[32m[D][0m Waiting for a connection at local:///var/folders/zp/t_7t2xyj4n760sxfr2jkq6z40000gn/T/bsp-launcher4464244706864672773/bsp.socket...
+The server is listening for incoming connections at local:///var/folders/zp/t_7t2xyj4n760sxfr2jkq6z40000gn/T/bsp-launcher4464244706864672773/bsp.socket...
+Starting thread that pumps stdin and redirects it to the bsp server...
+Starting thread that pumps server stdout and redirects it to the client stdout...
+[0m2021.08.10 22:54:24 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/hichemhadhri/Library/Caches/org.scalameta.metals/bsp.trace.json[0m
+[0m[32m[D][0m Loading workspace settings from bloop.settings.json
+[0m[32m[D][0m Waiting for a connection at local:///var/folders/zp/t_7t2xyj4n760sxfr2jkq6z40000gn/T/bsp-launcher6745312956784506330/bsp.socket...
+The server is listening for incoming connections at local:///var/folders/zp/t_7t2xyj4n760sxfr2jkq6z40000gn/T/bsp-launcher6745312956784506330/bsp.socket...
+Starting thread that pumps stdin and redirects it to the bsp server...
+Starting thread that pumps server stdout and redirects it to the client stdout...
+[0m2021.08.10 22:54:24 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/hichemhadhri/Library/Caches/org.scalameta.metals/bsp.trace.json[0m
+[0m2021.08.10 22:54:24 INFO  time: Connected to build server in 1.53s[0m
+[0m2021.08.10 22:54:24 INFO  Connected to Build server: Bloop v1.4.8-19-4d9f966b[0m
+[0m2021.08.10 22:54:27 INFO  no build target: using presentation compiler with only scala-library: 2.12.14[0m
+[0m2021.08.10 22:54:27 INFO  time: Imported build in 0.22s[0m
+[0m2021.08.10 22:54:28 INFO  no build target: using presentation compiler with only scala-library: 2.12.14[0m
+[0m2021.08.10 22:54:33 INFO  time: code lens generation in 9.44s[0m
+[0m2021.08.10 22:54:35 INFO  time: indexed workspace in 8.07s[0m
+[0m2021.08.10 22:54:37 INFO  Generated JavaScript file '/Users/hichemhadhri/cs107/.bloop/cs107/cs107-test.js'[0m
+[0m2021.08.10 22:54:37 ERROR Referring to non-existent class org.scalajs.testing.bridge.Bridge[0m
+[0m2021.08.10 22:54:37 ERROR   called from core module module initializers[0m
+[0m2021.08.10 22:54:37 ERROR Referring to non-existent method static org.scalajs.testing.bridge.Bridge.start()void[0m
+[0m2021.08.10 22:54:37 ERROR   called from core module module initializers[0m
+[0m2021.08.10 22:54:37 ERROR JavaScript linking failed with 'There were linking errors'[0m
+[0m2021.08.10 22:54:38 INFO  compiling cs107-test (1 scala source)[0m
+[0m2021.08.10 22:54:39 INFO  time: compiled cs107-test in 1.18s[0m
+[0m2021.08.10 22:54:39 INFO  Generated JavaScript file '/Users/hichemhadhri/cs107/.bloop/cs107/cs107-test.js'[0m
+[0m2021.08.10 22:54:48 INFO  compiling cs107 (1 scala source)[0m
+[0m2021.08.10 22:54:54 INFO  time: compiled cs107 in 6.7s[0m
+[0m2021.08.10 22:54:54 ERROR Referring to non-existent class org.scalajs.testing.bridge.Bridge[0m
+[0m2021.08.10 22:54:54 ERROR   called from core module module initializers[0m
+[0m2021.08.10 22:54:54 ERROR Referring to non-existent method static org.scalajs.testing.bridge.Bridge.start()void[0m
+[0m2021.08.10 22:54:54 ERROR   called from core module module initializers[0m
+[0m2021.08.10 22:54:54 ERROR JavaScript linking failed with 'There were linking errors'[0m
+Aug 11, 2021 5:21:46 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 90
+Aug 11, 2021 5:21:46 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 92
+[0m2021.08.11 17:22:03 INFO  compiling cs107 (1 scala source)[0m
+[0m2021.08.11 17:22:03 INFO  time: compiled cs107 in 0.33s[0m
+[0m2021.08.11 17:22:03 ERROR Referring to non-existent class org.scalajs.testing.bridge.Bridge[0m
+[0m2021.08.11 17:22:03 ERROR   called from core module module initializers[0m
+[0m2021.08.11 17:22:03 ERROR Referring to non-existent method static org.scalajs.testing.bridge.Bridge.start()void[0m
+[0m2021.08.11 17:22:03 ERROR   called from core module module initializers[0m
+[0m2021.08.11 17:22:03 ERROR JavaScript linking failed with 'There were linking errors'[0m
+[0m2021.08.11 17:22:18 INFO  compiling cs107 (1 scala source)[0m
+[0m2021.08.11 17:22:21 INFO  time: compiled cs107 in 3.51s[0m
+[0m2021.08.11 17:22:21 ERROR Referring to non-existent class org.scalajs.testing.bridge.Bridge[0m
+[0m2021.08.11 17:22:21 ERROR   called from core module module initializers[0m
+[0m2021.08.11 17:22:21 ERROR Referring to non-existent method static org.scalajs.testing.bridge.Bridge.start()void[0m
+[0m2021.08.11 17:22:21 ERROR   called from core module module initializers[0m
+[0m2021.08.11 17:22:21 ERROR JavaScript linking failed with 'There were linking errors'[0m
+[0m2021.08.11 17:22:44 INFO  compiling cs107 (1 scala source)[0m
+[0m2021.08.11 17:22:47 INFO  time: compiled cs107 in 3.49s[0m
+[0m2021.08.11 17:22:47 ERROR Referring to non-existent class org.scalajs.testing.bridge.Bridge[0m
+[0m2021.08.11 17:22:47 ERROR   called from core module module initializers[0m
+[0m2021.08.11 17:22:47 ERROR Referring to non-existent method static org.scalajs.testing.bridge.Bridge.start()void[0m
+[0m2021.08.11 17:22:47 ERROR   called from core module module initializers[0m
+[0m2021.08.11 17:22:47 ERROR JavaScript linking failed with 'There were linking errors'[0m
+[0m2021.08.11 17:24:15 INFO  compiling cs107 (1 scala source)[0m
+[0m2021.08.11 17:24:19 INFO  time: compiled cs107 in 3.5s[0m
+[0m2021.08.11 17:24:19 ERROR Referring to non-existent class org.scalajs.testing.bridge.Bridge[0m
+[0m2021.08.11 17:24:19 ERROR   called from core module module initializers[0m
+[0m2021.08.11 17:24:19 ERROR Referring to non-existent method static org.scalajs.testing.bridge.Bridge.start()void[0m
+[0m2021.08.11 17:24:19 ERROR   called from core module module initializers[0m
+[0m2021.08.11 17:24:19 ERROR JavaScript linking failed with 'There were linking errors'[0m
+[0m2021.08.11 17:24:22 ERROR Referring to non-existent class org.scalajs.testing.bridge.Bridge[0m
+[0m2021.08.11 17:24:22 ERROR   called from core module module initializers[0m
+[0m2021.08.11 17:24:22 ERROR Referring to non-existent method static org.scalajs.testing.bridge.Bridge.start()void[0m
+[0m2021.08.11 17:24:22 ERROR   called from core module module initializers[0m
+[0m2021.08.11 17:24:22 ERROR JavaScript linking failed with 'There were linking errors'[0m
+[0m2021.08.11 17:27:20 INFO  compiling cs107 (1 scala source)[0m
+[0m2021.08.11 17:27:25 INFO  time: compiled cs107 in 4.79s[0m
+[0m2021.08.11 17:27:25 ERROR Referring to non-existent class org.scalajs.testing.bridge.Bridge[0m
+[0m2021.08.11 17:27:25 ERROR   called from core module module initializers[0m
+[0m2021.08.11 17:27:25 ERROR Referring to non-existent method static org.scalajs.testing.bridge.Bridge.start()void[0m
+[0m2021.08.11 17:27:25 ERROR   called from core module module initializers[0m
+[0m2021.08.11 17:27:25 ERROR JavaScript linking failed with 'There were linking errors'[0m
+Aug 11, 2021 5:28:41 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 404
+Aug 11, 2021 5:28:41 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 405
+[0m2021.08.11 17:28:51 INFO  compiling cs107 (1 scala source)[0m
+[0m2021.08.11 17:28:55 INFO  time: compiled cs107 in 3.94s[0m
+[0m2021.08.11 17:28:55 ERROR Referring to non-existent class org.scalajs.testing.bridge.Bridge[0m
+[0m2021.08.11 17:28:55 ERROR   called from core module module initializers[0m
+[0m2021.08.11 17:28:55 ERROR Referring to non-existent method static org.scalajs.testing.bridge.Bridge.start()void[0m
+[0m2021.08.11 17:28:55 ERROR   called from core module module initializers[0m
+[0m2021.08.11 17:28:55 ERROR JavaScript linking failed with 'There were linking errors'[0m
+[0m2021.08.11 17:32:58 INFO  compiling cs107 (1 scala source)[0m
+[0m2021.08.11 17:33:01 INFO  time: compiled cs107 in 3.79s[0m
+[0m2021.08.11 17:33:01 ERROR Referring to non-existent class org.scalajs.testing.bridge.Bridge[0m
+[0m2021.08.11 17:33:01 ERROR   called from core module module initializers[0m
+[0m2021.08.11 17:33:01 ERROR Referring to non-existent method static org.scalajs.testing.bridge.Bridge.start()void[0m
+[0m2021.08.11 17:33:01 ERROR   called from core module module initializers[0m
+[0m2021.08.11 17:33:01 ERROR JavaScript linking failed with 'There were linking errors'[0m
+Aug 11, 2021 5:34:34 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1023
+[0m2021.08.11 17:36:17 INFO  compiling cs107 (1 scala source)[0m
+[0m2021.08.11 17:36:18 INFO  time: compiled cs107 in 1.24s[0m
+[0m2021.08.11 17:36:18 ERROR Referring to non-existent class org.scalajs.testing.bridge.Bridge[0m
+[0m2021.08.11 17:36:18 ERROR   called from core module module initializers[0m
+[0m2021.08.11 17:36:18 ERROR Referring to non-existent method static org.scalajs.testing.bridge.Bridge.start()void[0m
+[0m2021.08.11 17:36:18 ERROR   called from core module module initializers[0m
+[0m2021.08.11 17:36:18 ERROR JavaScript linking failed with 'There were linking errors'[0m
+[0m2021.08.11 17:36:29 INFO  compiling cs107 (1 scala source)[0m
+[0m2021.08.11 17:36:32 INFO  time: compiled cs107 in 3.38s[0m
+[0m2021.08.11 17:36:32 ERROR Referring to non-existent class org.scalajs.testing.bridge.Bridge[0m
+[0m2021.08.11 17:36:32 ERROR   called from core module module initializers[0m
+[0m2021.08.11 17:36:32 ERROR Referring to non-existent method static org.scalajs.testing.bridge.Bridge.start()void[0m
+[0m2021.08.11 17:36:32 ERROR   called from core module module initializers[0m
+[0m2021.08.11 17:36:32 ERROR JavaScript linking failed with 'There were linking errors'[0m
+[0m2021.08.11 17:37:51 INFO  compiling cs107 (1 scala source)[0m
+[0m2021.08.11 17:37:55 INFO  time: compiled cs107 in 3.44s[0m
+[0m2021.08.11 17:37:55 ERROR Referring to non-existent class org.scalajs.testing.bridge.Bridge[0m
+[0m2021.08.11 17:37:55 ERROR   called from core module module initializers[0m
+[0m2021.08.11 17:37:55 ERROR Referring to non-existent method static org.scalajs.testing.bridge.Bridge.start()void[0m
+[0m2021.08.11 17:37:55 ERROR   called from core module module initializers[0m
+[0m2021.08.11 17:37:55 ERROR JavaScript linking failed with 'There were linking errors'[0m
+[0m2021.08.11 17:39:17 INFO  compiling cs107 (1 scala source)[0m
+[0m2021.08.11 17:39:21 INFO  time: compiled cs107 in 3.62s[0m
+[0m2021.08.11 17:39:21 ERROR Referring to non-existent class org.scalajs.testing.bridge.Bridge[0m
+[0m2021.08.11 17:39:21 ERROR   called from core module module initializers[0m
+[0m2021.08.11 17:39:21 ERROR Referring to non-existent method static org.scalajs.testing.bridge.Bridge.start()void[0m
+[0m2021.08.11 17:39:21 ERROR   called from core module module initializers[0m
+[0m2021.08.11 17:39:21 ERROR JavaScript linking failed with 'There were linking errors'[0m
+Aug 11, 2021 5:40:34 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1856
+Aug 11, 2021 5:40:39 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1874
+Aug 11, 2021 5:41:08 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1949
+Aug 11, 2021 5:42:51 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 2203
+Aug 11, 2021 5:47:31 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 2887
+[0m2021.08.11 17:49:07 INFO  compiling cs107 (1 scala source)[0m
+[0m2021.08.11 17:49:11 INFO  time: compiled cs107 in 3.58s[0m
+[0m2021.08.11 17:49:11 ERROR Referring to non-existent class org.scalajs.testing.bridge.Bridge[0m
+[0m2021.08.11 17:49:11 ERROR   called from core module module initializers[0m
+[0m2021.08.11 17:49:11 ERROR Referring to non-existent method static org.scalajs.testing.bridge.Bridge.start()void[0m
+[0m2021.08.11 17:49:11 ERROR   called from core module module initializers[0m
+[0m2021.08.11 17:49:11 ERROR JavaScript linking failed with 'There were linking errors'[0m
+[0m2021.08.11 17:54:57 INFO  compiling cs107 (1 scala source)[0m
+Aug 11, 2021 5:55:00 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+[0m2021.08.11 17:55:01 INFO  time: compiled cs107 in 3.5s[0m
+[0m2021.08.11 17:55:01 ERROR Referring to non-existent class org.scalajs.testing.bridge.Bridge[0m
+[0m2021.08.11 17:55:01 ERROR   called from core module module initializers[0m
+[0m2021.08.11 17:55:01 ERROR Referring to non-existent method static org.scalajs.testing.bridge.Bridge.start()void[0m
+[0m2021.08.11 17:55:01 ERROR   called from core module module initializers[0m
+[0m2021.08.11 17:55:01 ERROR JavaScript linking failed with 'There were linking errors'[0m

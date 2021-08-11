@@ -59,14 +59,17 @@ object Err {
 }
 
 class Client(apiBaseURL: String, container: dom.Element) {
-  val regexList= Var(List[String]())
-  val disabledInput = Var(true)
+  val regexList= Var(List[String]()) // VAR CONTAINING THE REGEX LIST SENT BY THE SERVER
+  val disabledInput = Var(true) // DISABLE PROPERTY OF THE FILE INPUTS SET TO FALSE AFTER VALIDATING TOKEN 
+  val method = Var(true) // TRUE : SUBMIT ZIP FILE , FALSE : SUBMIT PROJECT DIRECTORY
+
+
   def tokenFeedbackFr(validatedToken: Either[Err, Token]): HtmlElement =
     validatedToken match {
       case Right(token) =>
         val owners = token.owners.toSeq.map(_.lastName).sorted
-         regexList.set(token.event.regex.toList) // update the empty regexList
-        disabledInput.set(false)
+        regexList.set(token.event.regex.toList) // update the empty regexList
+        disabledInput.set(false) // enable the inputs
         div("Jeton valide pour ", b(token.event.description), " par ",
             owners.mkString(" et "), ".")
       case Left(Err.UnknownTokenKey(tokenKey)) =>
@@ -81,8 +84,15 @@ class Client(apiBaseURL: String, container: dom.Element) {
         div()
     }
 
-     def validatePath(path : String) : Boolean = 
-      regexList.now().map(s =>s.r).filter(r => r.matches(path)).length >0
+  /**
+   *  validate the file path with the regexList
+   * True : add to zip
+   * False : ignore
+   */
+  def validatePath(path : String) : Boolean = 
+    regexList.now().map(s =>s.r).filter(r => r.matches(path)).length >0
+
+
 
   def fileFeedbackFr(validatedFile: Either[Err, dom.File]): HtmlElement =
     validatedFile match {
@@ -98,7 +108,7 @@ class Client(apiBaseURL: String, container: dom.Element) {
   val validatedToken: Signal[Either[Err, Token]] = {
     val tokenFor: String => Future[Either[Err, Token]] = {
       def tokenFor(tokenKey: String): Future[Either[Err, Token]] =
-        Fetch.fetch("http://localhost:3000/")
+        Fetch.fetch("http://localhost:3000/") //Note : replace this with original API URL and delete regex In class Event , the code for this web server is in test_backend directory
           .flatMap(_.text())
           .map(t => Right(read[Token](t)))
           .recover(_ => Left(Err.UnknownTokenKey(tokenKey)))
@@ -133,23 +143,20 @@ class Client(apiBaseURL: String, container: dom.Element) {
       case None =>
         Future.successful(Left(Err.Empty))
     }
-
     validatedTokenStream.startWith(Left(Err.Empty))
   }
 
-def disableInput(validated: Either[Any, Any]): Boolean = validated match {
-    case Left(_) => true
-    case Right(_) => false
-  }
+  
   
   // File
- val file = Var[Option[dom.File]](None)
+  val file = Var[Option[dom.File]](None)
  
- val zip = Var[Future[Option[dom.raw.File]]](Future(None))
+  //future returned by @zip.js or fileInput 
+  val zip = Var[Future[Option[dom.raw.File]]](Future(None))
   
-   val webkitdirectory: ReactiveProp[Boolean,Boolean] = customProp("webkitdirectory", BooleanAsIsCodec) // imaginary prop
+  val webkitdirectory: ReactiveProp[Boolean,Boolean] = customProp("webkitdirectory", BooleanAsIsCodec) // custom attr to select folders 
   
-  val fileID = "file"
+  // the input to select directory
   val directoryInput = input(
     idAttr := "directory",
     typ := "file",
@@ -158,15 +165,14 @@ def disableInput(validated: Either[Any, Any]): Boolean = validated match {
     required := true,
     webkitdirectory := true , 
     disabled <-- disabledInput.toObservable,
-
-   inContext{thisNode => 
-    
-    onChange.mapTo(zipFile(thisNode.ref.files)) --> zip
-
-   }
-)
-
- val fileInput = input(
+    inContext{thisNode => 
+      onChange.mapTo(zipFile(thisNode.ref.files)) --> zip // zip the files
+      
+      }
+  )
+      
+  val fileID = "file"
+  val fileInput = input(
     idAttr := fileID,
     typ := "file",
     name := "file",
@@ -175,26 +181,25 @@ def disableInput(validated: Either[Any, Any]): Boolean = validated match {
     disabled <-- disabledInput.toObservable,
     inContext { thisNode =>
       
-      onChange.mapTo(Option.when(thisNode.ref.files.length > 0)
-                                (thisNode.ref.files(0))) --> file })
-
+      onChange.mapTo(Future.successful(Option.when(thisNode.ref.files.length > 0)
+                                (thisNode.ref.files(0)))) --> zip } // create a successful Future containing an Option of the file
+  ) 
   
-    
+  
    
-  val f_validatedFile : Signal[Either[Err, dom.File]] = 
-   zip.signal.flatMap(x=> Signal.fromFuture(x)).combineWith(validatedToken).map(  {
-    
-       case (Some(Some(f)), Right(t))if f.size > t.event.maxFileSize   =>
-           Left(Err.FileTooBig(f.size.toLong, t.event.maxFileSize))
-         case (Some(Some(f)), Right(t)) => 
-           file.set(Option.apply(f))
-           Right(f)
-         case _ =>
-      
-           Left(Err.Empty)
+  val validatedFile : Signal[Either[Err, dom.File]] = 
+    zip.signal.flatMap(x=> Signal.fromFuture(x)).combineWith(validatedToken).map(  {
+      case (Some(Some(f)), Right(t))if f.size > t.event.maxFileSize   =>
+        Left(Err.FileTooBig(f.size.toLong, t.event.maxFileSize))
+      case (Some(Some(f)), Right(t)) => 
+        file.set(Option.apply(f))
+        Right(f)
+      case _ =>
+      Left(Err.Empty)
      }
-
+    
     )
+    
 
     
 
@@ -227,69 +232,56 @@ def disableInput(validated: Either[Any, Any]): Boolean = validated match {
     
      
   
-   // zip the selected folder 
-   def zipFile(files : dom.raw.FileList): Future[Option[dom.raw.File]] = {  
-     println("zipping")
+  // zip the selected folder 
+  def zipFile(files : dom.raw.FileList): Future[Option[dom.raw.File]] = {  
     val zip = new ZipWriter(new Data64URIWriter("application/zip"))
     var result : dom.raw.Blob  = new dom.raw.Blob()
-    val f = js.Promise.all(inputFilestoArray(files)
-    .map(file => {
+    val f = js.Promise.all(inputFilestoArray(files).filter(f=> validatePath(f._2)).map(file => { // filter and keep only valid paths
         println(file._1.name)
         zip.add(file._2, new BlobReader(file._1));   
-    }))
-    .toFuture.flatMap(x =>
-      zip.close().toFuture).flatMap(value => 
-        
-        base64toBlob(value.toString()))
+        }))
+        .toFuture.flatMap(x =>
+        zip.close().toFuture).flatMap(value => 
+        base64toBlob(value.toString())
+        ) // convert te result to Blob
 
-        f
+        f    
       }
     
       
     
       
       
-  
+  /**
+    * Convert Base64String to Blob 
+    *
+    * @param b : Base64 String 
+    * 
+    */
   def base64toBlob(b: String) : Future[Option[dom.raw.File]] = {
-       
-       val byte_c  =  Base64.getDecoder().decode(b.substring(b.indexOf(",")+1)).map(b => b.asInstanceOf[js.Any]).toJSArray
       
-     Fetch.fetch(b).toFuture.flatMap(res => res.blob()).map(blob => {
-     val result = blob
-          println("size "+ result.size)
-        val link = document.createElement("a").asInstanceOf[dom.raw.HTMLAnchorElement];
-    
-      link.textContent = "Download";
-          link.href= dom.raw.URL.createObjectURL(result)
-            document.body.appendChild(link)
-      val o =Option.apply(blob.asInstanceOf[dom.raw.File])
-      println(o)
-      o
+    Fetch.fetch(b).toFuture.flatMap(res => res.blob()).map(blob => {
+      Option.apply(blob.asInstanceOf[dom.raw.File])
      })
-       
-
      
-          
-}
+  } 
 
 
 
-  
+  /**
+    * convert type FileList to JSArray
+    *
+    * @param files : FileList
+    * @return
+    */
   def inputFilestoArray(files : dom.raw.FileList) : js.Array[(File_c,String)] = {
-       
-       
-        println("length " +files.length)
-       
-        var t_files : IndexedSeq[File_c] = for( i<- 0 to files.length-1) yield   files.item(i).asInstanceOf[File_c]
-        
-        var paths = t_files.toList.zip(t_files.toList.map(f => f.webkitRelativePath.substring(f.webkitRelativePath.indexOf("/")+1)))
-       
-       
-        scala.collection.mutable.Seq(paths:_*).toJSArray
+    var t_files : IndexedSeq[File_c] = for( i<- 0 to files.length-1) yield   files.item(i).asInstanceOf[File_c]    
+    var paths = t_files.toList.zip(t_files.toList.map(f => f.webkitRelativePath.substring(f.webkitRelativePath.indexOf("/")+1)))
+    scala.collection.mutable.Seq(paths:_*).toJSArray
   }
 
 
-  val method = Var(true)
+
 
   val zipRadio = input(
     typ := "radio",
@@ -322,12 +314,14 @@ def disableInput(validated: Either[Any, Any]): Boolean = validated match {
    forId :="directory",
   )
 
-   @JSExport
-  def changeMethod(b: Boolean ) : Unit = {
-    method.set(false)
-  }
- 
-  def chooseMethods(s: Boolean) : HtmlElement ={
+   
+ /**
+   * update The UI according to chosen submit method
+   *
+   * @param s : true : submit zip file , false : submit project directory
+   * @return
+   */
+  def updateMethodUI(s: Boolean) : HtmlElement ={
       if (s)   
         tr(td(className := "label", label(forId := fileID, "Fichier ZIP:")),
         td(label(className:="input",fileInput)))
@@ -340,14 +334,14 @@ def disableInput(validated: Either[Any, Any]): Boolean = validated match {
     
   val fileFeedback = div(
     className := "feedback",
-    className <-- f_validatedFile.map(validatedClass),
-    child <-- f_validatedFile.map(fileFeedbackFr))
+    className <-- validatedFile.map(validatedClass),
+    child <-- validatedFile.map(fileFeedbackFr))
 
   val submitInput = input(
     typ := "submit",
     value := "Envoyer",
     // Note: file cannot be validated if token isn't either
-    disabled <-- f_validatedFile.map(_.isLeft))
+    disabled <-- validatedFile.map(_.isLeft))
 
   val submissionName = Var("")
 
@@ -380,7 +374,7 @@ def disableInput(validated: Either[Any, Any]): Boolean = validated match {
       tr(td(className := "label", label(forId := tokenID, "Jeton :")),
          td(tokenInput)),
       tr(td(colSpan := 2, tokenFeedback)),
-      child <-- method.signal.map(chooseMethods),
+      child <-- method.signal.map(updateMethodUI), //updated each time we change submit option
       tr(td(colSpan := 2, fileFeedback)),
       tr(td(className := "radioInput",zipRadio),td(className := "radioLabel", zipLabel)
          ),
