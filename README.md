@@ -13,9 +13,10 @@ Final build in `Build` folder (ready to deploy : cannot be tested locally withou
 
 
 Steps to run the project (dev mode) :
- 1. npm install 
- 2. sbt -> fastLinkJS
- 3. npx snowpack dev
+ 1.import build 
+ 2. npm install 
+ 3. sbt -> fastLinkJS
+ 4. npx snowpack dev
  
 Steps to build the project : 
   npx snowpack build
