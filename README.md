@@ -8,7 +8,7 @@ submission web application
 + Files are filtered according to the submit event (test , etape , bonus ..)
 
 
-Final build in `Build` folder
+Final build in `Build` folder (ready to deploy : cannot be tested locally without a local server To test do the following steps)
 
 
 
