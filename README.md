@@ -17,9 +17,10 @@ Steps to run the project (dev mode) :
  1.import build 
  2. npm install 
  3. sbt -> fastLinkJS
- 4. npx snowpack dev
- 5. cd backend_test 
- 6. node app.js
+ 4. change the name of the second field in `snowpack.config.json` to "target/scala-2.13/`name_of_the_root_folder`-fastopt"
+ 5. npx snowpack dev
+ 6. cd backend_test 
+ 7. node app.js
  
  
  (step 5 and 6 to test regex feature)
