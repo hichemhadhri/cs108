@@ -15,7 +15,7 @@ Final build in `Build` folder
 Steps to run the project (dev mode) :
  1. npm install 
  2. sbt -> fastLinkJS
- 3. npx snowpacl dev
+ 3. npx snowpack dev
  
 Steps to build the project : 
   npx snowpack build
