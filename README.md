@@ -13,10 +13,16 @@ Final build in `Build` folder (ready to deploy : cannot be tested locally withou
 
 
 Steps to run the project (dev mode) :
+
  1.import build 
  2. npm install 
  3. sbt -> fastLinkJS
  4. npx snowpack dev
+ 5. cd backend_test 
+ 6. node app.js
+ 
+ 
+ (step 5 and 6 to test regex feature)
  
 Steps to build the project : 
   npx snowpack build
