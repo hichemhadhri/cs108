@@ -56,6 +56,9 @@ object Err {
 
   // File-related errors
   case class FileTooBig(size: Long, maxSize: Long) extends Err
+
+  // Zip-related errors
+  case class ZipFailed(message : String) extends Err
 }
 
 class Client(apiBaseURL: String, container: dom.Element) {
@@ -98,6 +101,8 @@ class Client(apiBaseURL: String, container: dom.Element) {
     validatedFile match {
       case Left(Err.FileTooBig(size, maxSize)) =>
         div(s"Erreur : le fichier est trop gros (taille max. ${maxSize}).")
+      case Left(Err.ZipFailed(message)) =>
+        div(message)
       case _ =>
         div()
     }
@@ -152,7 +157,7 @@ class Client(apiBaseURL: String, container: dom.Element) {
   val file = Var[Option[dom.File]](None)
  
   //future returned by @zip.js or fileInput 
-  val zip = Var[Future[Option[dom.raw.File]]](Future(None))
+  val zip = Var[Future[Either[Err,Option[dom.raw.File]]]](Future(Right(None)))
   
   val webkitdirectory: ReactiveProp[Boolean,Boolean] = customProp("webkitdirectory", BooleanAsIsCodec) // custom attr to select folders 
   
@@ -181,21 +186,23 @@ class Client(apiBaseURL: String, container: dom.Element) {
     disabled <-- disabledInput.toObservable,
     inContext { thisNode =>
       
-      onChange.mapTo(Future.successful(Option.when(thisNode.ref.files.length > 0)
-                                (thisNode.ref.files(0)))) --> zip } // create a successful Future containing an Option of the file
+      onChange.mapTo(Future.successful(Right(Option.when(thisNode.ref.files.length > 0)
+                                (thisNode.ref.files(0))))) --> zip } // create a successful Future containing an Option of the file
   ) 
   
   
    
   val validatedFile : Signal[Either[Err, dom.File]] = 
     zip.signal.flatMap(x=> Signal.fromFuture(x)).combineWith(validatedToken).map(  {
-      case (Some(Some(f)), Right(t))if f.size > t.event.maxFileSize   =>
+      case (Some(Right(Some(f))), Right(t))if f.size > t.event.maxFileSize   =>
         Left(Err.FileTooBig(f.size.toLong, t.event.maxFileSize))
-      case (Some(Some(f)), Right(t)) => 
+      case (Some(Right(Some(f))), Right(t)) => 
         file.set(Option.apply(f))
         Right(f)
+      case (Some(Left(Err.ZipFailed(s))),_) =>
+        Left(Err.ZipFailed(s))
       case _ =>
-      Left(Err.Empty)
+        Left(Err.Empty)
      }
     
     )
@@ -233,7 +240,7 @@ class Client(apiBaseURL: String, container: dom.Element) {
      
   
   // zip the selected folder 
-  def zipFile(files : dom.raw.FileList): Future[Option[dom.raw.File]] = {  
+  def zipFile(files : dom.raw.FileList): Future[Either[Err,Option[dom.raw.File]]] = {  
     val zip = new ZipWriter(new Data64URIWriter("application/zip"))
     var result : dom.raw.Blob  = new dom.raw.Blob()
     val f = js.Promise.all(inputFilestoArray(files).filter(f=> validatePath(f._2)).map(file => { // filter and keep only valid paths
@@ -242,10 +249,10 @@ class Client(apiBaseURL: String, container: dom.Element) {
         }))
         .toFuture.flatMap(x =>
         zip.close().toFuture).flatMap(value => 
-        base64toBlob(value.toString())
-        ) // convert te result to Blob
+         base64toBlob(value.toString()) // convert te result to Blob
+        )
 
-        f    
+        f
       }
     
       
@@ -258,15 +265,15 @@ class Client(apiBaseURL: String, container: dom.Element) {
     * @param b : Base64 String 
     * 
     */
-  def base64toBlob(b: String) : Future[Option[dom.raw.File]] = {
+  def base64toBlob(b: String) : Future[Either[Err,Option[dom.raw.File]]] = {
       
     Fetch.fetch(b).toFuture.flatMap(res => res.blob()).map(blob => {
-      Option.apply(blob.asInstanceOf[dom.raw.File])
-     })
+      Right(Option.apply(blob.asInstanceOf[dom.raw.File]))
+     }).recover(_ => Left(Err.ZipFailed("Zip Failed")))
      
   } 
 
-
+  
 
   /**
     * convert type FileList to JSArray
