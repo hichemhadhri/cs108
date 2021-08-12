@@ -13,9 +13,17 @@ Final build in `Build` folder (ready to deploy : cannot be tested locally withou
 
 
 Steps to run the project (dev mode) :
- 1. npm install 
- 2. sbt -> fastLinkJS
- 3. npx snowpack dev
+ 
+ 1. import build 
+ 2. npm install 
+ 3. sbt -> fastLinkJS
+ 4. change the name of the second field in `snowpack.config.json` to "target/scala-2.13/`name_of_the_root_folder`-fastopt"
+ 5. npx snowpack dev
+ 6. cd backend_test 
+ 7. node app.js
+ 
+ 
+ (step 6 and 7 to test regex feature)
  
 Steps to build the project : 
   npx snowpack build
