@@ -19,7 +19,7 @@ Steps to run the project (dev mode) :
  3. sbt -> fastLinkJS
  4. change the name of the second field in `snowpack.config.json` to "target/scala-2.13/`name_of_the_root_folder`-fastopt"
  5. npx snowpack dev
- 6. cd backend_test 
+ 6. cd test_backend
  7. node app.js
  
  
